@@ -1,0 +1,638 @@
+\form#0:$ \varia $
+\form#1:$ Rhs $
+\form#2:\[ Rhs = Rhs - \sum_{\fij \in \Facei{\celli}} \left( \dot{m}_\ij \left( \varia_\fij - \varia_\celli \right) - \mu_\fij \gradv_\fij \varia \cdot \vect{S}_\ij \right) \]
+\form#3:$ C_p $
+\form#4:$ \mu_\fij \dfrac{S_\fij}{\ipf \jpf} $
+\form#5:$ \mu_\fib \dfrac{S_\fib}{\ipf \centf} $
+\form#6:$ \tens{\mu}_\celli $
+\form#7:$ \vect{Rhs} $
+\form#8:$ \vect{\varia} $
+\form#9:\[ \vect{Rhs} = \vect{Rhs} - \sum_{\fij \in \Facei{\celli}} \left( \dot{m}_\ij \left( \vect{\varia}_\fij - \vect{\varia}_\celli \right) - \mu_\fij \gradt_\fij \vect{\varia} \cdot \vect{S}_\ij \right) \]
+\form#10:$ \mu \transpose{\gradt\vect{\varia}} + \lambda \trace{\gradt\vect{\varia}} $
+\form#11:$ \lambda $
+\form#12:$ -\frac{2}{3} \mu $
+\form#13:$ \divv \left(\mu \gradt \transpose{\vect{a}} \right) -2/3 \grad\left( \mu \dive \vect{a} \right)$
+\form#14:\[ Rhs = Rhs + \sum_{\fij \in \Facei{\celli}} \left( C_p\dot{m}_\ij \varia_\fij - \lambda_\fij \gradv_\fij \varia \cdot \vect{S}_\ij \right) \]
+\form#15:\[ Rhs = Rhs - \sum_{\fij \in \Facei{\celli}} \left( - \tens{\mu}_\fij \gradv_\fij \varia \cdot \vect{S}_\ij \right) \]
+\form#16:\[ \vect{Rhs} = \vect{Rhs} - \sum_{\fij \in \Facei{\celli}} \left( - \tens{\mu}_\fij \gradt_\fij \vect{\varia} \cdot \vect{S}_\ij \right) \]
+\form#17:$ \tens{\mu}_\fij \dfrac{S_\fij}{\ipf\jpf} $
+\form#18:$ \dfrac{S_\fib}{\ipf \centf} $
+\form#19:\[ \dot{m}_\ij = \dot{m}_\ij - \Delta t \grad_\fij \delta p \cdot \vect{S}_\ij \]
+\form#20:$ P $
+\form#21:$ \dot{m}_\fij $
+\form#22:\[ \dot{m}_\fij = \dot{m}_\fij - \left( \tens{\mu}_\fij \gradv_\fij P \cdot \vect{S}_\ij \right) \]
+\form#23:\[ \dot{m}_\ij = \dot{m}_\ij - \sum_j \Delta t \grad_\fij p \cdot \vect{S}_\ij \]
+\form#24:$ \sum_{\fij \in \Facei{\celli}} \dot{m}_\fij $
+\form#25:\[ \sum_{\fij \in \Facei{\celli}} \dot{m}_\fij = \sum_{\fij \in \Facei{\celli}} \dot{m}_\fij - \sum_{\fij \in \Facei{\celli}} \left( \tens{\mu}_\fij \gradv_\fij P \cdot \vect{S}_\ij \right) \]
+\form#26:$ \rho \vect{u} \cdot \vect{s}_\ij$
+\form#27:$ \dot{m}_\ij $
+\form#28:$ \gradt \left(\rho \vect{u} \right) $
+\form#29:$ \vect{a}_{\rho u} = \rho_\fib \vect{a}_u $
+\form#30:$ \tens{b}_{\rho u} = \tens{b}_u $
+\form#31:\[ \dot{m}_\ib = \left[ \rho_\fib \vect{a}_u + \rho_\fib \tens{b}_u \vect{u} + \tens{b}_u \left(\gradt \vect{u} \cdot \vect{\centi \centip}\right)\right] \cdot \vect{s}_\ij \]
+\form#32:$ \rho\vect{u}\cdot\vect{s} $
+\form#33:$ \vect{u}\cdot\vect{s} $
+\form#34:$ \dot{m}_\fib $
+\form#35:\[ \dot{m}_i = \dot{m}_i + \sum_{\fij \in \Facei{\celli}} \dot{m}_\ij \]
+\form#36:$ \rho \tens{r} \vect{s}_\ij$
+\form#37:$ \frac{\vect{IF} \cdot \tens{K}_\celli} {\norm{\tens{K}_\celli \cdot \vect{S}}^2} $
+\form#38:$ \frac{\vect{FJ} \cdot \tens{K}_\cellj} {\norm{\tens{K}_\cellj \cdot \vect{S}}^2} $
+\form#39:$ \der{u_i}{x_j} $
+\form#40:$ S_\fib $
+\form#41:$ \tens{f_s}^{imp} $
+\form#42:$A=D(Id+D^{-1}X)$
+\form#43:$A^{-1}=(Id+D^{-1}X)^{-1}D^{-1}$
+\form#44:$Id+D^{-1}X$
+\form#45:\[ Id+\sum\limits_{I=1}^{poly\_degree}\left(-D^{-1}X\right)^{I} \]
+\form#46:$ v_a \cdot v_b $
+\form#47:\[ v_a \cdot v_b = \sum_{\celli =1}^{\ncell} v_{a_\celli} v_{b_\celli} \]
+\form#48:\[ v_a \cdot v_b = \sqrt{\sum_{\celli =1}^{\ncell} v_{a_\celli} v_{b_\celli}} \]
+\form#49:\[ v_a \cdot v_b = \sum_{\celli =1}^{\ncell} \dfrac{v_{a_\celli} v_{b_\celli}}{\norm{\vol{\celli}}} \]
+\form#50:\[ v_a \cdot v_b = \sqrt{\sum_{\celli =1}^{\ncell} \dfrac{v_{a_\celli} v_{b_\celli}}{\norm{\vol{\celli}}}} \]
+\form#51:$ \vect{u} \cdot \vect{n} = 0 $
+\form#52:$ (\mu+\mu_T) \gradv \vect{u} \cdot \vect{n} $
+\form#53:$ \Delta t \grad P \cdot \vect{n} $
+\form#54:$ cp \left( K + \dfrac{K_T}{\sigma_T} \right) \grad T \cdot \vect{n} $
+\form#55:$ \divs ( \grad P ) = \divs ( f ) $
+\form#56:$ \varia^\theta = \theta \varia^{n+1} + (1-\theta)\varia^n $
+\form#57:$ \Gamma_V \left(\alpha, p\right) = m^+ + m^- $
+\form#58:\[ m^+ = -\dfrac{C_{prod} \rho_l \min \left( p-p_V,0 \right)\alpha(1-\alpha)} {0.5\rho_lu_\infty^2t_\infty}, \]
+\form#59:\[ m^- = -\dfrac{C_{dest} \rho_v \max \left( p-p_V,0 \right)\alpha(1-\alpha)} {0.5\rho_lu_\infty^2t_\infty}, \]
+\form#60:$ C_{prod}, C_{dest} $
+\form#61:$ t_\infty=l_\infty/u_\infty $
+\form#62:$p_V$
+\form#63:$ l_\infty $
+\form#64:$ u_\infty $
+\form#65:$ \Gamma_V/\rho_v $
+\form#66:$ \rho_l, \mu_l $
+\form#67:$ \rho_v, \mu_v $
+\form#68:\[ \rho_\celli = \alpha_\celli \rho_v + (1-\alpha_\celli) \rho_l, \]
+\form#69:\[ \mu_\celli = \alpha_\celli \mu_v + (1-\alpha_\celli) \mu_l, \]
+\form#70:\[ \left( \rho\vect{u}\cdot\vect{S} \right)_\ij = \\ \left\lbrace \begin{array}{ll} \rho_\celli (\vect{u}\cdot\vect{S})_\ij &\text{ if } (\vect{u}\cdot\vect{S})_\ij>0, \\ \rho_\cellj (\vect{u}\cdot\vect{S})_\ij &\text{ otherwise }, \end{array} \right. \]
+\form#71:\[ \left( \rho\vect{u}\cdot\vect{S} \right)_\ib = \\ \left\lbrace \begin{array}{ll} \rho_\celli (\vect{u}\cdot\vect{S})_\ib &\text{ if } (\vect{u}\cdot\vect{S})_\ib>0, \\ \rho_b (\vect{u}\cdot\vect{S})_\ib &\text{ otherwise }. \end{array} \right. \]
+\form#72:\[ \mu_t'= \dfrac{\rho_v + (1-\alpha)^{mcav}(\rho_l-\rho_v)}{\rho}\mu_t. \]
+\form#73:\[ \sum_i\left( |\Omega_i|\dfrac{\alpha_i^n - \alpha_i^{n-1}}{\Delta t} + \sum_{j\in\Face{\celli}}\left(\rho\vect{u}\vect{S}\right)_{ij}^n \right). \]
+\form#74:$ \fib $
+\form#75:$ \centf $
+\form#76:$ Q $
+\form#77:\[ P_\centf = A_P^g + B_P^g P_\centi \]
+\form#78:\[ Q_\centf = A_P^f + B_P^f P_\centi \]
+\form#79:$ P_\centi $
+\form#80:$ \vect{u} $
+\form#81:\[ \vect{u}_\centf = \vect{A}_u^g + \tens{B}_u^g \vect{u}_\centi \]
+\form#82:\[ \vect{Q}_\centf = \vect{A}_u^f + \tens{B}_u^f \vect{u}_\centi \]
+\form#83:$ \tens{B}_u^g $
+\form#84:$ \tens{B}_u^f $
+\form#85:$ \centip $
+\form#86:$ R_{ij} $
+\form#87:$ a $
+\form#88:\[ f_s^{imp}(a^{n+1}-a^n) + \divs \left( a^{n+1} \rho \vect{u} - \mu \grad a^{n+1} \right) = Rhs \]
+\form#89:\[ f_s^{imp} \delta a + \divs \left( \delta a \rho \vect{u} - \mu \grad \delta a \right) = Rhs^1 \]
+\form#90:$ \delta a = a^{n+1} - a^n$
+\form#91:$ Rhs^1 = Rhs - \divs( a^n \rho \vect{u} - \mu \grad a^n)$
+\form#92:\[ f_s^{imp} \delta a^k + \divs \left(\delta a^k \rho \vect{u}-\mu\grad\delta a^k \right) = Rhs^k \]
+\form#93:$Rhs^k=Rhs-f_s^{imp}(a^k-a^n) - \divs \left( a^k\rho\vect{u}-\mu\grad a^k \right)$
+\form#94:$ f_s^{imp} $
+\form#95:$ \delta \varia^k $
+\form#96:$ \delta \varia^{k-1} $
+\form#97:$ a^n $
+\form#98:$ a^k $
+\form#99:$ Rhs^k $
+\form#100:$ \vect{a} $
+\form#101:\[ \tens{f_s}^{imp}(\vect{a}^{n+1}-\vect{a}^n) + \divv \left( \vect{a}^{n+1} \otimes \rho \vect {u} - \mu \gradt \vect{a}^{n+1}\right) = \vect{Rhs} \]
+\form#102:\[ \tens{f_s}^{imp} \delta \vect{a} + \divv \left( \delta \vect{a} \otimes \rho \vect{u} - \mu \gradt \delta \vect{a} \right) = \vect{Rhs}^1 \]
+\form#103:$ \delta \vect{a} = \vect{a}^{n+1} - \vect{a}^n$
+\form#104:$ \vect{Rhs}^1 = \vect{Rhs} - \divv \left( \vect{a}^n \otimes \rho \vect{u} - \mu \gradt \vect{a}^n \right)$
+\form#105:\[ \tens{f_s}^{imp} \delta \vect{a}^k + \divv \left( \delta \vect{a}^k \otimes \rho \vect{u} - \mu \gradt \delta \vect{a}^k \right) = \vect{Rhs}^k \]
+\form#106:$ \vect{Rhs}^k = \vect{Rhs} - \tens{f_s}^{imp} \left(\vect{a}^k-\vect{a}^n \right) - \divv \left( \vect{a}^k \otimes \rho \vect{u} - \mu \gradt \vect{a}^k \right)$
+\form#107:$ \delta \vect{\varia}^k $
+\form#108:$ \delta \vect{\varia}^{k-1} $
+\form#109:$ \vect{a}^n $
+\form#110:$ \vect{a}^k $
+\form#111:$ \vect{Rhs}^k $
+\form#112:\[ \delta P_\centf = B_P^g \delta P_\centi \]
+\form#113:\[ \delta Q_\centf = B_P^f \delta P_\centi \]
+\form#114:$ \Lambda _{\mbox{cond}} $
+\form#115:$ h_{\mbox{f,bf}} $
+\form#116:$ \Gamma^n $
+\form#117:$ \Gamma_{s, cond}^n $
+\form#118:$ \Gamma_{v, cond}^n $
+\form#119:$ k $
+\form#120:$ \varepsilon $
+\form#121:$ R_{xx} $
+\form#122:$ R_{yy} $
+\form#123:$ R_{zz} $
+\form#124:$ R_{xy} $
+\form#125:$ R_{yz} $
+\form#126:$ R_{xz} $
+\form#127:$ \phi $
+\form#128:$ \phi-f_b $
+\form#129:$ f_b $
+\form#130:$ \alpha $
+\form#131:$ Bl-v^2-k $
+\form#132:$ \omega $
+\form#133:$ k-\omega $
+\form#134:$ \widetilde{\nu}_T $
+\form#135:$T^{v}_{\mbox{metal}} $
+\form#136:$ \vect{u}^{k+1} - \vect{u}^k $
+\form#137:$ \vect{u}^0 $
+\form#138:$P_0$
+\form#139:$T_0$
+\form#140:$P$
+\form#141:$ P^*=P-\rho_0\vect{g}.(\vect{x}-\vect{x}_0)+ P^*_0-P_0 $
+\form#142:$\vect{x_0}$
+\form#143:$ P^*_0 $
+\form#144:$ P_0 $
+\form#145:$-\grad{P}+\rho\vect{g}$
+\form#146:$-\grad{P^*}+(\rho-\rho_0)\vect{g}$
+\form#147:$ \rho$
+\form#148:$P^*$
+\form#149:$ P$
+\form#150:$\vect{x}_0$
+\form#151:$ kg/mol $
+\form#152:$ \divs \left( \mu \transpose{\gradt \, \vect{u}} - 2/3 \mu \trace{\gradt \, \vect{u}} \right) $
+\form#153:$ \mbox{tmur} $
+\form#154:$ (\mu+\mu_T) \gradt \, \vect{u} \cdot \vect{n} $
+\form#155:$ cp \left( K + \dfrac{K_T}{\sigma_T} \right) $
+\form#156:$T^{fb}_{\mbox{mur}} $
+\form#157:$y^+$
+\form#158:$1/\kappa\approx 2,38$
+\form#159:$u^+$
+\form#160:$\frac{|U_F|}{|U_I^p|}$
+\form#161:$ y^+ = \dfrac{\centip \centf u_\star}{\nu}$
+\form#162:\[ h_{tur} = Pr \dfrac{y^+}{T^+} \]
+\form#163:$ T^+ $
+\form#164:\[ h = \dfrac{K}{\centip \centf} h_{tur} \]
+\form#165:$ y^+ $
+\form#166:$ 10^{-12}$
+\form#167:$ 10^{+30}$
+\form#168:$ 10^{+12}$
+\form#169:$ 0 $
+\form#170:$ \pi $
+\form#171:$\sigma$
+\form#172:$W.m^{-2}.K^{-4}$
+\form#173:$P0$
+\form#174:$T0$
+\form#175:$P^*=P-\rho_0\vect{g}.(\vect{x}-\vect{x}_0)+P^*_0-P_0$
+\form#176:$P^*_0$
+\form#177:$\rho$
+\form#178:$ \kappa $
+\form#179:$k-\varepsilon$
+\form#180:$R_{ij}-\varepsilon$
+\form#181:$k-\omega$
+\form#182:$ \dfrac{1}{\kappa} \ln(y^+) + cstlog $
+\form#183:$ cstlog = 5.2 $
+\form#184:$C_\mu$
+\form#185:$ C_\mu^\frac{1}{4} $
+\form#186:$C_{\varepsilon 1}$
+\form#187:$C_{\varepsilon 2}$
+\form#188:$C_{\varepsilon 4}$
+\form#189:$k$
+\form#190:$\varepsilon$
+\form#191:$C_1$
+\form#192:$C_2$
+\form#193:$C_3$
+\form#194:$C_1^\prime$
+\form#195:$C_2^\prime$
+\form#196:$C_{s1}$
+\form#197:$C_{s2}$
+\form#198:$C_{r1}$
+\form#199:$C_{r2}$
+\form#200:$C_{r3}$
+\form#201:$C_{r4}$
+\form#202:$C_s$
+\form#203:$\sigma_{k1}$
+\form#204:$\sigma_{k2}$
+\form#205:$\sigma_{\omega 1}$
+\form#206:$\sigma_{\omega 2}$
+\form#207:$\beta_1$
+\form#208:$\beta_2$
+\form#209:$\frac{\beta_1}{C_\mu}-\frac{\kappa^2}{\sqrt{C_\mu}\sigma_{\omega 1}}$
+\form#210:$\gamma_1$
+\form#211:$\kappa$
+\form#212:$\frac{\beta_2}{C_\mu}-\frac{\kappa^2}{\sqrt{C_\mu}\sigma_{\omega 2}}$
+\form#213:$\gamma_2$
+\form#214:$a_1$
+\form#215:$ c_1 $
+\form#216:$ \delta = \text{xlesfl} . (\text{ales} . volume)^{\text{bles}} $
+\form#217:$Omega_i$
+\form#218:$\overline{\Delta}=xlesfl(ales*|Omega_i|)^{bles}$
+\form#219:$\displaystyle\mu_{sg}= \rho C_{smago}^2\bar{\Delta}^2\sqrt{2\bar{S}_{ij}\bar{S}_{ij}}$
+\form#220:$\bar{\Delta}$
+\form#221:$\bar{S}_{ij}$
+\form#222:$\Omega_i$
+\form#223:$\widetilde{\overline{\Delta}}=xlesfd\overline{\Delta}$
+\form#224:$C$
+\form#225:$ smagmx^2$
+\form#226:$ (1-\exp^{(-y^+/cdries}) $
+\form#227:$\varphi$
+\form#228:$C_T$
+\form#229:$C_L$
+\form#230:$C_\eta$
+\form#231:$ \varphi $
+\form#232:$ \overline{f} $
+\form#233:$ \nu_T $
+\form#234:\[ \divs ( \grad \varia ) = -1 \]
+\form#235:$ \varia_|b = 0 $
+\form#236:$ \grad \varia \cdot \vect{n} = 0 $
+\form#237:\[ d \simeq -|\grad \varia | + \sqrt{ \grad \varia \cdot \grad \varia +2 \varia } \]
+\form#238:\[ \dfrac{\partial \varia}{\partial t} + \divs \left( \varia \vect{V} \right) - \divs \left( \vect{V} \right) \varia = 0 \]
+\form#239:$ \vect{V} $
+\form#240:\[ \vect{V} = \dfrac{ \grad y }{\norm{\grad y} } \]
+\form#241:\[ \varia = \dfrac{u_\star}{\nu} \textrm{ on walls} \]
+\form#242:\[ \dfrac{\partial \varia}{\partial n} = 0 \textrm{ elsewhere} \]
+\form#243:\[ y^+ = y \varia \]
+\form#244:$\ne$
+\form#245:$ \texttt{ush001}$
+\form#246:$\texttt{ush002}$
+\form#247:$\texttt{ush003}$
+\form#248:$ \texttt{ush001.n\_0001} $
+\form#249:$ \texttt{ush010.n\_0001} $
+\form#250:$ \texttt{ush001.n\_0002} $
+\form#251:$ \texttt{ush010.n\_0002} $
+\form#252:$ \texttt{usrf01} $
+\form#253:$ \texttt{usrf10} $
+\form#254:$ \texttt{usrf01.n\_0001} $
+\form#255:$ \texttt{usrf10.n\_0001} $
+\form#256:$ \texttt{usrf01.n\_0002} $
+\form#257:$ \texttt{usrf10.n\_0002} $
+\form#258:$ W\,m^{-2} $
+\form#259:$ \vect{IJ}$
+\form#260:$\vect{n}$
+\form#261:$\vect{IF}$
+\form#262:$\displaystyle\frac{\vect{FJ}.\vect{n}}{\vect{IJ}.\vect{n}}$
+\form#263:$\vect{I'J'}$
+\form#264:$\vect{II'}$
+\form#265:$\vect{OF}$
+\form#266:$ \Gamma^{v}_{\mbox{cond}} $
+\form#267:$ \phi^{v}_{\mbox{cond}} $
+\form#268:$ \Gamma^v_{cond}$
+\form#269:$\phi^v_{cond}$
+\form#270:$ u_x $
+\form#271:$ u_y $
+\form#272:$ u_z $
+\form#273:$ w_x $
+\form#274:$ w_y $
+\form#275:$ w_z $
+\form#276:$ P_{tot} = P^\star +\rho \vect{g} \cdot (\vect{x}-\vect{x}_0) $
+\form#277:$ \rho $
+\form#278:$ \mu $
+\form#279:$ \theta $
+\form#280:$ \theta_S $
+\form#281:$ k-\varepsilon $
+\form#282:$ R_{ij}-\epsilon $
+\form#283:$ BL-v^2-k $
+\form#284:$ 2/3 \rho \grad k $
+\form#285:$ k- \varepsilon $
+\form#286:$ R_{ij}- \varepsilon $
+\form#287:$ \divv \left( \rho \tens{R} \right) $
+\form#288:$ \tens{R} $
+\form#289:$ \overline{\varia^\prime \vect{u}^\prime} $
+\form#290:$ (k, \varepsilon, R_{ij}, \omega, \varphi, \overline{f}, \alpha, \nu_t$
+\form#291:$\displaystyle \frac{\partial }{\partial n}\left(\frac{ \partial P}{\partial \tau}\right)=0$
+\form#292:$ \vect{u} \cdot \vect{S} = \vect{w} \cdot \vect{S} $
+\form#293:$\vect{u}^*$
+\form#294:$\eta^{\,pred}_{\,i,k}(\vect{u}^*)$
+\form#295:$ \Omega_i $
+\form#296:$\vect{\mathcal R}^{\,pred}(\vect{u}^*)$
+\form#297:$\vect{u}$
+\form#298:\begin{eqnarray*} \vect{\mathcal R}^{\,pred}(\vect{u}^*) & = & \rho^n \dfrac{\vect{u}^*-\vect{u}^n}{\Delta t} + \rho^n \vect{u}^n \cdot \gradt (\vect{u}^*) - \divv \left((\mu+\mu_t)^n \gradt (\vect{u}^*) \right) + \grad(P^n) \\ & - & \text{rest of the right-hand member } (\vect{u}^n, P^n, \text{other variables}^n) \end{eqnarray*}
+\form#299:$ \eta^{\,pred}_{\,i,k}(\vect{u}^*)= {|\Omega_i|}^{\,(k-2)/2}\ ||\vect{\mathcal R}^{\,pred}(\vect{u}^*)|| _{{IL}^{2}(\Omega_i)} $
+\form#300:$ |\Omega_i| $
+\form#301:$ {IL}^{2}(\Omega_i) $
+\form#302:$ \eta^{\,pred}_{\,i,k}(\vect{u}^*)$
+\form#303:$\eta^{\,der}_{\,i,k}(\vect{u}^{\,n+1})$
+\form#304:\begin{eqnarray*} \eta^{\,der}_{\,i,k}(\vect{u}^{\,n+1}) &=& {|\Omega_i|}^{(k-2)/2} || \divs (\text{corrected mass flow after the pressure step}) - \Gamma||_{{L}^{2}(\Omega_i)} \\ &=& {|\Omega_i|}^{(1-k)/2} | \divs (\text{corrected mass flow after the pressure step})- \Gamma| \end{eqnarray*}
+\form#305:$ \eta^{\,corr}_{\,i,k}(\vect{u}^{\,n+1})$
+\form#306:\begin{eqnarray*} \eta^{\,corr}_{\,i,k}(\vect{u}^{\,n+1})= |\Omega_i|^{\,\delta_{\,2,k}}\ |div (\rho^n \vect{u}^{n+1}) - \Gamma| \end{eqnarray*}
+\form#307:$\vect{u}^{n+1}$
+\form#308:$ \,\delta_{\,2,k}$
+\form#309:$kg.s^{\,-1}$
+\form#310:$ \eta^{\,tot}_{\,i,k}(\vect{u}^{\,n+1})$
+\form#311:$\vect{\mathcal R}^{\,tot}(\vect{u}^{\,n+1})$
+\form#312:$ \eta^{\,tot}_{\,i,k}(\vect{u}^{\,n+1})= {|\Omega_i|}^{\,(k-2)/2}\ ||\vect{\mathcal R}^{\,tot}(\vect{u}^{\,n+1})|| _{{I\hspace{-.25em}L}^{2}(\Omega_i)} $
+\form#313:$S^2=2S_{ij}^D S_{ij}^D$
+\form#314:$div(\vect{u})$
+\form#315:$S^2$
+\form#316:$W.m^{-2}.K^.$
+\form#317:$W.m^{-2}$
+\form#318:$\rho C_p$
+\form#319:$J.m^{-3}.K^{-1}$
+\form#320:$W.m^{-3}$
+\form#321:\[ D \left( \Delta t, \varia \right) = \divs \left( \rho \vect{u}^n\right) - \Gamma^n + \dfrac{\rho^n - \rho^{n-1}}{\Delta t} \]
+\form#322:\[ \dot{m}^{n+\frac{1}{2}}_\ij = \dot{m}^{n}_\ij - \Delta t \grad_\fij \varia \cdot \vect{S}_\ij \]
+\form#323:$ P_{hydro} $
+\form#324:\[ \rho^n \dfrac{(\vect{u}^{hydro} - \vect{u}^n)}{\Delta t} = \rho^n \vect{g}^n - \grad P_{hydro} \]
+\form#325:\[ \rho^n \divs \left( \delta \vect{u}_{hydro} \right) = 0 \]
+\form#326:$ \delta \vect{u}_{hydro} = ( \vect{u}^{hydro} - \vect{u}^n) $
+\form#327:\[ \divs \left( K \grad P_{hydro} \right) = \divs \left(\vect{g}\right) \]
+\form#328:$ K $
+\form#329:\[ K \equiv \dfrac{1}{\rho^n} \]
+\form#330:\[ D_\fib \left( K, \, P_{hydro} \right) = \vect{g} \cdot \vect{n}_\ib \]
+\form#331:$ \partial _x (P_{hydro}) $
+\form#332:$ \rho^{n+1}$
+\form#333:$ \rho^{n-\frac{1}{2}} $
+\form#334:$ p_{ther}^{n+1} estimated from the integral over the total fluid domain of the mass conservation equation.$
+\form#335:\[ D \left( \Delta t, \delta p \right) = \divs \left( \rho \vect{\widetilde{u}}\right) - \Gamma^n + \dfrac{\rho^n - \rho^{n-1}}{\Delta t} \]
+\form#336:\[ \dot{m}^{n+1}_\ij = \dot{m}^{n}_\ij - \Delta t \grad_\fij \delta p \cdot \vect{S}_\ij \]
+\form#337:$ \Gamma_{s,cond}^n $
+\form#338:\[ \dfrac{\alpha^n - \alpha^{n-1}}{\Delta t} + \divs \left( \alpha^n \vect{u}^n \right) = \dfrac{\Gamma_V \left( \alpha^{n-1}, p^n \right)}{\rho_v} \]
+\form#339:$ \Gamma_V $
+\form#340:$ \rho_v $
+\form#341:$\kappa -2/3 \mu$
+\form#342:\[ \grad( \kappa -2/3 \mu) \trace( \gradt(\vect{u})) ) \]
+\form#343:$ \mu = \mu_{laminar} + \mu_{turbulent} $
+\form#344:$<(u-<u>)(u-<u>)>$
+\form#345:$mut <S>$
+\form#346:$mut <S> - 2/3 mut Tr(<S>) Id + 2/3 k Id$
+\form#347:$mut div<u>$
+\form#348:\begin{eqnarray*} \der{\rho}{t} + \divs \left(\rho\vect{u}\right) &=&0 \\ \der{\rho \vect{u}}{t} + \divv \left(\vect{u}\otimes\rho\vect{u}\right)&=&0 \\ \der{E}{t} + \divs \left(\rho\vect{u} E\right) &=&0 \end{eqnarray*}
+\form#349:$\gamma$
+\form#350:\[c^2 = \left(\frac{\partial p}{\partial \rho}\right)_s\]
+\form#351:\[c^2 = \gamma \frac{p}{\rho}\]
+\form#352:$\beta$
+\form#353:\[ \beta = \left(\frac{\partial p}{\partial s}\right)_\rho \]
+\form#354:\[ \beta = \rho^\gamma \]
+\form#355:\[C_v = \left(\frac{\partial e}{\partial T}\right)_\rho\]
+\form#356:\[s = \frac{p}{\rho^\gamma}\]
+\form#357:\[\epsilon_{\textrm{sup}} = e - C_v T\]
+\form#358:\[\epsilon_{\textrm{sup}} = 0\]
+\form#359:$ f_{min} $
+\form#360:$ f_{max} $
+\form#361:$w.m^{-2} $
+\form#362:$m$
+\form#363:$(\mu+\mu_T)\gradv \vect{u}$
+\form#364:$ \Delta \grad P \cdot \vect{n} $
+\form#365:$ C_p \left ( K + \dfrac{K_T}{\sigma_T} \right) \grad T \cdot \vect{n} $
+\form#366:$ j . kg^{-1} $
+\form#367:$ j . kg^{-1}) $
+\form#368:\[ rovsdt D(var) = smbrs \]
+\form#369:$ cexp + cimp var $
+\form#370:$ smbrs = smbrs + cexp + cimp var $
+\form#371:$ rovsdt = rovsdt + \max(-cimp,0) $
+\form#372:$ rovsdt $
+\form#373:$ smbrs $
+\form#374:$ \rho volume$
+\form#375:$ kg . m . s^{-2} $
+\form#376:$ kg . [degres] . s^{-1} $
+\form#377:$ J . s^{-1} $
+\form#378:$ kg . s^{-1} $
+\form#379:$w \cdot m^{-2}$
+\form#380:$(vistl+visct)\cdot\grad{u}$
+\form#381:$dt \cdot \grad{p}$
+\form#382:$C_p(viscls+visct/sigmas) \grad{t}$
+\form#383:$ j . kg^{-1}$
+\form#384:$ kelvin $
+\form#385:$j\cdot kg^{-1}$
+\form#386:$kelvin$
+\form#387:$ rovsdt D(var) = smbrs $
+\form#388:$ cexp + cimp \varia $
+\form#389:\[ smbrs = smbrs + cexp + cimp\cdot \varia\]
+\form#390:\[ rovsdt = rovsdt + Max(-cimp,0)\]
+\form#391:$kg\cdot [variable] \cdot s^{-1}$
+\form#392:$kg\cdot m \cdot s^{-2}$
+\form#393:$kg \cdot [degres] \cdot s^{-1}$
+\form#394:$J \cdot s^{-1} $
+\form#395:$kg \cdot s^{-1}$
+\form#396:$ j . kg $
+\form#397:$ J.kg^{-1}.K^{-1} $
+\form#398:$K$
+\form#399:$\text{\degresC}$
+\form#400:$ kg.m^{-1}.s^{-1} $
+\form#401:$T^3$
+\form#402:$T^4$
+\form#403:$CH_{X1m}$
+\form#404:$CH_{X2m}$
+\form#405:$O_2$
+\form#406:$CO_2$
+\form#407:$H_2O$
+\form#408:$N_2$
+\form#409:$ W/m^3 $
+\form#410:$ C/m^3 $
+\form#411:$ N/m^2 $
+\form#412:$ A/m^2 $
+\form#413:$ m^{-1} $
+\form#414:\begin{eqnarray*} \tens{\sigma} = -P\,\tens{Id} + \mu (\grad\,\vect{u} + \ ^{t}\ggrad\,\vect{u}) +(\kappa-\frac{2}{3}\mu)\,\dive(\vect{u})\,\tens{Id} \end{eqnarray*}
+\form#415:$\tens{\sigma}$
+\form#416:\begin{align*} P_p &= 0 & \textrm{if } 1 + \displaystyle\frac{\gamma-1}{2}M<0 \\ P_p &= P_i \left(1 + \displaystyle\frac{\gamma-1}{2}M\right) ^{\frac{2\gamma}{\gamma-1}} & \textrm{otherwise} \end{align*}
+\form#417:\begin{eqnarray*} P_p = P_i \left(1 + \displaystyle\frac{\gamma(\gamma+1)}{4}M^2 +\gamma M \displaystyle\sqrt{1+\displaystyle\frac{(\gamma+1)^2}{16}M^2}\right) \end{eqnarray*}
+\form#418:$M = \displaystyle\frac{\vect{u}_i \cdot \vect{n}}{c_i}$
+\form#419:$\rho^{n+1}$\,=\,srrom\,$\rho^n$+(1-srrom)\,$\rho^{n+1}$
+\form#420:$J/mol/K$
+\form#421:$m^{-3}$
+\form#422:$kg.m^{-1}.s^{-1}$
+\form#423:$ KL $
+\form#424:$ L $
+\form#425:$\overline{\Delta}=xlesfl(ales*|\Omega_i|)^{bles}$
+\form#426:$ \overline{f})$
+\form#427:$ R_{ij} - \varepsilon $
+\form#428:$ \grad{rom} $
+\form#429:$ R_{11} $
+\form#430:$ R_{22} $
+\form#431:$ R_{33} $
+\form#432:$ R_{12} $
+\form#433:$ R_{13} $
+\form#434:$ R_{23} $
+\form#435:$\phi$
+\form#436:$var = R_{11} \: R_{22} \: R_{33} \: R_{12} \: R_{13} \: R_{23}$
+\form#437:$isou = 1 \: 2 \: 3 \: 4 \: 5 \: 6$
+\form#438:$R_{ij}$
+\form#439:$\epsilon$
+\form#440:\[ var = R_{11} \: R_{22} \: R_{33} \:R_{12} \:R_{13} \:R_{23} \:\varepsilon \]
+\form#441:$ k - \epsilon $
+\form#442:$ k - \omega $
+\form#443:$ \varepsilon$
+\form#444:$ \tilde{\nu} $
+\form#445:$ u^\star $
+\form#446:$\varepsilon $
+\form#447:$ D_H $
+\form#448:$ U_{ref} $
+\form#449:$ (k,\varepsilon )$
+\form#450:\[ |\dfrac{\Delta P}{\Delta x}| = \dfrac{\lambda}{D_H} \frac{1}{2} \rho U_{ref}^2 \]
+\form#451:$u^\star = U_{ref} \sqrt{\dfrac{\lambda}{8}}$
+\form#452:$\lambda $
+\form#453:$ Re = \dfrac{U_{ref} D_H}{ \nu} $
+\form#454:$ Re < 2000 $
+\form#455:\[ \lambda = \dfrac{64}{Re} \]
+\form#456:$ Re > 4000 $
+\form#457:\[ \lambda = \dfrac{1}{( 1.8 \log_{10}(Re)-1.64 )^2} \]
+\form#458:$ 2000 < Re < 4000 $
+\form#459:\[ \lambda = 0.021377 + 5.3115. 10^{-6} Re \]
+\form#460:\[ k = \dfrac{u^{\star 2}}{\sqrt{C_\mu}} \]
+\form#461:\[ \varepsilon = \dfrac{ u^{\star 3}}{(\kappa D_H /10)} \]
+\form#462:$ \nu $
+\form#463:$ C_\nu $
+\form#464:$ u^\star$
+\form#465:$ I $
+\form#466:\[ k = 1.5 I {U_{ref}}^2 \]
+\form#467:\[ \varepsilon = 10 \dfrac{{C_\mu}^{0.75} k^{1.5}}{ \kappa D_H} \]
+\form#468:$ C_\mu $
+\form#469:$ R_{ij} - \epsilon $
+\form#470:$ (1-\exp(\dfrac{-y^+}{d^+}))^2 $
+\form#471:$ d^+ $
+\form#472:$ y^+$
+\form#473:\[ smago = \dfrac{L_{ij}M_{ij}}{M_{ij}M_{ij}} \]
+\form#474:\[ \mu_T = \rho smago L^2 \sqrt{2 S_{ij}S_{ij}} \]
+\form#475:\[ S_{ij} = \dfrac{\der{u_i}{x_j} + \der{u_j}{x_i}}{2}\]
+\form#476:\[ \mu_T = \rho (\kappa L)^2 \cdot \sqrt{2 S_{ij} S_{ij}} \]
+\form#477:\[ \mu_T = \rho (C_{S} l)^2 \sqrt{2 S_{ij}S_{ij}} \]
+\form#478:\[ \mu_T = \rho A1 \dfrac{k}{\max(A1 \omega; \; S f_2)} \]
+\form#479:\[ S = \sqrt{ 2 S_{ij} S_{ij}} \]
+\form#480:$ f_2 = \tanh(arg2^2) $
+\form#481:\[ arg2^2 = \max(2 \dfrac{\sqrt{k}}{C_\mu \omega y}; \; 500 \dfrac{\nu}{\omega y^2}) \]
+\form#482:$ y $
+\form#483:$ \divs{\vect{u}} $
+\form#484:$ S $
+\form#485:$ \mu_T = \rho (C_{wale} L)^2 * \dfrac{(\tens{S}:\tens{Sd})^{3/2}} {(\tens{S} :\tens{S})^(5/2) +(\tens{Sd}:\tens{Sd})^(5/4)} $
+\form#486:$ \tens{S} = \frac{1}{2}(\gradt \vect{u} + \transpose{\gradt \vect{u}})$
+\form#487:$ \tens{Sd} = \deviator{(\symmetric{(\tens{S}^2)})}$
+\form#488:$ \gamma_{\mbox{cond}} $
+\form#489:\[ D\frac{rho}{dt} + divs \left( \rho \vect{u}^n\right) = \Gamma _{cond} \]
+\form#490:$\Phi $
+\form#491:\[ D\frac{\phi}{dt} = ... + \Gamma _{cond}*(\Phi _i - \Phi) \]
+\form#492:\[ \rho*\dfrac{\Phi^{n+1}-\Phi^{n}}/dt = ... + \Gamma _{cond}*(\Phi _i - \Phi^{n+1}) \]
+\form#493:$ \Phi _i $
+\form#494:$ \Phi $
+\form#495:$ \Phi = \Phi ^{n+1}$
+\form#496:$ \Phi = \Phi _i $
+\form#497:$ \Gamma_{cond}^n $
+\form#498:$ \mu_T $
+\form#499:$ \epsilon $
+\form#500:\[ \rho \norm{\vol{\celli}} \DP{\vect{u}} + .... = \tens{crvimp} \cdot \vect{u} + \vect{crvexp} \]
+\form#501:$ x_i $
+\form#502:\[ \rho \norm{\vol{\celli}} \DP{\varia} + .... = \tens{crvimp} \varia + \vect{crvexp} \]
+\form#503:$ \vect{u}_{fluid} \cdot \vect{n} = \vect{w}_{mesh} \cdot \vect{n} $
+\form#504:$ \ge 0 $
+\form#505:$ kg/m^3$
+\form#506:$ kg/(m\cdot s)$
+\form#507:$ kg/(m\cdot s^2)$
+\form#508:\[ \rho \frac{d \vect{u}}{d t} = - \grad p + \vect{headloss} \: (+\: \text{other terms})\]
+\form#509:\[ \vect{headloss} = - \rho \tens{ckupdc}\cdot \vect{u} \,\: (\text{in } kg\cdot m^{-2} \cdot s^{-1})\]
+\form#510:${ \tens{\xi_l} = \dfrac{\tens{dh_l}}{(0.5 \rho u^2)}}$
+\form#511:$ \tens{dh_l} $
+\form#512:$\tens{dh_l} = - \tens{\xi_l}(0.5\rho\vect{u}^2)$
+\form#513:$ \tens{ckupdc} = 0.5\tens{\xi_l}|\vect{U|} $
+\form#514:$\tens{\xi_l} = \dfrac{\tens{dh_s}}{(0.5\rho\vect{u}^2)}$
+\form#515:$\tens{dh_s} $
+\form#516:\[\frac{\tens{dh_s}}{l} = - \frac{\tens{\xi_l}}{l} (0.5 \rho\vect{u}^2)\]
+\form#517:\[\tens{ckupdc} = 0.5\frac{\tens{\xi_s}}{l}|\vect{u}|\]
+\form#518:$ l $
+\form#519:$m \cdot s^{-1}$
+\form#520:$ rcodcl(ifac,ivar,2) = \dfrac{VISCMA}{d} $
+\form#521:$VISCMA$
+\form#522:$kg \cdot m \cdot s^2$
+\form#523:$ rcodcl(ifac,ivar,3) = -(VISCMA) \grad {Um}.\vect{n} $
+\form#524:$(Um$
+\form#525:\[ \begin{array}{r c l} Balance^n &=& \displaystyle \sum_{\celli=1}^{\ncell} \norm{\vol{\celli}} C_p \rho_\celli \left(T_\celli^{n-1} -T_\celli^n \right) \\ &+& \displaystyle \sum_{\fib} C_p \Delta t_\celli \norm{\vect{S}_\ib} \left(A_\ib^f + B_\ib^f T_\celli^n \right) \\ &+& \displaystyle \sum_{\fib} C_p \Delta t_\celli \dot{m}_\ib \left(A_\ib^g + B_\ib^g T_\celli^n \right) \end{array} \]
+\form#526:\[ \rho^{n-1}_\celli = P_0 / \left( R T_\celli^{n-1} + T_0 \right) \]
+\form#527:$ R$
+\form#528:$ T_0 $
+\form#529:$ \lambda/C_p $
+\form#530:$ \Omega $
+\form#531:$ \partial \Omega $
+\form#532:\[ \begin{array}{r c l} Balance^n &=& \displaystyle \sum_{\Omega_i \in \Omega} \norm{\vol{\celli}} \rho_\celli \left(\varia_\celli^{n-1} -\varia_\celli^n \right) \\ &+& \displaystyle \sum_{\Omega_i \in \Omega} \sum_{\face \in \Face{\celli}} \Delta t_\celli \varia_\celli^n \left(\rho \vect{u}\right)_\face^n \cdot \vect{S}_{\iface} \\ &-& \displaystyle \sum_{\face \in \partial \Omega} \Delta t_\celli \varia_\face^n \left(\rho \vect{u}\right)_\face^n \cdot \vect{S}_{\iface} \\ &+& \displaystyle \sum_{\face \in \partial \Omega} \Delta t_\celli K_\face \grad_\face \varia^n \cdot \vect{S}_{\iface} \\ &-& \displaystyle \sum_{\fib \in \partial \Omega} \Delta t_\celli \dot{m}_\ib \left(A_\ib^g + B_\ib^g \varia_\celli^n \right) \\ &+& \displaystyle \sum_{\fib \in \partial \Omega} \Delta t_\celli \norm{\vect{S}_\ib} \left(A_\ib^f + B_\ib^f \varia_\celli^n \right) \end{array} \]
+\form#533:$x_{min}$
+\form#534:$y_{min}$
+\form#535:$z_{min}$
+\form#536:$x_{max}$
+\form#537:$y_{max}$
+\form#538:$z_{max}$
+\form#539:$ \der{\rho}{t}+\divs{(\rho \vect{u})}=\Gamma $
+\form#540:$ \frac{\Delta(\rho\varia)}{\Delta t} = ... + \Gamma(\varia^{in} - \varia) $
+\form#541:$ \rho \dfrac{\varia^{(n+1)} - \varia^{(n)}}{\Delta t} = ... + \Gamma(\varia^{in} - \varia^{(n+1)}) $
+\form#542:$ \varia^{in} $
+\form#543:$ \varia^{in} = \varia^{(n+1)} $
+\form#544:$ kg \cdot m^3 \cdot s^{-1}$
+\form#545:$ \varia^{in}=\varia^{(n+1)}$
+\form#546:$ \dfrac{\partial{(\rho \varia)}}{\partial{dt}} + \divs{(\rho \vect{u} \varia)} = ...$
+\form#547:$ 80 000 \: kg \cdot s^{-1}$
+\form#548:$ \Gamma = - \dfrac{80000}{v_{tot}} $
+\form#549:$ kg \cdot m^{-3} \cdot s^{-1}$
+\form#550:$ v_{tot} = 0 $
+\form#551:$<f_1*f_2...*f_n>$
+\form#552:\[{ Q_{conduction} = Q_{convection} + (Q_{rayt_{absorption}} - Q_{rayt_{emission}}}) \]
+\form#553:\[ \dfrac{xlamp}{epap} (T_{fluid} - T_{wall}) = h_{fluid} (T_{fluid} - T_{wall}) + epsp (Q_{incid} - \sigma * T_{wall}) \]
+\form#554:$ TKELVI = 273.16D0 $
+\form#555:$ SIG = 5.6703D-8 $
+\form#556:$ T_{min} $
+\form#557:$T_{max} $
+\form#558:$W.m^{-1}.K^{-1}$
+\form#559:\[ \begin{array}{rcl} \frac{\texttt{xlamp}}{\texttt{epap}} \cdot (T_{wall} - T_{ext}) &=& \text{fixed conduction flux in } W.m^{-2} \\ &=& \texttt{rodcl(ifac,ivar,3)} \end{array} \]
+\form#560:$ \texttt{rcodcl(ifac,ivar,3)}$
+\form#561:$T$
+\form#562:$ W.m^{-2}$
+\form#563:\[ rcodcl(ifac,ivar,3)=C_p (viscls+\frac{visct}{\sigma})\cdot \grad{T}\cdot \vect{n} \]
+\form#564:$h$
+\form#565:$ W.m^{-2} $
+\form#566:\[ RCODC(IFAC,IVAR,3)=(viscls+\frac{visct}{\sigma})\cdot \grad{H} \cdot \vect{n}\]
+\form#567:\[ \frac{xlamp}{epap} \cdot (T_{wall} - T_{ext}) = \text{fixed conduction flux} \]
+\form#568:$ epsp = 0 $
+\form#569:\[ rcodcl(ifac,ivar,3) = C_p (viscls+\frac{visct}{\sigma}) \cdot \grad{T}\cdot \vect{n} \]
+\form#570:\[ rcodcl(ifac,ivar,3) = (viscls+\frac{visct}{\sigma}) \cdot \grad{H} \cdot \vect{n} \]
+\form#571:$(crvexp)$
+\form#572:$(crvimp)$
+\form#573:$f$
+\form#574:\[\rho \norm{\vol{\celli}} \frac{df}{dt} + .... = crvimp \cdot f + crvexp\]
+\form#575:$ crvexp $
+\form#576:$ crvimp$
+\form#577:$\norm{\vol{\celli}}$
+\form#578:$ crvexp$
+\form#579:$ kg\cdot [scal]\cdot s^{-1}$
+\form#580:$ [scal]$
+\form#581:$crvimp$
+\form#582:$kg \cdot s^{-1} $
+\form#583:$ crvimp $
+\form#584:\[\rho C_p \norm{\vol{\celli}} \frac{dT}{dt} + .... = crvimp \cdot T + crvexp\]
+\form#585:$W$
+\form#586:$ W \cdot K^{-1}$
+\form#587:$F(f)$
+\form#588:\[\frac{df}{dt} = .... + F(f^{(n)})\]
+\form#589:$f^{(n)}$
+\form#590:$t^n$
+\form#591:\[\frac{df}{dt} = .... + \frac{dF}{df} f^{(n+1)} - \frac{dF}{df} f^{(n)} + F(f^{(n)})\]
+\form#592:$(\vect{crvexp})$
+\form#593:$(\tens{crvimp})$
+\form#594:\[ \rho \norm{\vol{\celli}} \DP{\vect{u}} + .... = \tens{crvimp}\cdot \vect{u} + \vect{crvexp} \]
+\form#595:$\vect{crvexp}$
+\form#596:$\tens{crvimp}$
+\form#597:$ kg\cdot ms^{-2} $
+\form#598:$ kg\cdot s^{-1} $
+\form#599:$ \tens{crvimp}$
+\form#600:$ \vect{S} = \tens{A} \cdot \vect{u} + \vect{B} $
+\form#601:$ \rho \dfrac{d\vect{u}}{dt} = \vect{S} \: (+ \text{standard Navier-Stokes terms})$
+\form#602:\[ \tens{A} = -\rho \cdot \tens{CKP} \]
+\form#603:\[ \vect{B} = \vect{XMMT} \]
+\form#604:$ s^{-1}$
+\form#605:$kg \cdot m^{-2} \cdot s^{-2}$
+\form#606:$ (crvexp) $
+\form#607:$ (crvimp) $
+\form#608:\[ \rho \norm{\vol{\celli}}\frac{df}{dt} + .... = crvimp \cdot f + crvexp \]
+\form#609:$ kg\cdot [scal] \cdot s^{-1} $
+\form#610:$ [scal] $
+\form#611:$ kg \cdot s^{-1} $
+\form#612:\[ \rho C_p \norm{\vol{\celli}} \frac{dT}{dt} + .... = crvimp \cdot T + crvexp \]
+\form#613:$crvexp$
+\form#614:$ W $
+\form#615:$ W \cdot K^{-1} $
+\form#616:$ F(f) $
+\form#617:$ f $
+\form#618:\[ \frac{df}{dt} = .... + F(f^{(n)}) \]
+\form#619:$ f^{(n)} $
+\form#620:\[ \frac{df}{dt} = .... + \frac{dF}{df} f^{(n+1)} - \frac{dF}{df} f^{(n)} + F(f^{(n)}) \]
+\form#621:$ S=A \cdot f+B $
+\form#622:$ \rho \dfrac{df}{dt}=S \: \text{(+ regular other terms in the equation)} $
+\form#623:\[A=-\frac{\rho}{\tau_f} \]
+\form#624:\[B=\rho \cdot prod_f \]
+\form#625:$ s $
+\form#626:$ [f]\cdot s^{-1} $
+\form#627:$m^3$
+\form#628:$C_p$
+\form#629:\[ \rho C_p \norm{\vol{\celli}} \frac{dT}{dt} + ... = \norm{\vol{\celli}(iel)} \frac{pwatt}{voltf} \]
+\form#630:\[ \rho \norm{\vol{\celli}} \DP{\varia} + .... = crvimp \cdot \varia + crvexp \]
+\form#631:$ f_{id} $
+\form#632:$ crvexp \text{, } crvimp$
+\form#633:$ kg\cdot m^{-2} \cdot s^{-2} $
+\form#634:$\varia:$
+\form#635:\[ \rho \norm{\vol{\celli}} \frac{d(\varia)}{dt} = ... - \rho \norm{\vol{\celli}} \cdot ff - \rho \frac{ \varia}{\tau}\]
+\form#636:$ ff $
+\form#637:$ \tau $

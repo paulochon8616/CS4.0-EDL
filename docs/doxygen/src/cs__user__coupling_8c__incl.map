@@ -1,0 +1,12 @@
+<map id="src/user/cs_user_coupling.c" name="src/user/cs_user_coupling.c">
+<area shape="rect" id="node3" href="$cs__defs_8h.html" title="cs_defs.h" alt="" coords="276,392,353,421"/>
+<area shape="rect" id="node21" href="$cs__base_8h.html" title="cs_base.h" alt="" coords="632,392,715,421"/>
+<area shape="rect" id="node23" href="$cs__coupling_8h.html" title="cs_coupling.h" alt="" coords="840,83,941,112"/>
+<area shape="rect" id="node27" href="$cs__sat__coupling_8h.html" title="cs_sat_coupling.h" alt="" coords="120,237,245,267"/>
+<area shape="rect" id="node33" href="$cs__syr__coupling_8h.html" title="cs_syr_coupling.h" alt="" coords="269,237,395,267"/>
+<area shape="rect" id="node37" href="$cs__prototypes_8h.html" title="cs_prototypes.h" alt="" coords="533,83,648,112"/>
+<area shape="rect" id="node29" href="$fvm__defs_8h.html" title="fvm_defs.h" alt="" coords="272,315,357,344"/>
+<area shape="rect" id="node40" href="$cs__mesh_8h.html" title="cs_mesh.h" alt="" coords="501,315,587,344"/>
+<area shape="rect" id="node44" href="$cs__mesh__quantities_8h.html" title="cs_mesh_quantities.h" alt="" coords="469,237,619,267"/>
+<area shape="rect" id="node48" href="$cs__mesh__bad__cells_8h.html" title="cs_mesh_bad_cells.h" alt="" coords="573,160,720,189"/>
+</map>

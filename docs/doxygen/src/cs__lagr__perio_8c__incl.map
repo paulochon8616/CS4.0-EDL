@@ -1,0 +1,16 @@
+<map id="src/lagr/cs_lagr_perio.c" name="src/lagr/cs_lagr_perio.c">
+<area shape="rect" id="node3" href="$cs__defs_8h.html" title="cs_defs.h" alt="" coords="506,469,583,499"/>
+<area shape="rect" id="node21" href="$bft__error_8h.html" title="bft_error.h" alt="" coords="44,83,124,112"/>
+<area shape="rect" id="node26" href="$bft__printf_8h.html" title="bft_printf.h" alt="" coords="148,83,231,112"/>
+<area shape="rect" id="node30" href="$fvm__periodicity_8h.html" title="fvm_periodicity.h" alt="" coords="295,315,415,344"/>
+<area shape="rect" id="node36" href="$cs__base_8h.html" title="cs_base.h" alt="" coords="964,237,1047,267"/>
+<area shape="rect" id="node38" href="$cs__halo_8h.html" title="cs_halo.h" alt="" coords="407,160,484,189"/>
+<area shape="rect" id="node46" href="$cs__mesh_8h.html" title="cs_mesh.h" alt="" coords="564,83,650,112"/>
+<area shape="rect" id="node71" href="$cs__lagr__perio_8h.html" title="cs_lagr_perio.h" alt="" coords="1115,160,1224,189"/>
+<area shape="rect" id="node33" href="$fvm__defs_8h.html" title="fvm_defs.h" alt="" coords="460,392,546,421"/>
+<area shape="rect" id="node41" href="$cs__interface_8h.html" title="cs_interface.h" alt="" coords="391,237,495,267"/>
+<area shape="rect" id="node49" href="$fvm__group_8h.html" title="fvm_group.h" alt="" coords="540,315,634,344"/>
+<area shape="rect" id="node53" href="$fvm__selector_8h.html" title="fvm_selector.h" alt="" coords="620,237,727,267"/>
+<area shape="rect" id="node62" href="$cs__numbering_8h.html" title="cs_numbering.h" alt="" coords="875,160,990,189"/>
+<area shape="rect" id="node66" href="$cs__mesh__builder_8h.html" title="cs_mesh_builder.h" alt="" coords="720,160,851,189"/>
+</map>

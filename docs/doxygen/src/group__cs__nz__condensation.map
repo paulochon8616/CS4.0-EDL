@@ -1,0 +1,5 @@
+<map id="Module for calculation options" name="Module for calculation options">
+<area shape="rect" id="node1" href="$group__condensation.html" title="and thermal exchange\l coefficients" alt="" coords="213,5,363,51"/>
+<area shape="rect" id="node2" href="$group___parameters.html" title="wall temperature used by the condensation model (with or without 1D thermal model to the wall)..." alt="" coords="204,74,372,121"/>
+<area shape="rect" id="node3" href="$group___wall.html" title="temperature model" alt="" coords="223,144,353,173"/>
+</map>

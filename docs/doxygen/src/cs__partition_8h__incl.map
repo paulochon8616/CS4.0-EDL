@@ -1,0 +1,12 @@
+<map id="src/mesh/cs_partition.h" name="src/mesh/cs_partition.h">
+<area shape="rect" id="node3" href="$cs__defs_8h.html" title="cs_defs.h" alt="" coords="483,392,560,421"/>
+<area shape="rect" id="node19" href="$cs__base_8h.html" title="cs_base.h" alt="" coords="219,237,301,267"/>
+<area shape="rect" id="node21" href="$cs__mesh_8h.html" title="cs_mesh.h" alt="" coords="461,83,547,112"/>
+<area shape="rect" id="node47" href="$cs__mesh__builder_8h.html" title="cs_mesh_builder.h" alt="" coords="43,160,173,189"/>
+<area shape="rect" id="node24" href="$fvm__group_8h.html" title="fvm_group.h" alt="" coords="691,237,784,267"/>
+<area shape="rect" id="node27" href="$fvm__selector_8h.html" title="fvm_selector.h" alt="" coords="741,160,848,189"/>
+<area shape="rect" id="node31" href="$fvm__periodicity_8h.html" title="fvm_periodicity.h" alt="" coords="364,315,484,344"/>
+<area shape="rect" id="node35" href="$cs__halo_8h.html" title="cs_halo.h" alt="" coords="299,160,376,189"/>
+<area shape="rect" id="node38" href="$cs__interface_8h.html" title="cs_interface.h" alt="" coords="376,237,480,267"/>
+<area shape="rect" id="node43" href="$cs__numbering_8h.html" title="cs_numbering.h" alt="" coords="400,160,515,189"/>
+</map>

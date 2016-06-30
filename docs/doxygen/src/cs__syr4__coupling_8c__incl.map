@@ -1,0 +1,31 @@
+<map id="src/base/cs_syr4_coupling.c" name="src/base/cs_syr4_coupling.c">
+<area shape="rect" id="node3" href="$cs__defs_8h.html" title="cs_defs.h" alt="" coords="995,547,1072,576"/>
+<area shape="rect" id="node38" href="$bft__mem_8h.html" title="bft_mem.h" alt="" coords="5,83,88,112"/>
+<area shape="rect" id="node41" href="$bft__error_8h.html" title="bft_error.h" alt="" coords="59,160,139,189"/>
+<area shape="rect" id="node46" href="$bft__printf_8h.html" title="bft_printf.h" alt="" coords="213,160,296,189"/>
+<area shape="rect" id="node50" href="$fvm__nodal_8h.html" title="fvm_nodal.h" alt="" coords="539,315,632,344"/>
+<area shape="rect" id="node64" href="$fvm__nodal__extract_8h.html" title="fvm_nodal_extract.h" alt="" coords="371,237,509,267"/>
+<area shape="rect" id="node69" href="$fvm__nodal__project_8h.html" title="fvm_nodal_project.h" alt="" coords="261,392,400,421"/>
+<area shape="rect" id="node73" href="$fvm__selector_8h.html" title="fvm_selector.h" alt="" coords="656,315,763,344"/>
+<area shape="rect" id="node78" href="$cs__coupling_8h.html" title="cs_coupling.h" alt="" coords="1732,83,1833,112"/>
+<area shape="rect" id="node83" href="$cs__log_8h.html" title="cs_log.h" alt="" coords="1856,237,1925,267"/>
+<area shape="rect" id="node89" href="$cs__mesh_8h.html" title="cs_mesh.h" alt="" coords="1016,160,1101,189"/>
+<area shape="rect" id="node117" href="$cs__mesh__quantities_8h.html" title="cs_mesh_quantities.h" alt="" coords="1276,83,1425,112"/>
+<area shape="rect" id="node121" href="$cs__mesh__connect_8h.html" title="cs_mesh_connect.h" alt="" coords="1107,83,1245,112"/>
+<area shape="rect" id="node126" href="$cs__parall_8h.html" title="cs_parall.h" alt="" coords="2009,469,2095,499"/>
+<area shape="rect" id="node129" href="$cs__post_8h.html" title="cs_post.h" alt="" coords="1511,160,1588,189"/>
+<area shape="rect" id="node139" href="$cs__time__step_8h.html" title="cs_time_step.h" alt="" coords="1949,237,2059,267"/>
+<area shape="rect" id="node142" href="$cs__selector_8h.html" title="cs_selector.h" alt="" coords="1388,160,1487,189"/>
+<area shape="rect" id="node146" href="$cs__syr4__coupling_8h.html" title="cs_syr4_coupling.h" alt="" coords="1612,160,1745,189"/>
+<area shape="rect" id="node53" href="$fvm__defs_8h.html" title="fvm_defs.h" alt="" coords="768,469,853,499"/>
+<area shape="rect" id="node56" href="$fvm__group_8h.html" title="fvm_group.h" alt="" coords="805,392,899,421"/>
+<area shape="rect" id="node60" href="$fvm__io__num_8h.html" title="fvm_io_num.h" alt="" coords="475,392,579,421"/>
+<area shape="rect" id="node81" href="$cs__base_8h.html" title="cs_base.h" alt="" coords="1323,315,1405,344"/>
+<area shape="rect" id="node86" href="$cs__timer_8h.html" title="cs_timer.h" alt="" coords="1744,315,1827,344"/>
+<area shape="rect" id="node94" href="$fvm__periodicity_8h.html" title="fvm_periodicity.h" alt="" coords="973,392,1093,421"/>
+<area shape="rect" id="node99" href="$cs__halo_8h.html" title="cs_halo.h" alt="" coords="939,237,1016,267"/>
+<area shape="rect" id="node102" href="$cs__interface_8h.html" title="cs_interface.h" alt="" coords="837,315,941,344"/>
+<area shape="rect" id="node108" href="$cs__numbering_8h.html" title="cs_numbering.h" alt="" coords="1448,237,1563,267"/>
+<area shape="rect" id="node112" href="$cs__mesh__builder_8h.html" title="cs_mesh_builder.h" alt="" coords="1091,237,1221,267"/>
+<area shape="rect" id="node132" href="$fvm__writer_8h.html" title="fvm_writer.h" alt="" coords="1739,237,1832,267"/>
+</map>

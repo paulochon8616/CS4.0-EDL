@@ -1,0 +1,9 @@
+<map id="src/base/cs_opts.c" name="src/base/cs_opts.c">
+<area shape="rect" id="node3" href="$cs__defs_8h.html" title="cs_defs.h" alt="" coords="317,237,395,267"/>
+<area shape="rect" id="node30" href="$bft__mem_8h.html" title="bft_mem.h" alt="" coords="392,83,475,112"/>
+<area shape="rect" id="node38" href="$bft__printf_8h.html" title="bft_printf.h" alt="" coords="497,160,580,189"/>
+<area shape="rect" id="node42" href="$cs__base_8h.html" title="cs_base.h" alt="" coords="1140,160,1223,189"/>
+<area shape="rect" id="node44" href="$cs__gui__util_8h.html" title="cs_gui_util.h" alt="" coords="1135,83,1228,112"/>
+<area shape="rect" id="node47" href="$cs__opts_8h.html" title="cs_opts.h" alt="" coords="1252,83,1329,112"/>
+<area shape="rect" id="node33" href="$bft__error_8h.html" title="bft_error.h" alt="" coords="393,160,473,189"/>
+</map>

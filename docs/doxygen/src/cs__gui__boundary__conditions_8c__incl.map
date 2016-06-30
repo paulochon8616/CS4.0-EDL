@@ -1,0 +1,31 @@
+<map id="src/gui/cs_gui_boundary_conditions.c" name="src/gui/cs_gui_boundary_conditions.c">
+<area shape="rect" id="node3" href="$cs__defs_8h.html" title="cs_defs.h" alt="" coords="989,720,1066,749"/>
+<area shape="rect" id="node33" href="$bft__mem_8h.html" title="bft_mem.h" alt="" coords="658,101,741,131"/>
+<area shape="rect" id="node36" href="$bft__error_8h.html" title="bft_error.h" alt="" coords="655,179,735,208"/>
+<area shape="rect" id="node42" href="$bft__printf_8h.html" title="bft_printf.h" alt="" coords="759,179,842,208"/>
+<area shape="rect" id="node46" href="$fvm__selector_8h.html" title="fvm_selector.h" alt="" coords="967,488,1074,517"/>
+<area shape="rect" id="node56" href="$mei__evaluate_8h.html" title="Build an interpreter for a mathematical expression. " alt="" coords="2009,179,2118,208"/>
+<area shape="rect" id="node63" href="$cs__base_8h.html" title="cs_base.h" alt="" coords="1739,488,1822,517"/>
+<area shape="rect" id="node65" href="$cs__gui__util_8h.html" title="cs_gui_util.h" alt="" coords="1438,333,1531,363"/>
+<area shape="rect" id="node68" href="$cs__gui_8h.html" title="cs_gui.h" alt="" coords="1830,256,1899,285"/>
+<area shape="rect" id="node71" href="$cs__gui__specific__physics_8h.html" title="cs_gui_specific_physics.h" alt="" coords="2117,333,2290,363"/>
+<area shape="rect" id="node74" href="$cs__gui__variables_8h.html" title="cs_gui_variables.h" alt="" coords="2163,411,2294,440"/>
+<area shape="rect" id="node77" href="$cs__mesh_8h.html" title="cs_mesh.h" alt="" coords="1203,333,1289,363"/>
+<area shape="rect" id="node105" href="$cs__field_8h.html" title="cs_field.h" alt="" coords="778,643,855,672"/>
+<area shape="rect" id="node108" href="$cs__field__pointer_8h.html" title="cs_field_pointer.h" alt="" coords="817,565,939,595"/>
+<area shape="rect" id="node111" href="$cs__prototypes_8h.html" title="cs_prototypes.h" alt="" coords="1334,101,1449,131"/>
+<area shape="rect" id="node124" href="$cs__thermal__model_8h.html" title="cs_thermal_model.h" alt="" coords="1934,643,2073,672"/>
+<area shape="rect" id="node127" href="$cs__timer_8h.html" title="cs_timer.h" alt="" coords="2466,488,2549,517"/>
+<area shape="rect" id="node130" href="$cs__gui__boundary__conditions_8h.html" title="cs_gui_boundary_conditions.h" alt="" coords="1849,101,2046,131"/>
+<area shape="rect" id="node49" href="$fvm__defs_8h.html" title="fvm_defs.h" alt="" coords="1153,643,1238,672"/>
+<area shape="rect" id="node52" href="$fvm__group_8h.html" title="fvm_group.h" alt="" coords="1065,565,1158,595"/>
+<area shape="rect" id="node58" href="$mei__hash__table_8h.html" title="Hash table, intended to provide a symbol table. " alt="" coords="1970,333,2093,363"/>
+<area shape="rect" id="node60" href="$mei__node_8h.html" title="Nodal structure of the interpreter. " alt="" coords="1982,256,2070,285"/>
+<area shape="rect" id="node82" href="$fvm__periodicity_8h.html" title="fvm_periodicity.h" alt="" coords="1283,565,1403,595"/>
+<area shape="rect" id="node87" href="$cs__halo_8h.html" title="cs_halo.h" alt="" coords="1170,411,1247,440"/>
+<area shape="rect" id="node90" href="$cs__interface_8h.html" title="cs_interface.h" alt="" coords="1149,488,1253,517"/>
+<area shape="rect" id="node96" href="$cs__numbering_8h.html" title="cs_numbering.h" alt="" coords="1477,411,1591,440"/>
+<area shape="rect" id="node100" href="$cs__mesh__builder_8h.html" title="cs_mesh_builder.h" alt="" coords="1322,411,1453,440"/>
+<area shape="rect" id="node115" href="$cs__mesh__quantities_8h.html" title="cs_mesh_quantities.h" alt="" coords="1401,256,1550,285"/>
+<area shape="rect" id="node119" href="$cs__mesh__bad__cells_8h.html" title="cs_mesh_bad_cells.h" alt="" coords="1423,179,1570,208"/>
+</map>

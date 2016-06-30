@@ -1,0 +1,8 @@
+<map id="Module for Lagrangian (parameters)" name="Module for Lagrangian (parameters)">
+<area shape="rect" id="node1" href="$group__lag__user__variable.html" title="Additional user variables" alt="" coords="207,5,369,35"/>
+<area shape="rect" id="node2" href="$group__classes__particles.html" title="Classes and particles" alt="" coords="215,59,361,88"/>
+<area shape="rect" id="node3" href="$group__lag__printing.html" title="Printing" alt="" coords="255,112,321,141"/>
+<area shape="rect" id="node5" href="$group__lag__bcs.html" title="Boundary conditions" alt="" coords="219,165,357,195"/>
+<area shape="rect" id="node6" href="$group__lag__typ__bnd__interaction.html" title="(value of iusclb(izone)) " alt="" coords="207,219,369,248"/>
+<area shape="rect" id="node7" href="$group__lag__brownian__motion.html" title="Brownian motion" alt="" coords="229,272,347,301"/>
+</map>

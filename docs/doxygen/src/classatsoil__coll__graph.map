@@ -1,0 +1,5 @@
+<map id="atsoil" name="atsoil">
+<area shape="rect" id="node2" href="$structatsoil_1_1variables__sol.html" title="{variables_sol\n|+ temp_sol\l+ tempp\l+ total_water\l+ w1\l+ w2\l|}" alt="" coords="91,384,190,539"/>
+<area shape="rect" id="node4" href="$structatsoil_1_1categorie__sol.html" title="{categorie_sol\n|+ rugdyn\l+ rugthe\l+ albedo\l+ emissi\l+ vegeta\l+ c1w\l+ c2w\l+ csol\l+ r1\l+ r2\l+ tprof\l+ nomcat\l|}" alt="" coords="6,6,105,282"/>
+<area shape="rect" id="node6" href="$structatsoil_1_1soil__tab.html" title="{soil_tab\n|+ albedo\l+ emissi\l+ ttsoil\l+ tpsoil\l+ totwat\l+ pressure\l+ density\l+ foir\l+ fos\l|}" alt="" coords="214,349,297,573"/>
+</map>

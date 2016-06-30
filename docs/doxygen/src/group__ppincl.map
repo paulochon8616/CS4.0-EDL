@@ -1,0 +1,16 @@
+<map id="General module for specific physics" name="General module for specific physics">
+<area shape="rect" id="node1" href="$group__gaz__combustion.html" title="Gaz combustion variables\l pointers" alt="" coords="192,5,365,51"/>
+<area shape="rect" id="node2" href="$group__gas__mixture.html" title="Gas_mixture" alt="" coords="231,75,327,104"/>
+<area shape="rect" id="node3" href="$group__enthalpy.html" title="Enthalpic variables\l pointers" alt="" coords="213,127,344,174"/>
+<area shape="rect" id="node5" href="$group__ionic__conduction.html" title="Ionic conduction variables" alt="" coords="192,197,365,227"/>
+<area shape="rect" id="node6" href="$group__modelling.html" title="chosen by the user" alt="" coords="212,251,345,280"/>
+<area shape="rect" id="node7" href="$group__electrical.html" title="Electrical version\l variables" alt="" coords="217,303,340,350"/>
+<area shape="rect" id="node8" href="$group__common.html" title="Common" alt="" coords="241,373,316,403"/>
+<area shape="rect" id="node9" href="$group__number__variables.html" title="Number of algebraic\l or state variables" alt="" coords="209,426,348,473"/>
+<area shape="rect" id="node10" href="$group__compressible.html" title="Compressible module" alt="" coords="205,496,352,525"/>
+<area shape="rect" id="node11" href="$group__coal__combustion.html" title="Pulverized coal combustion\l variables" alt="" coords="188,549,369,595"/>
+<area shape="rect" id="node12" href="$group__boundary__conditions.html" title="Boundary conditions" alt="" coords="209,619,348,648"/>
+<area shape="rect" id="node13" href="$group__choice.html" title="Indicator table for\l specific physics" alt="" coords="217,671,340,718"/>
+<area shape="rect" id="node14" href="$group__cooling.html" title="Cooling Towers Pointers" alt="" coords="196,741,361,771"/>
+<area shape="rect" id="node15" href="$group__fuel__combustion.html" title="Fuel combustion variables" alt="" coords="192,795,365,824"/>
+</map>

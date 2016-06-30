@@ -1,0 +1,8 @@
+<map id="Space discretisation" name="Space discretisation">
+<area shape="rect" id="node1" href="$group__conv__scheme.html" title="Convective scheme" alt="" coords="405,5,544,35"/>
+<area shape="rect" id="node2" href="$group__diffusive__scheme.html" title="Diffusive scheme" alt="" coords="413,59,536,88"/>
+<area shape="rect" id="node3" href="$group__gradient__calculation.html" title="Gradient calculation" alt="" coords="407,112,543,141"/>
+<area shape="rect" id="node4" href="$group__iterative__process.html" title="equation " alt="" coords="393,165,556,211"/>
+<area shape="rect" id="node6" href="$group__linear__solver.html" title="Linear solver" alt="" coords="427,235,523,264"/>
+<area shape="rect" id="node7" href="$group__optcal.html" title="Module for calculation\l options" alt="" coords="5,103,155,150"/>
+</map>

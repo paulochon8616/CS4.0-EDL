@@ -1,0 +1,5 @@
+<map id="Specific physics" name="Specific physics">
+<area shape="rect" id="node1" href="$group__clogging__model.html" title="Clogging model" alt="" coords="183,5,295,35"/>
+<area shape="rect" id="node2" href="$group__reentrained__model.html" title="Reentrained model" alt="" coords="173,59,304,88"/>
+<area shape="rect" id="node4" href="$group__deposition__model.html" title="Particle deposition\l sub&#45;model" alt="" coords="175,111,303,158"/>
+</map>

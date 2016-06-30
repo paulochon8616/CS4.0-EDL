@@ -1,0 +1,6 @@
+<map id="Module for variable numbering" name="Module for variable numbering">
+<area shape="rect" id="node1" href="$group__numerical__prop.html" title="Numerical properties" alt="" coords="204,5,345,35"/>
+<area shape="rect" id="node2" href="$group__main__variables.html" title="Main variable field indices (previously stored in rtp, rtpa). " alt="" coords="221,59,328,88"/>
+<area shape="rect" id="node3" href="$group__physical__prop.html" title="Physical properties are stored in propce. See cs_user_boundary_conditions for some examples..." alt="" coords="208,112,341,141"/>
+<area shape="rect" id="node5" href="$group__field__map.html" title="Mapping to field structures" alt="" coords="187,165,363,195"/>
+</map>

@@ -1,0 +1,9228 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR EDF S.A.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: code_saturne 4.0.5\n"
+"Report-Msgid-Bugs-To: saturne-support@edf.fr\n"
+"POT-Creation-Date: 2016-04-06 17:20+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#, c-format
+msgid ""
+"\n"
+"  %s version %s   (built %s)\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  (built %s)\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid "  STAR-CCM+ file format support\n"
+msgstr ""
+
+#, c-format
+msgid "  CGNS %d.%d.%d file format support\n"
+msgstr ""
+
+#, c-format
+msgid "  CGNS %d.%d file format support\n"
+msgstr ""
+
+#, c-format
+msgid "  MED %d.%d (HDF5 %d.%d.%d) file format support\n"
+msgstr ""
+
+#, c-format
+msgid "  MED %d.%d.%d (HDF5 %d.%d.%d) file format support\n"
+msgstr ""
+
+#, c-format
+msgid "  Reading of compressed files ('.gz') with Zlib %s\n"
+msgstr ""
+
+#, c-format
+msgid "    (compiled with Zlib %s)\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"\n"
+"  .------------------------------.\n"
+"  |                              |\n"
+"  |   Code_Saturne Preprocessor  |\n"
+"  |                              |\n"
+"  `------------------------------'\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"\n"
+"Usage:  %s [<options>] <file>\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"\n"
+"General options:\n"
+"\n"
+msgstr ""
+
+msgid ": this help message"
+msgstr ""
+
+msgid ": same"
+msgstr ""
+
+msgid "[file]"
+msgstr ""
+
+msgid ": redirect terminal output to a file"
+msgstr ""
+
+#, c-format
+msgid "  (default file: \"%s\")"
+msgstr ""
+
+msgid ": do not write preprocessor output"
+msgstr ""
+
+msgid "<file>"
+msgstr ""
+
+msgid ": output file name"
+msgstr ""
+
+msgid ": if necessary, correct orientation of"
+msgstr ""
+
+msgid "  cells and faces"
+msgstr ""
+
+msgid ": print version number"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"\n"
+"Mesh selection options:\n"
+"\n"
+msgstr ""
+
+msgid "<keyword>"
+msgstr ""
+
+msgid ": selection of mesh file format"
+msgstr ""
+
+msgid ": selection of mesh numbers in file"
+msgstr ""
+
+msgid "  (if the format allows it)"
+msgstr ""
+
+msgid ": add groups of cells"
+msgstr ""
+
+msgid "   * based on sections: keyword \"section\""
+msgstr ""
+
+msgid "   * based on zones:    keyword \"zone\""
+msgstr ""
+
+msgid "  (based on format features/conventions)"
+msgstr ""
+
+msgid ": add groups of faces"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"\n"
+"Available mesh formats:\n"
+msgstr ""
+
+#, c-format
+msgid "                                  extension:    keyword:\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"\n"
+"Postprocessing options:\n"
+"\n"
+msgstr ""
+
+msgid "<name>"
+msgstr ""
+
+msgid ": case name (without this option,"
+msgstr ""
+
+#, c-format
+msgid "  the default name is: \"%s\""
+msgstr ""
+
+msgid "[format]"
+msgstr ""
+
+msgid ": select output format of error meshes"
+msgstr ""
+
+msgid ": activate output of volume meshes"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"\n"
+"Available output formats:\n"
+msgstr ""
+
+#, c-format
+msgid "                                  keyword:\n"
+msgstr ""
+
+msgid "Environment variables"
+msgstr ""
+
+#, c-format
+msgid ""
+"  CS_PREPROCESS_MIN_EDGE_LEN    : length under which an edge is considered\n"
+"                                  degenerate (default: 1.e-15)\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  CS_PREPROCESS_MEM_LOG         : name of memory operations trace file\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  CS_PREPROCESS_IGNORE_IDEAS_COO_SYS : ignore I-deas coordinate systems\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error in command line specification.\n"
+"\n"
+"Option \"%s\" is set at least twice."
+msgstr ""
+
+#, c-format
+msgid ""
+"Error in command line specification.\n"
+"\n"
+"Option \"%s\" requires an argument."
+msgstr ""
+
+msgid "CGNS output format not available in this build."
+msgstr ""
+
+msgid "MED output format not available in this build."
+msgstr ""
+
+msgid ""
+"Case configuration\n"
+"------------------\n"
+msgstr ""
+
+msgid "Date"
+msgstr ""
+
+msgid "System"
+msgstr ""
+
+msgid "Machine"
+msgstr ""
+
+msgid "Processor"
+msgstr ""
+
+msgid "Memory"
+msgstr ""
+
+msgid "User"
+msgstr ""
+
+msgid "Directory"
+msgstr ""
+
+msgid "Case name"
+msgstr ""
+
+msgid "Mesh file"
+msgstr ""
+
+msgid "The file does not exist."
+msgstr ""
+
+msgid "Read permission on this file is refused."
+msgstr ""
+
+msgid "The filename is too long (system limit)."
+msgstr ""
+
+msgid "The file is not a regular file."
+msgstr ""
+
+#, c-format
+msgid ""
+"Error in command line specification.\n"
+"\n"
+"Keyword \"%s\" of option \"%s\" is not recognized.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"It is impossible to redirect the standard output to file:\n"
+"%s"
+msgstr ""
+
+#, c-format
+msgid "Option \"%s\" is not recognized.\n"
+msgstr ""
+
+msgid ""
+"Error in command line specification:\n"
+"\n"
+"Missing input mesh file name."
+msgstr ""
+
+#, c-format
+msgid ""
+"Mesh file \"%s\" is not accessible.\n"
+"%s"
+msgstr ""
+
+#, c-format
+msgid "  Theoretical mesh size:       %15.3f %cb\n"
+msgstr ""
+
+#, c-format
+msgid "  Theoretical current memory:  %15.3f %cb\n"
+msgstr ""
+
+#, c-format
+msgid "  Theoretical peak memory:     %15.3f %cb\n"
+msgstr ""
+
+#, c-format
+msgid "  Total memory used:           %15.3f %cb\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Done reading mesh\n"
+"-----------------\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Done reading and concatenating meshes\n"
+"-------------------------------------\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"\n"
+"Time and memory summary\n"
+"-----------------------\n"
+"\n"
+msgstr ""
+
+msgid "User CPU time                       (sec)"
+msgstr ""
+
+msgid "System CPU time                     (sec)"
+msgstr ""
+
+msgid "Total CPU time                      (sec)"
+msgstr ""
+
+msgid "Total time                          (sec)"
+msgstr ""
+
+msgid "Total CPU time / Total time              "
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"\n"
+"Defining families\n"
+"-----------------\n"
+"\n"
+msgstr ""
+
+msgid "Fluid Domain"
+msgstr ""
+
+msgid "Orientation Error"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"End of conversion to descending connectivity\n"
+"--------------------------------------------\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"The mesh has face -> cell connectivity errors.\n"
+"We can go no further."
+msgstr ""
+
+#, c-format
+msgid ""
+"The mesh does not contain volume elements.\n"
+"We can go no further."
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Memory use summary:\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid "  Total memory used:                         %15.3f %cb\n"
+msgstr ""
+
+#, c-format
+msgid "  Theoretical instrumented dynamic memory:   %15.3f %cb\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"\n"
+"  .-----------------------.\n"
+"  |                       |\n"
+"  |  Preprocessor finish  |\n"
+"  |                       |\n"
+"  `-----------------------'\n"
+"\n"
+"\n"
+msgstr ""
+
+msgid "Group"
+msgstr ""
+
+msgid "Family"
+msgstr ""
+
+#, c-format
+msgid ""
+"There are %lu faces of which one same side belongs\n"
+"to at least 2 cells --> bad connectivity."
+msgstr ""
+
+#, c-format
+msgid "There is/are %lu isolated face(s)\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  Domain coordinate extents:\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"\n"
+"Main mesh properties\n"
+"--------------------\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  Number of cells:                            %10d\n"
+"  Number of internal faces:                   %10d\n"
+msgstr ""
+
+#, c-format
+msgid "  Number of boundary faces:                   %10d\n"
+msgstr ""
+
+#, c-format
+msgid "  Number of vertices:                         %10d\n"
+msgstr ""
+
+msgid "Connectivity Error Faces"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Mesh verification:\n"
+"\n"
+"  %d faces modified due to merged vertices.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  Merging vertices:\n"
+msgstr ""
+
+#, c-format
+msgid "    Initial number of vertices        : %10d\n"
+msgstr ""
+
+#, c-format
+msgid "    Number of vertices after merging  : %10d\n"
+msgstr ""
+
+#, c-format
+msgid "    Number of modified vertices       : %10d\n"
+msgstr ""
+
+msgid "Number of elements"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  Element orientation check.\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid "%d elements of type %s had to be re-oriented\n"
+msgstr ""
+
+#, c-format
+msgid "%d elements of type %s were impossible to re-orient\n"
+msgstr ""
+
+#, c-format
+msgid "%d elements of type %s are mis-oriented or highly warped\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Mesh verification:\n"
+"\n"
+"  %d vertices belong to edges of length less than %g\n"
+"  and will be merged; (this tolerance may be modified\n"
+"  using the CS_PREPROCESS_MIN_EDGE_LEN environment variable).\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Mesh verification:\n"
+"\n"
+"  Removal of %d degenerate faces:\n"
+"    Initial number of faces           : %10d\n"
+"    Number of faces after processing  : %10d\n"
+msgstr ""
+
+msgid "Number of cells"
+msgstr ""
+
+msgid "Number of internal faces"
+msgstr ""
+
+msgid "Number of boundary faces"
+msgstr ""
+
+msgid "Number of isolated faces"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"\n"
+"Definition of face and cell families\n"
+"------------------------------------\n"
+"\n"
+msgstr ""
+
+msgid "Default family"
+msgstr ""
+
+msgid "(no group)"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"\n"
+"Write output for Kernel\n"
+"-----------------------\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"\n"
+"EnSight output of mesh: %s\n"
+"-----------------------\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"\n"
+"CGNS file output of mesh: %s\n"
+"-------------------------\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"\n"
+"MED file output of mesh: %s\n"
+"------------------------\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Creating mesh for output: %s\n"
+"-------------------------\n"
+"\n"
+msgstr ""
+
+msgid "Number of faces"
+msgstr ""
+
+msgid "Color"
+msgstr ""
+
+msgid "Number of vertices"
+msgstr ""
+
+#, c-format
+msgid ""
+"CGNS: error closing file \"%s\"\n"
+"%s"
+msgstr ""
+
+#, c-format
+msgid ""
+"A mesh named: %s\n"
+"is already defined in CGNS case: %s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"CGNS: error opening file \"%s\":\n"
+"%s"
+msgstr ""
+
+msgid "Creating file:"
+msgstr ""
+
+#, c-format
+msgid ""
+"CGNS: error writing file \"%s\":\n"
+"Name of mesh to write: \"%s\"\n"
+"%s"
+msgstr ""
+
+#, c-format
+msgid ""
+"CGNS: error writing file \"%s\":\n"
+"The returned base number is \"%d\" and not \"1\"."
+msgstr ""
+
+#, c-format
+msgid "MED: error closing file \"%s\"."
+msgstr ""
+
+#, c-format
+msgid "MED: error opening file \"%s\"."
+msgstr ""
+
+#, c-format
+msgid ""
+"A mesh named: %s\n"
+"is already defined in MED case: %s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"MED: error writing file \"%s\".\n"
+"Name of mesh to create: \"%s\"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"MED: error writing file \"%s\".\n"
+"Mesh name: \"%s\"\n"
+"mesh dimension: \"%d\", space dimension: \"%d\""
+msgstr ""
+
+msgid "EnSight (6 or Gold)"
+msgstr ""
+
+msgid "GAMBIT Neutral"
+msgstr ""
+
+msgid "GMSH"
+msgstr ""
+
+msgid "I-deas universal"
+msgstr ""
+
+msgid "Error querying working directory.\n"
+msgstr ""
+
+#, c-format
+msgid "Error loading %s: %s."
+msgstr ""
+
+#, c-format
+msgid "Error calling dlsym: %s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error in file format specification.\n"
+"\n"
+"Mesh file type \"%s\" is not recognized.\n"
+"Impossible to determine the format of mesh file\n"
+"\"%s\"."
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Warning\n"
+"=======\n"
+"The file extension for \"%s\"\n"
+"does not correspond with the mesh file format defined by\n"
+"keyword \"%s\". The keyword has priority.\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Mesh file \"%s\" does not have\n"
+"a known extension. A keyword is required to determine\n"
+"the format in this case."
+msgstr ""
+
+#, c-format
+msgid ""
+"File format \"%s\" support not available in this\n"
+"installation (file \"%s\"). "
+msgstr ""
+
+msgid "Unknown mesh file format."
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  Wall-clock time: %f s; CPU time: %f s\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  Vertex coordinates set: %s\n"
+msgstr ""
+
+#, c-format
+msgid "Error %d reading vertex information in STAR-CCM+ file."
+msgstr ""
+
+#, c-format
+msgid "  Face-based topology: %s\n"
+msgstr ""
+
+#, c-format
+msgid "    Faces: %s\n"
+msgstr ""
+
+#, c-format
+msgid "Error %d reading faces information in STAR-CCM+ file."
+msgstr ""
+
+#, c-format
+msgid "Error %d reading internal faces in STAR-CCM+ file."
+msgstr ""
+
+#, c-format
+msgid "Error %d reading face->cell connectivity in STAR-CCM+ file."
+msgstr ""
+
+#, c-format
+msgid "Error %d reading map in STAR-CCM+ file."
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"\n"
+"Reading mesh from file in STAR-CCM+ format\n"
+"----------------------\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  Mesh file: %s\n"
+"\n"
+"\n"
+"  STAR-CCM+ format version: %1d.%1d.%1d\n"
+"  Title: %s\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid "  Available meshes:\n"
+msgstr ""
+
+#, c-format
+msgid "Error %d reading state name in STAR-CCM+ file."
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  No mesh was specified; the first is read.\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  Mesh number %d was specified.\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"The specified mesh number (%d) is greater than\n"
+"the number of meshes defined (%d) in file\n"
+"%s.\n"
+msgstr ""
+
+#, c-format
+msgid "The specified mesh number (%d) is negative."
+msgstr ""
+
+#, c-format
+msgid "Error %d reading entity description in STAR-CCM+ file."
+msgstr ""
+
+#, c-format
+msgid "Error %d reading processor information in STAR-CCM+ file."
+msgstr ""
+
+#, c-format
+msgid ""
+"Error %d reading vertices and topology information\n"
+"in STAR-CCM+ file."
+msgstr ""
+
+#, c-format
+msgid ""
+"CGNS error:\n"
+"%s\n"
+"\n"
+"This may be due to a CGNS library supporting only ADF (legacy)\n"
+"or HDF5 (future default) and the file not matching. In this case,\n"
+"running the adf2hdf of hdf2adf converters may solve the issue."
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  The file contains multiple bases:\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"CGNS error:\n"
+"%s"
+msgstr ""
+
+#, c-format
+msgid "    Base %2d: %s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  No base was requested; the first one is used\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  Base number %d was requested\n"
+"\n"
+msgstr ""
+
+msgid "no CGNS base in file.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"The mesh number requested (%d) is higher than\n"
+"the number of bases defined (%d) in file\n"
+"%s.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"CGNS: error closing file \"%s\":\n"
+"%s"
+msgstr ""
+
+msgid "cartesian"
+msgstr ""
+
+msgid "cylindrical"
+msgstr ""
+
+msgid "spherical"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"    Zone %d: \"%s\"; type \"%s\"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"      %lu (%lu x %lu) vertices; %lu (%lu x %lu) cells\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"      %lu (%lu x %lu x %lu) vertices; %lu (%lu x %lu x %lu) cells\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"      %lu vertices; %lu cells\n"
+msgstr ""
+
+#, c-format
+msgid "      (%s coordinates, \"%s\" precision, unit \"%s\")\n"
+msgstr ""
+
+#, c-format
+msgid "      %d time-varying coordinates (the first are used)\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"      Section %2d: \"%s\";\n"
+"                   (indices %lu to %lu, type \"%s\")\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"The CGNS mesh read contains multizone (\"one to one\")\n"
+"vertex equivalences which are not automatically handled\n"
+"by the Preprocessor.\n"
+"-> Use an appropriate joining option\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"The CGNS mesh read contains non-conforming (\"abutting\")\n"
+"connectivity information which is not automatically handled\n"
+"by the Preprocessor.\n"
+"-> Use an appropriate joining option\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"The CGNS mesh read contains (\"overset\") connectivity\n"
+"information which is not handled by the Preprocessor.\n"
+msgstr ""
+
+#, c-format
+msgid "  CGNS boundary condition information:\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"    Zone %d\n"
+msgstr ""
+
+#, c-format
+msgid "      BC %2d: \"%s\" (\"%s\")\n"
+msgstr ""
+
+#, c-format
+msgid "      BC %2d: \"%s\" (\"%s\" on \"%s\")\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Cylindrical or spherical coordinates with unknown\n"
+"or undefined angle unit (-> radians are considered)\n"
+msgstr ""
+
+msgid "CGNS NFACE_n elements not handled yet."
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"\n"
+"Reading mesh from file in CGNS format\n"
+"----------------------\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  Mesh file: %s\n"
+"\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid "  CGNS version       : %3.1f\n"
+msgstr ""
+
+msgid "  Title              : "
+msgstr ""
+
+#, c-format
+msgid "  Base name          : %s\n"
+msgstr ""
+
+#, c-format
+msgid "  Physical dimension : %d\n"
+msgstr ""
+
+#, c-format
+msgid "  Cell dimension     : %d\n"
+msgstr ""
+
+#, c-format
+msgid "  Number of zones    : %d\n"
+msgstr ""
+
+#, c-format
+msgid "Mesh entities are of dimension: %d\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"EnSight: file \"%s\" seems to be\n"
+"of Fortran binary type but its header is of the wrong\n"
+"size or it is of an unknown Fortran binary variant."
+msgstr ""
+
+#, c-format
+msgid ""
+"EnSight: field \"%s\" encountered where\n"
+"\"coordinates\" was expected."
+msgstr ""
+
+#, c-format
+msgid "    %10d nodes\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"EnSight: no node defined in file\n"
+"\"%s\"."
+msgstr ""
+
+#, c-format
+msgid ""
+"EnSight: error reading file \"%s\".\n"
+"The current \"part\" contains ghost cells,\n"
+"not currently handled."
+msgstr ""
+
+#, c-format
+msgid ""
+"EnSight: error reading file \"%s\".\n"
+"The current \"part\" contains a section of type:\n"
+"\"%s\"\n"
+"not currently handled."
+msgstr ""
+
+#, c-format
+msgid "    %10d %-10s elements\n"
+msgstr ""
+
+msgid ""
+"EnSight: error merging node groups.\n"
+"At least one of the groups has no \"id\", and they\n"
+"should not be merged (internal logic problem)."
+msgstr ""
+
+#, c-format
+msgid ""
+"EnSight: positionning (seek) error\n"
+"in file \"%s\"."
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  Description:\n"
+"\n"
+"  %s\n"
+msgstr ""
+
+msgid "EnSight: \"node id\" field missing or badly placed."
+msgstr ""
+
+msgid "EnSight: \"element id\" field missing or badly placed"
+msgstr ""
+
+#, c-format
+msgid ""
+"EnSight: \"%s\" field encountered where\n"
+"\"extents\" or \"part\" was expected."
+msgstr ""
+
+#, c-format
+msgid ""
+"File \"%s\"\n"
+"defines no \"part\" (i.e. mesh)."
+msgstr ""
+
+#, c-format
+msgid ""
+"EnSight: file \"%s\" seems to be\n"
+"of C binary type but the number of the first \"part\"\n"
+"is < 0 ou > 1000 and provokes the failure of the automatic\n"
+"\"big-endian/little-endian\" detection."
+msgstr ""
+
+#, c-format
+msgid ""
+"  xmin = %12.5e; xmax = %12.5e\n"
+"  ymin = %12.5e; ymax = %12.5e\n"
+"  zmin = %12.5e; zmax = %12.5e\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  Remark: no vertex ids given\n"
+"  --> impossible to merge EnSight \"parts\",\n"
+"      so the following \"parts\" are ignored.\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid "  part %2d (ignored): "
+msgstr ""
+
+#, c-format
+msgid "  part %2d: "
+msgstr ""
+
+#, c-format
+msgid ""
+"EnSight: file \"%s\" does not contain a\n"
+"\"part\" with the required number (%d)."
+msgstr ""
+
+#, c-format
+msgid "EnSight: file \"%s\" does not contain any \"part\"."
+msgstr ""
+
+#, c-format
+msgid ""
+"EnSight: \"%s\" field encountered where\n"
+"\"part\" was expected."
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"\n"
+"Reading mesh from file in EnSight format\n"
+"----------------------\n"
+msgstr ""
+
+#, c-format
+msgid "  \"case\" file: %s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"File \"%s\" does not seem to be a valid\n"
+"EnSight 6 or Gold case file."
+msgstr ""
+
+#, c-format
+msgid ""
+"The \"%s\" case file does not seem to\n"
+"indicate a geometry file"
+msgstr ""
+
+#, c-format
+msgid ""
+"The \"%s\" case file seems to indicate the\n"
+"series of geometric files named:\n"
+"\"%s\".\n"
+"A single file must be chosen."
+msgstr ""
+
+#, c-format
+msgid ""
+"  \"geo\"  file: %s\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error reading line %d of file \"%s\";\n"
+"An end of section (ENDOFSECTION) was expected."
+msgstr ""
+
+#, c-format
+msgid ""
+"Format error for file \"%s\":\n"
+"This file does not seem to be in GAMBIT neutral format\n"
+"(line 2 does not start with \"** GAMBIT NEUTRAL FILE\")."
+msgstr ""
+
+#, c-format
+msgid "  Title        : %.80s\n"
+msgstr ""
+
+#, c-format
+msgid "  Created with : %s %s\n"
+msgstr ""
+
+#, c-format
+msgid "  Date         : %s\n"
+msgstr ""
+
+#, c-format
+msgid "Error reading line %d of file \"%s\"."
+msgstr ""
+
+#, c-format
+msgid ""
+"  Initial data: %10d points\n"
+"                %10d elements\n"
+"                %10d groups\n"
+"                %10d boundary conditions\n"
+"                spatial dimension: %d\n"
+"                velocity components: %d\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error reading line %d of file \"%s\"\n"
+"while decoding point %d (of %d)."
+msgstr ""
+
+#, c-format
+msgid "The mesh is 2d."
+msgstr ""
+
+#, c-format
+msgid ""
+"Error reading line %d of file \"%s\"\n"
+"while decoding element %ld (of %ld)."
+msgstr ""
+
+#, c-format
+msgid ""
+"Error reading a GAMBIT mesh file:\n"
+"at line %d of file \"%s\".\n"
+"Type identifier <%d> for element <%d> is not recognized."
+msgstr ""
+
+#, c-format
+msgid ""
+"Error reading line %d of file \"%s\"\n"
+"while defining a group."
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  Group %10d: \"%s\"\n"
+"                      type:       %s\n"
+"                      elements:   %d\n"
+"                      indicators: %d\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error reading line %d of file \"%s\"\n"
+"while defining a boundary condition."
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  Boundary condition: \"%s\"\n"
+"                          type:    %s\n"
+"                          entities: %d\n"
+"                          values:   %d\n"
+msgstr ""
+
+#, c-format
+msgid "                          code1:   %d (%s)\n"
+msgstr ""
+
+#, c-format
+msgid "                          code%1d:   %d\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"\n"
+"Reading mesh from file in GAMBIT neutral format\n"
+"----------------------\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error reading a GAMBIT mesh file:\n"
+"at line %d of file \"%s\".\n"
+"The number of groups to read is larger\n"
+"than that defined by the header (%d).n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error reading a GAMBIT mesh file:\n"
+"at line %d of file \"%s\".\n"
+"The number of boundary conditions to read is larger\n"
+"than that defined by the header (%d).n"
+msgstr ""
+
+#, c-format
+msgid ""
+"File \"%s\"\n"
+",contains a \"FACE CONNECTIVITY\" section\n"
+"indicating non-conforming faces which are not\n"
+"automatically handled by the Preprocessor.\n"
+"-> Use an appropriate joining option.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Line %d of file \"%s\"\n"
+",section: \"%s\" is unknown.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Line %d of file \"%s\",\n"
+"processing is finished but the end of the file\n"
+"has not been reached.\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error reading file \"%s\":\n"
+"Section \"NODAL COORDINATES\" was not found."
+msgstr ""
+
+#, c-format
+msgid ""
+"Error reading file \"%s\":\n"
+"Section \"ELEMENTS/CELLS\" was not found."
+msgstr ""
+
+#, c-format
+msgid ""
+"  Building mesh structure:\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"The Gmsh version specification of file\n"
+"\"%s\" is invalid or unreadable.)"
+msgstr ""
+
+#, c-format
+msgid ""
+"The Gmsh type specification of file\n"
+"\"%s\" is neither 0 (text file) nor 1 (binary file).\n"
+"This case is currently not handled."
+msgstr ""
+
+#, c-format
+msgid ""
+"  Gmsh format version:     %2.1f\n"
+"  Size given for real numbers: %d\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"The Gmsh format version specification end for file\n"
+"\"%s\" is not present at the expected place.)"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error decoding line %ld of file\n"
+"\"%s\" :\n"
+"The description of point <%ld> was expected in the form \"label x y z\"."
+msgstr ""
+
+#, c-format
+msgid ""
+"The end of the points list specification of file\n"
+"\"%s\" is not present at the expected place.)"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error reading a Gmsh mesh file:\n"
+"at line %ld of file \"%s\".\n"
+"Type identifier <%d> for element <%ld> is not recognized."
+msgstr ""
+
+#, c-format
+msgid ""
+"Error decoding line %ld (corresponding to element <%ld>) of file\n"
+"\"%s\"."
+msgstr ""
+
+#, c-format
+msgid ""
+"Error reading a Gmsh mesh file:\n"
+"Type identifier <%d> is not recognized."
+msgstr ""
+
+#, c-format
+msgid "  %ld elements of type \"point\" ignored\n"
+msgstr ""
+
+#, c-format
+msgid "  %ld elements of type \"edge\" ignored\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"The end of the elements list specification of file\n"
+"\"%s\" is not present at the expected place.)"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"\n"
+"Reading mesh from file in Gmsh format\n"
+"----------------------\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error reading file\n"
+"\"%s\" :\n"
+"Nodes are defined in the \"ParametricNodes\" variant, which\n"
+"is not handled (and not documented as of Gmsh 2.4.0)."
+msgstr ""
+
+#, c-format
+msgid "Error reading line %ld of file \"%s\"."
+msgstr ""
+
+#, c-format
+msgid ""
+"Error reading a Gmsh mesh file:\n"
+"at line %ld of file \"%s\".\n"
+"The points definition was not found."
+msgstr ""
+
+#, c-format
+msgid ""
+"Error reading a Gmsh mesh file:\n"
+"at line %ld of file \"%s\".\n"
+"The elements definition was not found."
+msgstr ""
+
+#, c-format
+msgid ""
+"    %d cylindrical system(s) and %d spherical system(s) not converted;\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"    probable problems depending on I-deas construction and export\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid "  Ignored coordinate systems:\n"
+msgstr ""
+
+#, c-format
+msgid "    %d non-identity transformation(s) ignored:\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error reading an I-deas universal file:\n"
+"at line %d of file \"%s\".\n"
+"Type identifier <%d> of element <%d> not recognized."
+msgstr ""
+
+#, c-format
+msgid ""
+"Error reading an I-deas universal file:\n"
+"at line %d of file \"%s\".\n"
+"Type identifier <%d> of element <%d> recognized but not handled."
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"\n"
+"Reading mesh from file in I-deas universal format\n"
+"----------------------\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error reading an I-deas universal file:\n"
+"at line %d of file \"%s\".\n"
+"Node and element datasets must be read\n"
+"before the groups dataset."
+msgstr ""
+
+#, c-format
+msgid ""
+"Error reading an I-deas universal file:\n"
+"at line %d of file \"%s\".\n"
+"Dataset \"%d\" containing the nodes definition has not been found."
+msgstr ""
+
+#, c-format
+msgid ""
+"Error reading an I-deas universal file:\n"
+"at line %d of file \"%s\".\n"
+"Dataset \"%d\" containing the elements definition has not been found."
+msgstr ""
+
+#, c-format
+msgid "MED: error checking file version \"%s\"."
+msgstr ""
+
+#, c-format
+msgid ""
+"MED: error reading file \"%s\".\n"
+"Number of vertices of entity read: \"%d\"."
+msgstr ""
+
+#, c-format
+msgid ""
+"MED: error reading file \"%s\".\n"
+"Error reading coordinates."
+msgstr ""
+
+#, c-format
+msgid ""
+"MED: error reading file \"%s\".\n"
+"Number of elements of entity read: \"%d\"."
+msgstr ""
+
+#, c-format
+msgid ""
+"The MED mesh contains %d elements of type %s\n"
+"which are ignored by the Preprocessor.\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"MED: error reading file \"%s\".\n"
+"Error reading equivalence information."
+msgstr ""
+
+#, c-format
+msgid ""
+"MED: error reading file \"%s\".\n"
+"Error reading connectivity."
+msgstr ""
+
+#, c-format
+msgid ""
+"MED: error reading file \"%s\".\n"
+"(polygons information)."
+msgstr ""
+
+#, c-format
+msgid ""
+"MED: error reading file \"%s\".\n"
+"(polygons connectivity)."
+msgstr ""
+
+#, c-format
+msgid ""
+"MED: error reading file \"%s\".\n"
+"(polyhedra information)."
+msgstr ""
+
+#, c-format
+msgid ""
+"MED: error reading file \"%s\".\n"
+"(polyhedra connectivity)."
+msgstr ""
+
+#, c-format
+msgid ""
+"MED: inconsistency in polyhedra connectivity;\n"
+"number of polyhedra: %d\n"
+"the cells->faces end index (%d) should be equal to\n"
+"the size of the faces->vertices index array (%d)\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"While reading file \"%s\",\n"
+"%d repeated references to the same vertices\n"
+"and %d degenerate faces were encountered\n"
+"in the definition of %d polyhedra.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"MED: erreur reading file \"%s\".\n"
+"(families)."
+msgstr ""
+
+#, c-format
+msgid ""
+"MED: error reading file \"%s\".\n"
+"Number of families read: \"%d\""
+msgstr ""
+
+#, c-format
+msgid ""
+"MED: error reading file \"%s\".\n"
+"Number of attributes read: \"%d\""
+msgstr ""
+
+#, c-format
+msgid ""
+"MED: error reading file \"%s\".\n"
+"Number of groups read: \"%d\""
+msgstr ""
+
+#, c-format
+msgid "  Family %2d is described by no attribute or group.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"\n"
+"Reading mesh from file in MED (EDF/CEA) format\n"
+"----------------------\n"
+msgstr ""
+
+#, c-format
+msgid "MED: error reading file \"%s\"."
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  The file contains multiple meshes:\n"
+msgstr ""
+
+#, c-format
+msgid "    Mesh %2d: %s\n"
+msgstr ""
+
+msgid "No mesh in file.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"MED: error reading file \"%s\".\n"
+"Name of mesh read : \"%s\"\n"
+"Dimension read    : \"%d\""
+msgstr ""
+
+#, c-format
+msgid ""
+"  Mesh name: %s\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error reading NOPO file\n"
+"\"%s\".size of record \"%s\" is %d words\n"
+"but %d were expected."
+msgstr ""
+
+msgid ""
+"This function has been compiled with a \"float\" type of size other than 4.\n"
+"(Porting error making conversion of single-precision\n"
+"NOPO coordinates to standard Code_Saturne Preprocessor\n"
+"coordinates impossible)."
+msgstr ""
+
+msgid ""
+"This function has been compiled with a \"double\" type of size other than "
+"8.\n"
+"(Porting error making conversion of double-precision\n"
+"NOPO coordinates to standard Code_Saturne Preprocessor\n"
+"coordinates impossible)."
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"\n"
+"Reading mesh from file in NOPO (Simail) format\n"
+"----------------------\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Format error for file \"%s\" :\n"
+"This file does not seem to be in NOPO format\n"
+"(the header length is not 56 (32-bit) or 208 (64-bit))."
+msgstr ""
+
+#, c-format
+msgid ""
+"Format error for file \"%s\" :\n"
+"The reserved descriptor values are not those expected;\n"
+"this file is probably not a NOPO/Simail file."
+msgstr ""
+
+#, c-format
+msgid "  Title     : %.80s\n"
+msgstr ""
+
+#, c-format
+msgid "  Date      : %2.2s/%2.2s/%4.4s\n"
+msgstr ""
+
+#, c-format
+msgid "  Creator   : %24.24s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Format error for file \"%s\" :\n"
+"String 'NOPO' does not appear in header;\n"
+"this file is probably not a NOPO/Simail file."
+msgstr ""
+
+#, c-format
+msgid ""
+"  Type      : %d bit\n"
+"  Dimension : %d\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  Initial data: %10d points\n"
+"                %10d nodes\n"
+"                %10d point elements\n"
+"                %10d segments\n"
+"                %10d triangles\n"
+"                %10d quadrangles\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"                %10d tetrahedra\n"
+"                %10d pentahedra\n"
+"                %10d hexahedra\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error reading NOPO file:\n"
+"\"%s\";\n"
+"The coordinate system is cylindrical or spherical,\n"
+"and this case is not currently handled"
+msgstr ""
+
+msgid ""
+"Elements of the mesh to post-process have\n"
+"not been sorted by type."
+msgstr ""
+
+#, c-format
+msgid ""
+"CGNS: no mesh named \"%s\".\n"
+"is associated to file: \"%s\"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"CGNS: error re-opening file \"%s\":\n"
+"%s"
+msgstr ""
+
+#, c-format
+msgid ""
+"CGNS: error writing coordinates\n"
+"Name of mesh to write: \"%s\"\n"
+"%s"
+msgstr ""
+
+#, c-format
+msgid ""
+"CGNS: in mesh: \"%s\",\n"
+"%d polyhedral cells are ignored.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"MED: no mesh named \"%s\".\n"
+"is associated with file: \"%s\"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"MED: error writing file \"%s\".\n"
+"Name   of family to write: \"%s\"\n"
+"Number of family to write: \"%d\""
+msgstr ""
+
+#, c-format
+msgid ""
+"MED: error writing file \"%s\".\n"
+"Error writing coordinates."
+msgstr ""
+
+#, c-format
+msgid ""
+"MED: error writing file \"%s\".\n"
+"The element geometric type has no MED equivalent.\n"
+"Element geometric type: \"%d\""
+msgstr ""
+
+#, c-format
+msgid ""
+"MED: error writing file \"%s\".\n"
+"Error writing connectivity."
+msgstr ""
+
+#, c-format
+msgid ""
+"MED: error writing file \"%s\".\n"
+"Error writing polygons connectivity."
+msgstr ""
+
+#, c-format
+msgid ""
+"MED: error writing file \"%s\".\n"
+"Error writing polyhedra connectivity."
+msgstr ""
+
+#, c-format
+msgid ""
+"MED: error writing file \"%s\".\n"
+"Error writing families."
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Call stack \n"
+msgstr ""
+
+#, c-format
+msgid ""
+"End of stack\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid "  Wrote: \"%s\"%s; Type: \"%s\"%s; Size: %lu\n"
+msgstr ""
+
+#, c-format
+msgid "  Wrote: \"%s\"\n"
+msgstr ""
+
+#, c-format
+msgid "  Opening file: %s\n"
+msgstr ""
+
+#, c-format
+msgid "  Closing file: %s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"SIGHUP signal (hang-up) intercepted.\n"
+"--> computation interrupted.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"SIGINT signal (Control+C or equivalent) received.\n"
+"--> computation interrupted by user.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"SIGTERM signal (termination) received.\n"
+"--> computation interrupted by environment.\n"
+msgstr ""
+
+#, c-format
+msgid "SIGFPE signal (floating-point exception) intercepted !\n"
+msgstr ""
+
+#, c-format
+msgid "SIGSEGV signal (access to forbidden memory area)  intercepted !\n"
+msgstr ""
+
+#, c-format
+msgid "SIGXCPU signal (CPU time limit exceeded) intercepted.\n"
+msgstr ""
+
+#, c-format
+msgid "Signal %d intercepted !\n"
+msgstr ""
+
+msgid "Abnormal end"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Warning\n"
+"=======\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Error in preprocessor execution\n"
+"===============================\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"System error: %s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"%s:%d: Fatal error.\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error reading binary file \"%s\":\n"
+"\n"
+"  %s"
+msgstr ""
+
+#, c-format
+msgid "Error: reading from closed file \"%s\""
+msgstr ""
+
+#, c-format
+msgid ""
+"Error writing binary file \"%s\":\n"
+"\n"
+"  %s"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error reading Fortran binary file \"%s\":\n"
+"\n"
+"  %s"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error writing Fortran binary file \"%s\":\n"
+"\n"
+"  %s"
+msgstr ""
+
+msgid "A record is too large to be represented in this format (i.e. > 2GB)."
+msgstr ""
+
+msgid "Premature end of file."
+msgstr ""
+
+#, c-format
+msgid ""
+"Error writing to text file \"%s\":\n"
+"\n"
+"  %s"
+msgstr ""
+
+#, c-format
+msgid ""
+"ECS library formatted output to gzipped file not implemented\n"
+"\n"
+"(file: \"%s\")"
+msgstr ""
+
+#, c-format
+msgid "Error writing to closed file \"%s\""
+msgstr ""
+
+#, c-format
+msgid ""
+"Error reading line %d of text file \"%s\":\n"
+"\n"
+"  %s"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error reading text file \"%s\":\n"
+"\n"
+"  %s"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error reading Fortran binary file \"%s\":\n"
+"\n"
+"  expected record size: %lu\n"
+"  read record size:     %lu\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error opening file \"%s\":\n"
+"\n"
+"  %s"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error closing file \"%s\":\n"
+"\n"
+"  %s"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error flushing file \"%s\":\n"
+"\n"
+"  %s"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error obtaining position in file \"%s\":\n"
+"\n"
+"  %s"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error rewinding file \"%s\":\n"
+"\n"
+"  %s"
+msgstr ""
+
+#, c-format
+msgid ""
+"Invalid offset argument \"%d\" setting position in file\n"
+"\"%s\""
+msgstr ""
+
+#, c-format
+msgid ""
+"Error setting position in file \"%s\":\n"
+"\n"
+"  %s"
+msgstr ""
+
+msgid "sizeof(off_t) > sizeof(long) but fseeko() not available"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error reading line %d of file \"%s\":\n"
+"\n"
+"  %s"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error reading file \"%s\":\n"
+"\n"
+"  %s"
+msgstr ""
+
+#, c-format
+msgid ""
+"Premature end of file \"%s\" at line %d\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Premature end of file \"%s\"\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Failure to create directory \"%s\":\n"
+"\n"
+"%s"
+msgstr ""
+
+msgid ""
+"  A similarly named file or directory exists and its status is\n"
+"  not available."
+msgstr ""
+
+msgid "  A similarly named file exists and is not a directory."
+msgstr ""
+
+#, c-format
+msgid ""
+"Error querying information for file:\n"
+"%s."
+msgstr ""
+
+#, c-format
+msgid ""
+"Error querying information for directory:\n"
+"%s."
+msgstr ""
+
+msgid "unknown"
+msgstr ""
+
+#, c-format
+msgid ""
+"Adress [%10p] does not correspond to the beginning of an allocated block."
+msgstr ""
+
+msgid "Memory allocation failure"
+msgstr ""
+
+msgid "ecs_mem_init() has already been called"
+msgstr ""
+
+#, c-format
+msgid "Failure to allocate \"%s\" (%lu bytes)"
+msgstr ""
+
+#, c-format
+msgid "Failure to open memory log file \"%s\"\n"
+msgstr ""
+
+msgid "ecs_mem_end() called before ecs_mem_init()"
+msgstr ""
+
+#, c-format
+msgid "Failure to reallocate \"%s\" (%lu bytes)"
+msgstr ""
+
+#, c-format
+msgid ""
+"   ** SCALAR BALANCE BY ZONE at iteration %6i\n"
+"   ---------------------------------------------\n"
+"------------------------------------------------------------\n"
+"   SCALAR: %s\n"
+"   ZONE SELECTION CRITERIA: \"%s\"\n"
+"------------------------------------------------------------\n"
+"   Unst. term   Inj. Mass.   Suc. Mass.\n"
+"  %12.4e %12.4e %12.4e\n"
+"------------------------------------------------------------\n"
+"   IB inlet     IB outlet\n"
+"  %12.4e %12.4e\n"
+"------------------------------------------------------------\n"
+"   Inlet        Outlet\n"
+"  %12.4e %12.4e\n"
+"------------------------------------------------------------\n"
+"   Sym.         Smooth W.    Rough W.\n"
+"  %12.4e %12.4e %12.4e\n"
+"------------------------------------------------------------\n"
+"   Coupled      Undef. BC\n"
+"  %12.4e %12.4e\n"
+"------------------------------------------------------------\n"
+"   Total        Instant. norm. total\n"
+"  %12.4e %12.4e\n"
+"------------------------------------------------------------\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  N ops:       %12ld\n"
+"  Wall clock:  %12.5e\n"
+"  GFLOPS:      %12.5e\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"               Mean         Min          Max          Total\n"
+"  N ops:       %12ld %12ld %12ld %12ld\n"
+"  Wall clock:  %12.5e %12.5e %12.5e\n"
+"  GFLOPS:      %12.5e %12.5e %12.5e %12.5e\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"               Mean         Min          Max          Total        Single\n"
+"  N ops:       %12ld %12ld %12ld %12ld %12ld\n"
+"  Wall clock:  %12.5e %12.5e %12.5e\n"
+"  GFLOPS:      %12.5e %12.5e %12.5e %12.5e %12.5e\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Matrix.vector product (symm coeffs)\n"
+"---------------------\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Matrix.vector product\n"
+"---------------------\n"
+msgstr ""
+
+#, c-format
+msgid "  (calls: %d;  test sum: %12.5f)\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Local matrix.vector product\n"
+"---------------------------\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"(Matrix-diagonal).vector product (%s)\n"
+"--------------------------------\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Matrix.vector product, extradiagonal part, variant 0\n"
+"---------------------\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Matrix.vector product, extradiagonal part, variant 1\n"
+"---------------------\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Matrix.vector product, face values only\n"
+"---------------------\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Benchmark mode activated\n"
+"========================\n"
+msgstr ""
+
+msgid ""
+"\n"
+"General tuning for matrices\n"
+"=====================================\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Tuning for symmetric matrices\n"
+"=============================\n"
+msgstr ""
+
+#, c-format
+msgid " %s: Convection in centered blending with %f percent of upwind\n"
+msgstr ""
+
+#, c-format
+msgid " %s: Convection in 2nd order blending with %f percent of upwind\n"
+msgstr ""
+
+msgid "invalid value of ischcp"
+msgstr ""
+
+#, c-format
+msgid " %s: %llu Faces with upwind on %llu interior faces \n"
+msgstr ""
+
+msgid "invalid value of icvflb and f_id"
+msgstr ""
+
+msgid "invalid value of init"
+msgstr ""
+
+msgid "Iterative reconstruction"
+msgstr ""
+
+msgid "Least-squares (standard)"
+msgstr ""
+
+msgid "Least-squares (extended)"
+msgstr ""
+
+msgid "Least-squares (partially extended)"
+msgstr ""
+
+msgid "Least-squares then iterative"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Summary of gradient computations pour \"%s\" (%s):\n"
+"\n"
+"  Number of calls:     %12d\n"
+"  Total elapsed time:  %12.3f\n"
+msgstr ""
+
+#, c-format
+msgid ""
+" Gradient limitation in %llu cells\n"
+"   minimum factor = %14.5e; maximum factor = %14.5e\n"
+msgstr ""
+
+#, c-format
+msgid ""
+" %s; variable: %s; converged in %d sweeps\n"
+" %*s  normed residual: %11.4e; norm: %11.4e\n"
+msgstr ""
+
+#, c-format
+msgid ""
+" Warning:\n"
+" --------\n"
+"   %s; variable: %s; sweeps: %d\n"
+"   %*s  normed residual: %11.4e; norm: %11.4e\n"
+msgstr ""
+
+#, c-format
+msgid ""
+" Gradient of a vector limitation in %llu cells\n"
+"   minimum factor = %14.5e; maximum factor = %14.5e\n"
+msgstr ""
+
+#, c-format
+msgid " %s: isweep = %d, normed residual: %e, norm: %e, var: %s\n"
+msgstr ""
+
+msgid "algebraic, natural face traversal"
+msgstr ""
+
+msgid "algebraic, face traveral by criteria"
+msgstr ""
+
+msgid "algebraic, face traversal by Hilbert SFC"
+msgstr ""
+
+#, c-format
+msgid ""
+"Connectivity error:\n"
+"Face %d has same cell %d on both sides."
+msgstr ""
+
+#, c-format
+msgid ""
+"       fine   grid anisotropy: min      = %12.5e\n"
+"                               max      = %12.5e\n"
+"       coarse grid anisotropy: min      = %12.5e\n"
+"                               max      = %12.5e\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"       minimum xag_p1 / xag_p0          = %12.5e\n"
+"       maximum xag_p1 / xag_p0          = %12.5e\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"       fine   grid diag. dominance: min = %12.5e\n"
+"                                    max = %12.5e\n"
+"       coarse grid diag. dominance: min = %12.5e\n"
+"                                    max = %12.5e\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Tuning for coarse matrices of level %d and type: %s\n"
+"==========================\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Multigrid rank merge parameters:\n"
+"  merge rank stride:                  %d\n"
+"  mean  coarse cells merge threshold: %d\n"
+"  total coarse cells merge threshold: %llu\n"
+"  minimum active ranks:               %d\n"
+msgstr ""
+
+msgid "invalid value of isym"
+msgstr ""
+
+msgid "native"
+msgstr ""
+
+msgid "CSR"
+msgstr ""
+
+msgid "symmetric CSR"
+msgstr ""
+
+msgid "MSR"
+msgstr ""
+
+msgid "diagonal + faces"
+msgstr ""
+
+msgid "Compressed Sparse Row"
+msgstr ""
+
+msgid "symmetric Compressed Sparse Row"
+msgstr ""
+
+msgid "Modified Compressed Sparse Row"
+msgstr ""
+
+#, c-format
+msgid ""
+"Matrix product variant using function %s\n"
+"does not handle case with excluded diagonal."
+msgstr ""
+
+msgid "y <- A.x"
+msgstr ""
+
+msgid "y <- (A-D).x"
+msgstr ""
+
+msgid "Symmetric y <- A.x"
+msgstr ""
+
+msgid "Symmetric y <- (A-D).x"
+msgstr ""
+
+msgid "Block diagonal y <- A.x"
+msgstr ""
+
+msgid "Block diagonal y <- (A-D).x"
+msgstr ""
+
+msgid "Block diagonal symmetric y <- A.x"
+msgstr ""
+
+msgid "Block diagonal symmetric y <- (A-D).x"
+msgstr ""
+
+msgid "Block y <- A.x"
+msgstr ""
+
+msgid "Block y <- (A-D).x"
+msgstr ""
+
+msgid ""
+"Assigning non-symmetric matrix coefficients to a matrix\n"
+"in a symmetric CSR format."
+msgstr ""
+
+#, c-format
+msgid ""
+"Handling of matrixes in %s format\n"
+"is not operational yet."
+msgstr ""
+
+msgid "The matrix is not defined."
+msgstr ""
+
+#, c-format
+msgid "Matrix is missing a vector multiply function for fill type %s."
+msgstr ""
+
+msgid "Native, baseline"
+msgstr ""
+
+msgid "Native, 3x3 blocks"
+msgstr ""
+
+msgid "Native, Bull algorithm"
+msgstr ""
+
+msgid "Native, OpenMP"
+msgstr ""
+
+msgid "Native, OpenMP atomic"
+msgstr ""
+
+msgid "Native, vectorized"
+msgstr ""
+
+msgid "CSR, with prefetch"
+msgstr ""
+
+msgid "CSR, with MKL"
+msgstr ""
+
+msgid "CSR_SYM"
+msgstr ""
+
+msgid "CSR_SYM, with MKL"
+msgstr ""
+
+msgid "MSR, with prefetch"
+msgstr ""
+
+msgid "MSR, with MKL"
+msgstr ""
+
+#, c-format
+msgid ""
+"Assignment of matrix.vector product \"%s\" to matrix variant \"%s\"\n"
+"of type \"%s\" for fill \"%s\" not allowed."
+msgstr ""
+
+#, c-format
+msgid ""
+"Matrix.vector product function type \"%s\"\n"
+"is not available in this build."
+msgstr ""
+
+msgid ""
+"\n"
+"Checking matrix structure and operation variants (diff/reference):\n"
+"------------------------------------------------\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Tuning for matrices of type: %s\n"
+"===========================\n"
+msgstr ""
+
+msgid "scalar"
+msgstr ""
+
+msgid "scalar symmetric"
+msgstr ""
+
+msgid "block diagonal"
+msgstr ""
+
+msgid "block diagonal symmetric"
+msgstr ""
+
+msgid "block"
+msgstr ""
+
+#, c-format
+msgid " matrix %s coefficients assign"
+msgstr ""
+
+msgid "matrix structure creation/destruction"
+msgstr ""
+
+msgid "time (s)"
+msgstr ""
+
+msgid " mean"
+msgstr ""
+
+msgid "min"
+msgstr ""
+
+msgid "max"
+msgstr ""
+
+msgid "speedup"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  -%s:\n"
+msgstr ""
+
+#, c-format
+msgid "    %s : %d ranks\n"
+msgstr ""
+
+#, c-format
+msgid "  %-44s : %s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Elapsed tuning time: %12.3f s.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Dump of matrixes in %s format\n"
+"is not operational yet."
+msgstr ""
+
+#, c-format
+msgid ""
+"Extraction of diagonal dominance of matrixes in %s format\n"
+"is not operational yet."
+msgstr ""
+
+#, c-format
+msgid ""
+"  Solver type:                       multigrid\n"
+"  Coarsening type:                   %s\n"
+"    Max fine cells per coarse cell:  %d\n"
+"    Maximum number of levels :       %d\n"
+"    Minimum number of coarse cells:  %llu\n"
+"    P0/P1 relaxation parameter:      %g\n"
+"  Maximum number of cycles:          %d\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  %s:\n"
+"    Type:                            %s\n"
+"    Preconditioning:                 "
+msgstr ""
+
+msgid "none\n"
+msgstr ""
+
+msgid "diagonal\n"
+msgstr ""
+
+#, c-format
+msgid "polynomial, degree %d\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"    Maximum number of iterations:    %d\n"
+"    Precision multiplier:            %g\n"
+msgstr ""
+
+#, c-format
+msgid "  Postprocess coarsening:            %d\n"
+msgstr ""
+
+msgid "Construction:"
+msgstr ""
+
+msgid "Resolution:"
+msgstr ""
+
+msgid "build:"
+msgstr ""
+
+msgid "solve:"
+msgstr ""
+
+msgid "descent smoothe:"
+msgstr ""
+
+msgid "ascent smoothe:"
+msgstr ""
+
+msgid "restrict:"
+msgstr ""
+
+msgid "prolong:"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  Multigrid:\n"
+"    Coarsening: %s\n"
+msgstr ""
+
+#, c-format
+msgid "  Smoother: %s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  Descent smoother:     %s\n"
+"  Ascent smoother:      %s\n"
+msgstr ""
+
+#, c-format
+msgid "  Coarsest level solver:       %s\n"
+msgstr ""
+
+msgid "minimum"
+msgstr ""
+
+msgid "maximum"
+msgstr ""
+
+msgid "Number of coarse levels:"
+msgstr ""
+
+msgid "Number of cycles:"
+msgstr ""
+
+msgid "Number of cells:"
+msgstr ""
+
+#, c-format
+msgid ""
+"  Grid level %d:\n"
+"    %s %12llu %12llu %12llu\n"
+msgstr ""
+
+msgid "Number of faces:"
+msgstr ""
+
+msgid "Number of active ranks:"
+msgstr ""
+
+msgid "Mean local cells:"
+msgstr ""
+
+msgid "Mean local cells + ghosts:"
+msgstr ""
+
+msgid "Mean local faces:"
+msgstr ""
+
+msgid "Cells unbalance:"
+msgstr ""
+
+msgid "Cells + ghosts unbalance:"
+msgstr ""
+
+msgid "Faces unbalance"
+msgstr ""
+
+msgid "Iterations for solving:"
+msgstr ""
+
+msgid "Descent smoother iterations:"
+msgstr ""
+
+msgid "Ascent smoother iterations:"
+msgstr ""
+
+#, c-format
+msgid "  Grid level %d:\n"
+msgstr ""
+
+msgid ""
+"  ---------------------------------------------------\n"
+"    n.     | Cumulative iterations | Norm. residual\n"
+"    cycles | on fine mesh          | on fine mesh\n"
+"  ---------------------------------------------------\n"
+msgstr ""
+
+msgid "  ---------------------------------------------------\n"
+msgstr ""
+
+#, c-format
+msgid "     %4d  |               %6d  |  %12.4e\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"   N. cycles: %4d; Fine mesh cumulative iter: %5d; Norm. residual %12.4e\n"
+msgstr ""
+
+#, c-format
+msgid ""
+" @@ Warning: algebraic multigrid for [%s]\n"
+"    ********\n"
+"    Maximum number of cycles (%d) reached.\n"
+msgstr ""
+
+msgid "  Multigrid cycle: descent\n"
+msgstr ""
+
+#, c-format
+msgid "    level %3d: smoother\n"
+msgstr ""
+
+msgid "  Resolution on coarsest level\n"
+msgstr ""
+
+msgid "  Multigrid cycle: ascent\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+" Construction of grid hierarchy for \"%s\"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"   building level %2d grid\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"                                  total       min        max\n"
+"     number of cells:     %12llu %10d %10d\n"
+"     number of faces:                  %10d %10d\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"     number of cells:     %10d\n"
+"     number of faces:     %10d\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"   number of coarse grids:           %d\n"
+"   number of cells in coarsest grid: %llu\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid "Multigrid [%s]:\n"
+msgstr ""
+
+#, c-format
+msgid "Multigrid [%s]: cycle %4d\n"
+msgstr ""
+
+msgid "divergence"
+msgstr ""
+
+msgid "breakdown"
+msgstr ""
+
+#, c-format
+msgid ""
+"algebraic multigrid [%s]: %s after %d cycles:\n"
+"  initial residual: %11.4e; current residual: %11.4e"
+msgstr ""
+
+#, c-format
+msgid ""
+"algebraic multigrid [%s]: %s after %d cycles\n"
+"  during resolution at level %d:\n"
+"  initial residual: %11.4e; current residual: %11.4e"
+msgstr ""
+
+#, c-format
+msgid ""
+"[%s]:\n"
+"  immediate exit; r_norm = %11.4e, residual = %11.4e\n"
+msgstr ""
+
+msgid "Linear solver options modified during run (previous values)"
+msgstr ""
+
+msgid "Linear solver options for fields"
+msgstr ""
+
+msgid "Linear solver options for other systems"
+msgstr ""
+
+msgid "Linear solver performance with previous options"
+msgstr ""
+
+msgid "Linear solver performance for fields"
+msgstr ""
+
+msgid "Linear solver performance for other systems"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Linear solver options for \"%s\" (field id %d)\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Linear solver options for \"%s\"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Summary of resolutions for \"%s\" (field id %d)\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Summary of resolutions for \"%s\"\n"
+msgstr ""
+
+#, c-format
+msgid "  Verbosity: %d\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  Number of immediate solve exits: %d\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"cs_slesh_push() only allows a stack of depth 1:\n"
+"  it  may not be called multiple times for a given field (id %d)\n"
+"  without calling cs_sles_pop between those calls."
+msgstr ""
+
+msgid "Conjugate gradient"
+msgstr ""
+
+msgid "Jacobi"
+msgstr ""
+
+msgid "BiCGstab"
+msgstr ""
+
+msgid "BiCGstab2"
+msgstr ""
+
+msgid "GMRES"
+msgstr ""
+
+msgid "Block Gauss-Seidel"
+msgstr ""
+
+msgid "  n_iter     res_abs     res_nor\n"
+msgstr ""
+
+#, c-format
+msgid "  n_iter : %5d, res_abs : %11.4e, res_nor : %11.4e\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"\n"
+"%s [%s]: divergence after %u iterations:\n"
+"  initial residual: %11.4e; current residual: %11.4e\n"
+msgstr ""
+
+msgid " @@ Warning: non convergence\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"\n"
+"%s [%s]:\n"
+" @@ Warning: non convergence\n"
+"\n"
+"    norm of coefficient \"%s\" is lower than %12.4e\n"
+"\n"
+"    The resolution does not progress anymore."
+msgstr ""
+
+#, c-format
+msgid "  n_iter : %5u, res_abs : %11.4e, res_nor : %11.4e\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  Solver type:                       %s\n"
+"  Preconditioning:                   "
+msgstr ""
+
+#, c-format
+msgid "  Maximum number of iterations:      %d\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  Solver type:                   %s\n"
+"  Number of setups:              %12d\n"
+"  Number of calls:               %12d\n"
+"  Minimum number of iterations:  %12d\n"
+"  Maximum number of iterations:  %12d\n"
+"  Mean number of iterations:     %12d\n"
+"  Total setup time:              %12.3f\n"
+"  Total solution time:           %12.3f\n"
+msgstr ""
+
+msgid "GMRES not supported with block_size > 1 (velocity coupling)."
+msgstr ""
+
+#, c-format
+msgid ""
+"Resolution of linear equation on \"%s\"\n"
+"with solver type %d, which is not defined)."
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Iterative linear solvers parallel parameters:\n"
+"  PCG single-reduction threshold:     %d\n"
+msgstr ""
+
+#, c-format
+msgid "%s: error (%s) solving for %s"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Usage: %s [options] <file_name>\n"
+"   or: %s -d [options] <file_name_1> <file_name_2>\n"
+"\n"
+"Dump headers and optionnaly content of a Code_Saturne Preprocessor,\n"
+"Partitioner, or restart file, or compare two such files.\n"
+"\n"
+"Options:\n"
+"\n"
+"  -d, --diff        diff mode.\n"
+"\n"
+"  -e, --extract     extract mode (extract full section data, with\n"
+"                    no metadata).\n"
+"\n"
+"  --f-format <fmt>  define format for floating-point numbers (default:\n"
+"                    \"15.9e\" for floats, \"22.15e\" for doubles).\n"
+"  --location <id>   only output section(s) with given location id.\n"
+"\n"
+"  -n <level>        number of first and last elements of each section\n"
+"                    to output (default: print headers only).\n"
+"\n"
+"  --section <name>  only consider section matching given criteria.\n"
+"\n"
+"  --threshold <val> in diff mode, real value above which a difference is\n"
+"                    considered significant (default: 1e-30).\n"
+"\n"
+"  -h, --help        this message.\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid "Premature end of file \"%s\""
+msgstr ""
+
+#, c-format
+msgid "Error reading file \"%s\""
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Opening input file: \"%s\"\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"File format of \"%s\" is not recognized:\n"
+"First %d bytes: \"%s\"."
+msgstr ""
+
+#, c-format
+msgid "  File type: %s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  Base header size: %d\n"
+"  Header alignment: %d\n"
+"  Body alignment:   %d\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Closing input: \"%s\"\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  .----------------------------.\n"
+"  |   Code_Saturne file dump   |\n"
+"  `----------------------------'\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Type \"%s\" is not known\n"
+"Known types: \"c \", \"i4\", \"i8\", \"u4\", \"u8\", \"r4\", \"r8\"."
+msgstr ""
+
+#, c-format
+msgid "      Values in header\n"
+msgstr ""
+
+#, c-format
+msgid "    %lu first and last elements:\n"
+msgstr ""
+
+#, c-format
+msgid "    elements:\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  Section:                \"%s\"\n"
+"    Number of values:      %lu\n"
+msgstr ""
+
+#, c-format
+msgid "    Type:                 \"%s\"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"      Location id:         %lu\n"
+"      Index id:            %lu\n"
+"      Values per location: %lu\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"File \"%s\" contains multiple sections\n"
+"named \"%s\" with location id %d\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  \"%-32s\"; Location: %2lu Size: %llu\n"
+"    Type: %-6s;  |  Type: %-6s; \n"
+msgstr ""
+
+#, c-format
+msgid "  \"%-32s\"; Location: %2lu; Type: %-6s; Size: %llu\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  \"%-32s\"; Location: %2lu; Size: %llu\n"
+"    Type: %-6s; |  Type: %-6s\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  \"%-32s\"; Location: %2lu; Type: %-6s\n"
+"    Size: %llu  |  Size: %llu\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  \"%-32s\"; Location: %2lu\n"
+"    Type: %-6s; Size: %llu  |  Type: %-6s; Size: %llu\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"    Differences: %llu; Max: %g; Mean: %g\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"    Differences: %llu\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid "  \"%-32s\"; Type: %-6s; Location: %2lu; Size: %llu\n"
+msgstr ""
+
+#, c-format
+msgid "  \"%-32s\"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Sections only found in file \"%s\":\n"
+"\n"
+msgstr ""
+
+msgid ""
+"\n"
+" Computing quality criteria\n"
+msgstr ""
+
+msgid ""
+"Coupling with SYRTHES is not possible in mesh preprocessing\n"
+"or verification mode."
+msgstr ""
+
+msgid ""
+"\n"
+" Destroying structures and ending computation\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Shared library support not available.\n"
+"Unable to load: %s\n"
+msgstr ""
+
+msgid "MPI_Alltoall and MPI_Alltoallv"
+msgstr ""
+
+msgid "Crystal Router algorithm"
+msgstr ""
+
+msgid "Construction/destruction:"
+msgstr ""
+
+msgid "Exchange:"
+msgstr ""
+
+msgid "Swap source and destination:"
+msgstr ""
+
+msgid "Sort by source rank:"
+msgstr ""
+
+msgid "Copy exchanged data:"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Instrumented all-to-all operations (using %s):\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid "  %s %12.5f s, %lu calls\n"
+msgstr ""
+
+msgid "_cs_real_sum_3d not implemented yet\n"
+msgstr ""
+
+msgid "_cs_real_sum_nd not implemented yet\n"
+msgstr ""
+
+msgid "_cs_real_sum_1d_l not implemented yet\n"
+msgstr ""
+
+msgid "_cs_real_sum_3d_l not implemented yet\n"
+msgstr ""
+
+msgid "_cs_real_sum_nd_l not implemented yet\n"
+msgstr ""
+
+msgid ""
+"\n"
+"\n"
+"Memory allocation summary\n"
+"-------------------------\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid "Theoretical current allocated memory:   %llu kB\n"
+msgstr ""
+
+#, c-format
+msgid "Theoretical maximum allocated memory:   %llu kB\n"
+msgstr ""
+
+#, c-format
+msgid "Maximum program memory measure:         %llu kB\n"
+msgstr ""
+
+#, c-format
+msgid "Current program memory measure:         %llu kB\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Call stack:\n"
+msgstr ""
+
+msgid "SIGFPE signal (floating point exception) intercepted!\n"
+msgstr ""
+
+msgid "SIGSEGV signal (forbidden memory area access) intercepted!\n"
+msgstr ""
+
+msgid "SIGABRT signal (Abort) intercepted.\n"
+msgstr ""
+
+msgid "SIGXCPU signal (CPU time limit reached) intercepted.\n"
+msgstr ""
+
+#, c-format
+msgid "Signal %d intercepted!\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"MPI error (communicator %s):\n"
+"%s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"MPI error:\n"
+"%s\n"
+msgstr ""
+
+msgid "command: \n"
+msgstr ""
+
+#, c-format
+msgid "  revision %s\n"
+msgstr ""
+
+#, c-format
+msgid "  build %s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  MPI version %d.%d (%s, based on %s)\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  MPI version %d.%d (%s)\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  MPI version %d.%d\n"
+"\n"
+msgstr ""
+
+msgid "Total memory used:                       "
+msgstr ""
+
+msgid "Theoretical instrumented dynamic memory: "
+msgstr ""
+
+#, c-format
+msgid "  %s %12.3f %ciB\n"
+msgstr ""
+
+#, c-format
+msgid "                             local minimum: %12.3f %ciB  (rank %d)\n"
+msgstr ""
+
+#, c-format
+msgid "                             local maximum: %12.3f %ciB  (rank %d)\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Calculation time summary:\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  User CPU time:       %12.3f s\n"
+msgstr ""
+
+#, c-format
+msgid "  System CPU time:     %12.3f s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  CPU time:            %12.3f s\n"
+msgstr ""
+
+#, c-format
+msgid "  Total CPU time:      %12.3f s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  Elapsed time:        %12.3f s\n"
+msgstr ""
+
+#, c-format
+msgid "  CPU / elapsed time   %12.3f\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"It is impossible to redirect the standard error to file:\n"
+"%s"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"\n"
+"Code_Saturne: %s:%d: Warning\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Fatal error: bft_printf() called on a message of size %d\n"
+"whereas the print buffer is of size %d."
+msgstr ""
+
+#, c-format
+msgid "The directory %s cannot be created"
+msgstr ""
+
+msgid "tgamma() function (C99) is not available"
+msgstr ""
+
+msgid "erf() function (C99) is not available"
+msgstr ""
+
+#, c-format
+msgid "Path passed to cslogname too short for: %s"
+msgstr ""
+
+#, c-format
+msgid "Path passed to csdatadir too short for: %s"
+msgstr ""
+
+#, c-format
+msgid ""
+"It is impossible to open the default output file:\n"
+"%s"
+msgstr ""
+
+#, c-format
+msgid "Error opening file \"%s\" from Fortran."
+msgstr ""
+
+#, c-format
+msgid ""
+"It is impossible to re-open the default output file:\n"
+"%s"
+msgstr ""
+
+#, c-format
+msgid ""
+"inconsistent sizes computed for a block to partition distributor\n"
+"(%llu expected, %llu determined)."
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"First face with boundary condition definition error\n"
+"  (out of %llu)\n"
+"  has boundary condition type %d, center (%g, %g, %g)\n"
+"\n"
+msgstr ""
+
+msgid "Faces with B.C. error"
+msgstr ""
+
+msgid "Faces with valid B.C.'s"
+msgstr ""
+
+msgid "BC type"
+msgstr ""
+
+msgid ""
+"\n"
+"Some boundary condition definitions are incomplete or incorrect.\n"
+"\n"
+"  For details, read the end of the calculation log,\n"
+"  or visualize the error postprocessing output."
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"In function %s,\n"
+"  %llu boundary faces (of %llu selected) were not matched to mesh\n"
+"  elements. Check your coordinate shift definitions."
+msgstr ""
+
+#, c-format
+msgid "    %d first and last elements:\n"
+msgstr ""
+
+msgid "    ..........   ............\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Component %d [%p], port %s:\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Component %d:\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Reading up to %d values of type %s, time_dependency %s\n"
+"              (min/max time %f/%f, iteration %d) ..."
+msgstr ""
+
+#, c-format
+msgid ""
+"[ok]\n"
+"Read          %d values (min time %f, iteration %d).\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Writing %d values of type %s, time_dependency %s\n"
+"        (time %f, iteration %d) ..."
+msgstr ""
+
+msgid "[ok]\n"
+msgstr ""
+
+#, c-format
+msgid "   ignored: \"%s\"\n"
+msgstr ""
+
+msgid "ignored"
+msgstr ""
+
+msgid ""
+"\n"
+" Options set or changed by \"control_file\":\n"
+" -----------------------------------------\n"
+"\n"
+msgstr ""
+
+msgid "current:"
+msgstr ""
+
+#, c-format
+msgid "  flush logs at time step %12d\n"
+msgstr ""
+
+msgid ""
+"\n"
+" Finished reading \"control_file\".\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+" Warning: error opening %s (ignored):\n"
+" --------\n"
+"   \"%s\"\n"
+"\n"
+msgstr ""
+
+msgid "point-to-point or not synchronized"
+msgstr ""
+
+msgid "group synchronized"
+msgstr ""
+
+msgid " (this instance)"
+msgstr ""
+
+msgid ""
+"\n"
+"Applications accessible through MPI:\n"
+"------------------------------------\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  %d; type:      \"%s\"%s\n"
+"     case name: \"%s\"\n"
+"     lead rank: %d; n_ranks: %d\n"
+"     (%s"
+msgstr ""
+
+msgid ", time step min."
+msgstr ""
+
+msgid ", time step leader"
+msgstr ""
+
+msgid ", unsteady"
+msgstr ""
+
+msgid ", steady"
+msgstr ""
+
+msgid ""
+")\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Application \"%s\" (%s) tried to set the group time step, but\n"
+"application \"%s\" (%s) has already done so."
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Application \"%s\" (%s) requested calculation stop.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Application \"%s\" (%s) requested restarting iteration,\n"
+"but this is not currently handled."
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Application \"%s\" (%s) synchronized with status flag %d,\n"
+"which does not specify a known behavior."
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Application \"%s\" (%s) requested last iteration.\n"
+msgstr ""
+
+#, c-format
+msgid "EOS error in call function %s\n"
+msgstr ""
+
+#, c-format
+msgid "EOS bad return in call function %s\n"
+msgstr ""
+
+#, c-format
+msgid "bad choice: you chose to work in the %i plane with EOS."
+msgstr ""
+
+msgid "bad choice: you can't choose pressure as an output variable"
+msgstr ""
+
+msgid "bad choice: isochoric heat capacity not available yet"
+msgstr ""
+
+msgid "bad choice: specific volume not available yet"
+msgstr ""
+
+msgid "bad choice: internal energy not available yet"
+msgstr ""
+
+msgid "bad choice: quality not available yet"
+msgstr ""
+
+msgid "bad choice: speed of sound not available yet"
+msgstr ""
+
+msgid ""
+"\n"
+"WARNING\n"
+"The extended neighborhood is empty whereas the least-squares\n"
+"method on extended neighborhood for gradient computation\n"
+"is activated. This situation can arise in some particular\n"
+"cases (1D mesh). Verify that it is your case, otherwise\n"
+"contact support.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+" Extended neighborhood reduced by non-orthogonality\n"
+" --------------------------------------------------\n"
+"\n"
+" Size of complete cell-cell connectivity: %12llu\n"
+" Size of filtered cell-cell conectivity:  %12llu\n"
+" %llu connections removed, for a ratio of %4.2g %% used\n"
+msgstr ""
+
+msgid "intensive"
+msgstr ""
+
+msgid "extensive"
+msgstr ""
+
+msgid "variable"
+msgstr ""
+
+msgid "property"
+msgstr ""
+
+msgid "postprocess"
+msgstr ""
+
+msgid "accumulator"
+msgstr ""
+
+msgid "user"
+msgstr ""
+
+msgid "Defining a field requires a name."
+msgstr ""
+
+#, c-format
+msgid ""
+"Field \"%s\" is not allowed,\n"
+"as '[' and ']' are reserved for component access."
+msgstr ""
+
+#, c-format
+msgid ""
+"Field \"%s\"\n"
+" may not be defined as both intensive and extensive."
+msgstr ""
+
+#, c-format
+msgid ""
+"Mesh location %d associated with field \"%s\"\n"
+" has not been defined yet."
+msgstr ""
+
+#, c-format
+msgid ""
+"Field \"%s\" with type flag %d\n"
+"has no value associated with key %d (\"%s\")."
+msgstr ""
+
+#, c-format
+msgid "Field keyword with id %d is not defined."
+msgstr ""
+
+#, c-format
+msgid ""
+"Error retrieving name from Field %d (\"%s\"):\n"
+"Fortran caller name length (%d) is too small for name \"%s\"\n"
+"(of length %d)."
+msgstr ""
+
+#, c-format
+msgid ""
+"Fortran pointer of rank %d requested for values of field \"%s\",\n"
+"which have rank %d."
+msgstr ""
+
+#, c-format
+msgid ""
+"Field \"%s\"\n"
+" does not have associated BC coefficients."
+msgstr ""
+
+#, c-format
+msgid ""
+"Fortran pointer of rank %d requested for BC coefficients of field\n"
+" \"%s\", which have rank %d."
+msgstr ""
+
+#, c-format
+msgid ""
+"Error %d assigning integer value to Field \"%s\" with\n"
+"type flag %d with key %d (\"%s\")."
+msgstr ""
+
+#, c-format
+msgid ""
+"Error %d assigning real value to Field \"%s\" with\n"
+"type flag %d with key %d (\"%s\")."
+msgstr ""
+
+#, c-format
+msgid ""
+"Error %d assigning string value to Field \"%s\" with\n"
+"type flag %d with key %d (\"%s\")."
+msgstr ""
+
+#, c-format
+msgid ""
+"Error retrieving string from Field %d (\"%s\") and key %d (\"%s\"):\n"
+"Fortran caller string length (%d) is too small for string \"%s\"\n"
+"(of length %d)."
+msgstr ""
+
+#, c-format
+msgid ""
+"Field \"%s\"\n"
+" has location %d, which does not support BC coefficients."
+msgstr ""
+
+#, c-format
+msgid ""
+"Field \"%s\"\n"
+" requires mapped values which have not been set."
+msgstr ""
+
+#, c-format
+msgid "Field with id %d is not defined."
+msgstr ""
+
+#, c-format
+msgid "Field \"%s\" is not defined."
+msgstr ""
+
+#, c-format
+msgid "Field \"%s\" does not have a component \"%s\"."
+msgstr ""
+
+#, c-format
+msgid ""
+"Field \"%s\" has keyword %d (\"%s\")\n"
+"of type \"%c\" and not \"%c\"."
+msgstr ""
+
+#, c-format
+msgid ""
+"Field %s with type flag %d\n"
+"has no value associated with key %d (%s)."
+msgstr ""
+
+msgid "Field"
+msgstr ""
+
+msgid "Dim."
+msgstr ""
+
+msgid "Location"
+msgstr ""
+
+msgid "Id"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Fields of type: %s\n"
+"---------------\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Other fields:\n"
+"-------------\n"
+msgstr ""
+
+#, c-format
+msgid "  %s %s %s %s Type flag\n"
+msgstr ""
+
+#, c-format
+msgid "  %s %s %s %s ---------\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  Field: \"%s\"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"    Id:                         %d\n"
+"    Type:                       %d"
+msgstr ""
+
+#, c-format
+msgid "    Location:                   %s\n"
+msgstr ""
+
+msgid "    Dimension:                  1\n"
+msgstr ""
+
+#, c-format
+msgid "    Dimension:                  %d (non-interleaved)\n"
+msgstr ""
+
+#, c-format
+msgid "    Dimension:                  %d (interleaved)\n"
+msgstr ""
+
+msgid "    Values mapped from external definition\n"
+msgstr ""
+
+msgid ""
+"\n"
+"    Associated key values:\n"
+msgstr ""
+
+#, c-format
+msgid "      %-24s %-10d\n"
+msgstr ""
+
+#, c-format
+msgid "      %-24s %-10d (default)\n"
+msgstr ""
+
+#, c-format
+msgid "      %-24s %-10.3g\n"
+msgstr ""
+
+#, c-format
+msgid "      %-24s %-10.3g (default)\n"
+msgstr ""
+
+#, c-format
+msgid "      %-24s %-10s\n"
+msgstr ""
+
+#, c-format
+msgid "      %-24s %-10s (default)\n"
+msgstr ""
+
+#, c-format
+msgid "      %-24s:\n"
+msgstr ""
+
+#, c-format
+msgid "      %-24s %-24p\n"
+msgstr ""
+
+#, c-format
+msgid "      %-24s: (default)\n"
+msgstr ""
+
+#, c-format
+msgid "      %-24s %-24p (default)\n"
+msgstr ""
+
+msgid "Default"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid ""
+"\n"
+"Defined field keys:\n"
+"-------------------\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid "  %-24s %-12d integer %-4d "
+msgstr ""
+
+#, c-format
+msgid "  %-24s %-12.3g real    %-4d "
+msgstr ""
+
+#, c-format
+msgid "  %-24s %-12s string  %-4d "
+msgstr ""
+
+#, c-format
+msgid "  %-24s %-12s struct  %-4d "
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  Key: \"%s\", values per field\n"
+"  ----\n"
+msgstr ""
+
+#, c-format
+msgid "    %s %-10d (default)\n"
+msgstr ""
+
+#, c-format
+msgid "    %s %-10.3g\n"
+msgstr ""
+
+#, c-format
+msgid "    %s %-10.3g (default)\n"
+msgstr ""
+
+#, c-format
+msgid "    %s %s\n"
+msgstr ""
+
+#, c-format
+msgid "    %s %-10s (default)\n"
+msgstr ""
+
+#, c-format
+msgid "    %s\n"
+msgstr ""
+
+#, c-format
+msgid "    %s (default)\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Defined key values per field:\n"
+"-----------------------------\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Field gradient interpolation for field %s :\n"
+" not implemented for fields on location %s."
+msgstr ""
+
+#, c-format
+msgid ""
+"Field gradient interpolation for field %s of dimension %d:\n"
+" not implemented."
+msgstr ""
+
+#, c-format
+msgid ""
+"%s: field enum %d is already mapped as non-indexed\n"
+"to field id %d (%s), so it cannot be mapped as indexed."
+msgstr ""
+
+msgid "default"
+msgstr ""
+
+msgid "standard input and output, serial access"
+msgstr ""
+
+msgid "standard input and output, parallel access"
+msgstr ""
+
+msgid "non-collective MPI-IO, independent file open/close"
+msgstr ""
+
+msgid "non-collective MPI-IO, collective file open/close"
+msgstr ""
+
+msgid "collective MPI-IO"
+msgstr ""
+
+msgid "explicit offsets"
+msgstr ""
+
+msgid "individual file pointers"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error writing file \"%s\":\n"
+"\n"
+"  %s"
+msgstr ""
+
+#, c-format
+msgid "Error writing file \"%s\""
+msgstr ""
+
+#, c-format
+msgid ""
+"MPI IO error for file: %s\n"
+"Error type: %s"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error opening file:\n"
+"%s\n"
+"MPI-IO is requested, but not available."
+msgstr ""
+
+#, c-format
+msgid "  I/O read method:     %s\n"
+msgstr ""
+
+#, c-format
+msgid "  I/O write method:    %s\n"
+msgstr ""
+
+#, c-format
+msgid "  I/O read method:     %s (%s)\n"
+msgstr ""
+
+#, c-format
+msgid "  I/O write method:    %s (%s)\n"
+msgstr ""
+
+msgid "    hints:\n"
+msgstr ""
+
+#, c-format
+msgid "      %s: %s\n"
+msgstr ""
+
+#, c-format
+msgid "  I/O rank step:        %d\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error serializing data:\n"
+"\n"
+"  requested range: [%llu, %llu[\n"
+"  local range:     [%llu, %llu["
+msgstr ""
+
+#, c-format
+msgid ""
+"Error opening directory \"%s\":\n"
+"\n"
+"  %s"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error removing file \"%s\":\n"
+"\n"
+"  %s"
+msgstr ""
+
+#, c-format
+msgid ""
+"The %d periodic transformations of the halo do not comply\n"
+"with the main mesh transformations (numbering %d).\n"
+msgstr ""
+
+#, c-format
+msgid "Called cs_interface_set_sum with unhandled datatype (%d)."
+msgstr ""
+
+#, c-format
+msgid "Called cs_interface_set_max with unhandled datatype (%d)."
+msgstr ""
+
+#, c-format
+msgid ""
+"Error reading file: \"%s\".\n"
+"File format is not the correct version.\n"
+"The first 64 bytes expected contain:\n"
+"\"%s\"\n"
+"The first 64 bytes read contain:\n"
+"\"%s\"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error reading file: \"%s\".\n"
+"The file contents are not of the expected type.\n"
+"\"%s\" was expected,\n"
+"\"%s\" was read."
+msgstr ""
+
+#, c-format
+msgid "Error writing the header of file: \"%s\".\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  Section read on \"%s\":\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  Section written on \"%s\":\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"    section name:           \"%s\"\n"
+"    number of elements:     %llu\n"
+msgstr ""
+
+#, c-format
+msgid "    element type name:      \"%s\"\n"
+msgstr ""
+
+msgid " (local)"
+msgstr ""
+
+#, c-format
+msgid "    %d first and last elements%s:\n"
+msgstr ""
+
+#, c-format
+msgid "    elements%s:\n"
+msgstr ""
+
+#, c-format
+msgid "Error writing %llu bytes to file \"%s\"."
+msgstr ""
+
+#, c-format
+msgid ""
+" %llu indexed records:\n"
+"   (name, n_vals, location_id, index_id, n_loc_vals, type, embed, file_id, "
+"offset)\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid " %40s %10llu %2u %2u %2u %6s %c %2u %ld\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+" Reading file:        %s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+" Writing file:        %s\n"
+msgstr ""
+
+#, c-format
+msgid " Finished reading:    %s\n"
+msgstr ""
+
+#, c-format
+msgid " Finished writing:    %s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error reading file: \"%s\".\n"
+"Data type \"%s\" is not recognized."
+msgstr ""
+
+#, c-format
+msgid ""
+"Error reading file: \"%s\".\n"
+"Type expected for section: \"%s\" is a signed integer\n"
+"and is not convertible from type read: \"%s\"."
+msgstr ""
+
+#, c-format
+msgid ""
+"Error reading file: \"%s\".\n"
+"Type expected for section: \"%s\" is an unsigned integer\n"
+"and is not convertible from type read: \"%s\"."
+msgstr ""
+
+#, c-format
+msgid ""
+"Error reading file: \"%s\".\n"
+"Type expected for section: \"%s\"\n"
+"is \"r4\" or \"r8\" (real), and not \"%s\"."
+msgstr ""
+
+#, c-format
+msgid ""
+"    first element for next rank:\n"
+"    %10llu : %12llu\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Code_Saturne IO files read:\n"
+"\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Code_Saturne IO files written:\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  %s\n"
+"    global: %12.5f s, %12.3f %ciB\n"
+"    local:  %12.5f s, %12.3f %ciB\n"
+"    open:   %12.5f s, %u open(s)\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  %s\n"
+"    data: %12.5f s, %12.3f %ciB\n"
+"    open: %12.5f s, %u open(s)\n"
+msgstr ""
+
+msgid ""
+"\n"
+"\n"
+" file contents:\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid "  file: %s\n"
+msgstr ""
+
+#, c-format
+msgid "  contents: \"%s\"\n"
+msgstr ""
+
+msgid "  mode: CS_IO_MODE_READ\n"
+msgstr ""
+
+msgid "  mode: CS_IO_MODE_WRITE\n"
+msgstr ""
+
+#, c-format
+msgid "  MPI communicator: %ld\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  default header size: %lu\n"
+"  header alignment:    %lu\n"
+"  body alignment:      %lu\n"
+"  verbosity level:     %ld\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid "Error opening log file: %s"
+msgstr ""
+
+msgid "time"
+msgstr ""
+
+msgid "calls"
+msgstr ""
+
+msgid "field"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  ** Computed fields on %s\n"
+"     -------------------%.*s\n"
+msgstr ""
+
+msgid "set mean"
+msgstr ""
+
+msgid "spatial mean"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  ** Computed values on %s\n"
+"     -------------------%.*s\n"
+msgstr ""
+
+msgid "value"
+msgstr ""
+
+msgid ""
+"\n"
+"  ** Clippings for computed fields\n"
+"     -----------------------------\n"
+msgstr ""
+
+msgid ""
+"\n"
+"  ** Clippings for auxiliary values\n"
+"     ------------------------------\n"
+msgstr ""
+
+msgid "initial min"
+msgstr ""
+
+msgid "initial max"
+msgstr ""
+
+msgid "clips to min"
+msgstr ""
+
+msgid "clips to max"
+msgstr ""
+
+msgid ""
+"\n"
+"Physical model options\n"
+"----------------------\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  Global domain rotation:\n"
+"    axis:             [%g, %g, %g]    invariant point:  [%g, %g, %g]    "
+"angular velocity:  %g radians/s\n"
+msgstr ""
+
+msgid "Defining a interpolation grid requires a name."
+msgstr ""
+
+msgid "Defining a measure set requires a name."
+msgstr ""
+
+#, c-format
+msgid "Measure set with id %d is not defined."
+msgstr ""
+
+#, c-format
+msgid "Interpol grid with id %d is not defined."
+msgstr ""
+
+#, c-format
+msgid "Measure set \"%s\" is not defined."
+msgstr ""
+
+#, c-format
+msgid "Interpol grid \"%s\" is not defined."
+msgstr ""
+
+msgid "vectorization"
+msgstr ""
+
+msgid "threads"
+msgstr ""
+
+#, c-format
+msgid "Usage: %s [options]\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Command line options:\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+" --app-name        <app_name> to name this code instance\n"
+"                   (default: working directory base name)\n"
+msgstr ""
+
+#, c-format
+msgid ""
+" --benchmark       elementary operations performance\n"
+"                   [--mpitrace] operations done only once\n"
+"                                for light MPI traces\n"
+msgstr ""
+
+#, c-format
+msgid ""
+" -h, --help        this help message\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+" --mpi             force use of MPI for parallelism or coupling\n"
+"                   (usually automatic, only required for\n"
+"                   undetermined MPI libraries)\n"
+msgstr ""
+
+#, c-format
+msgid ""
+" --log             output redirection for rank -1 or 0:\n"
+"                     0: standard output\n"
+"                     1: output in \"listing\" (default)\n"
+msgstr ""
+
+#, c-format
+msgid ""
+" --logp            output redirection for rank > 0:\n"
+"                    -1: remove output (default)\n"
+"                     0: no redirection (if independant\n"
+"                        terminals, debugger type)\n"
+"                     1: output in \"listing_n<rang>\"\n"
+msgstr ""
+
+#, c-format
+msgid " -p, --param       <file_name> parameter file\n"
+msgstr ""
+
+#, c-format
+msgid " --preprocess      mesh preprocessing mode\n"
+msgstr ""
+
+#, c-format
+msgid " -q, --quality     mesh quality verification mode\n"
+msgstr ""
+
+#, c-format
+msgid " --version         print version number\n"
+msgstr ""
+
+#, c-format
+msgid " -wdir, --wdir     <path> working directory\n"
+msgstr ""
+
+#, c-format
+msgid "%s version %s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error switching to directory \"%s\":\n"
+"\n"
+"%s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"%s was built without MPI support,\n"
+"so option \"%s\" may not be used.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"%s was built without XML support,\n"
+"so parameter file \"%s\" may not be loaded.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"%s was built without dynamic loader support,\n"
+"so module file \"%s\" may not be loaded.\n"
+msgstr ""
+
+#, c-format
+msgid "Error loading parameter file \"%s\".\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Incorrect arguments to %s:\n"
+"  sum of arg. 1 (n_elts) on ranks is not equal to arg. 2 (n_g_elts)."
+msgstr ""
+
+#, c-format
+msgid "      %-19s  %-4d\n"
+msgstr ""
+
+#, c-format
+msgid "      %-19s  %-12.3g\n"
+msgstr ""
+
+#, c-format
+msgid "      %-23s  %-12.3g\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Only user variables of dimension 1 are currently handled,\n"
+"but %s is defined with dimension %d."
+msgstr ""
+
+#, c-format
+msgid ""
+"Error defining user variable \"%s\";\n"
+"this name is already reserved for field with id %d."
+msgstr ""
+
+#, c-format
+msgid ""
+"Error defining user variance \"%s\";\n"
+"which refers to yet undefined variable \"%s\"."
+msgstr ""
+
+#, c-format
+msgid ""
+"Error defining user property \"%s\";\n"
+"this name is already reserved for field with id %d."
+msgstr ""
+
+#, c-format
+msgid "Error unloading library: %s."
+msgstr ""
+
+#, c-format
+msgid "bad choice: you choose to work in the %s plane."
+msgstr ""
+
+msgid "Freesteam support not available in this build."
+msgstr ""
+
+msgid ""
+"\n"
+"Postprocessing output writers:\n"
+"------------------------------\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid "every %12.5e s and at calculation end"
+msgstr ""
+
+#, c-format
+msgid "every %d time steps and at calculation end"
+msgstr ""
+
+#, c-format
+msgid "at calculation end"
+msgstr ""
+
+#, c-format
+msgid "every %12.5e s"
+msgstr ""
+
+#, c-format
+msgid "every %d time steps"
+msgstr ""
+
+#, c-format
+msgid ""
+"  %2d: name: %s\n"
+"      directory: %s\n"
+"      format: %s\n"
+"      options: %s\n"
+"      time dependency: %s\n"
+"      output: %s\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"The requested post-processing writer number\n"
+"%d is not defined.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"The requested post-processing mesh number\n"
+"%d is not defined.\n"
+msgstr ""
+
+msgid ""
+"The requested post-processing mesh number\n"
+"must be < 0 (reserved) or > 0 (user).\n"
+msgstr ""
+
+msgid "parallel domain"
+msgstr ""
+
+msgid "displacement"
+msgstr ""
+
+msgid ""
+"The requested post-processing writer number\n"
+"must be < 0 (reserved) or > 0 (user).\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"The mesh %d cannot be an alias of mesh %d,\n"
+"which is itself an alias of mesh %d.\n"
+msgstr ""
+
+msgid " edges"
+msgstr ""
+
+#, c-format
+msgid "%s called before post-processing meshes are built."
+msgstr ""
+
+#, c-format
+msgid ""
+"Post-processing mesh number %d has been aliased\n"
+"by mesh %d, so it may not be freed.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Post-processing mesh number %d has been associated\n"
+"to writer %d which allows time-varying meshes, so\n"
+"it may not be freed.\n"
+msgstr ""
+
+msgid "Fluid domain"
+msgstr ""
+
+msgid "Boundary"
+msgstr ""
+
+msgid "Particles"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Writing of \"%s\" (%s) summary:\n"
+"\n"
+"  CPU time for meshes:              %12.3f\n"
+"  CPU time for variables:           %12.3f\n"
+"  CPU time forcing output:          %12.3f\n"
+"\n"
+"  Elapsed time for meshes:          %12.3f\n"
+"  Elapsed time for variables:       %12.3f\n"
+"  Elapsed time forcing output:      %12.3f\n"
+msgstr ""
+
+msgid "Calculation domain"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+" Cutting warped faces (%.3g s)\n"
+msgstr ""
+
+msgid "Mesh"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+" Computing geometric quantities (%.3g s)\n"
+msgstr ""
+
+#, c-format
+msgid "No \"%s\" file or directory found."
+msgstr ""
+
+#, c-format
+msgid " Checking metadata from file: \"%s\"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Section of type <%s> on <%s>\n"
+"unexpected or of incorrect size"
+msgstr ""
+
+#, c-format
+msgid " Reading metadata from file: \"%s\"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Section of type <%s> on <%s>\n"
+"has incorrect size (current: %llu, read: %llu, total: %llu."
+msgstr ""
+
+#, c-format
+msgid ""
+"Section of type <%s> on <%s>\n"
+"has incorrect number of values per location."
+msgstr ""
+
+#, c-format
+msgid ""
+"User-defined Transformation matrix is not invertible:\n"
+"  [[%12.5f %12.5f %12.5f %12.5f]\n"
+"   [%12.5f %12.5f %12.5f %12.5f]\n"
+"   [%12.5f %12.5f %12.5f %12.5f]\n"
+"   [%12.5f %12.5f %12.5f %12.5f]]\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Section of type <%s> on <%s>\n"
+"unexpected or of incorrect size."
+msgstr ""
+
+#, c-format
+msgid ""
+"Section of type <%s> on <%s>\n"
+"unexpected."
+msgstr ""
+
+msgid "sub-partitioning with LibScotch"
+msgstr ""
+
+msgid "fill-reducing ordering with LibScotch"
+msgstr ""
+
+msgid "sub-partitioning with METIS"
+msgstr ""
+
+msgid "fill-reducing ordering with METIS"
+msgstr ""
+
+msgid "Morton curve in local bounding box"
+msgstr ""
+
+msgid "Hilbert curve in local bounding box"
+msgstr ""
+
+msgid "none"
+msgstr ""
+
+msgid "coloring, no shared cell in block"
+msgstr ""
+
+msgid "multipass"
+msgstr ""
+
+msgid "vectorizing"
+msgstr ""
+
+msgid "no shared cell across threads"
+msgstr ""
+
+msgid "    no value\n"
+msgstr ""
+
+#, c-format
+msgid "    minimum value =         %10llu\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"    maximum value =         %10llu\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid "    minimum value =         %10.5e\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"    maximum value =         %10.5e\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Faces renumbering for vectorization:\n"
+"====================================\n"
+"\n"
+"%llu errors in interior face renumbering array.\n"
+"\n"
+"Faces are not renumbered, and vectorization of face loops\n"
+"will not be forced.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+" Vectorization for interior faces to cells gathers on %d/%d ranks\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Faces renumbering for vectorization:\n"
+"====================================\n"
+"\n"
+"%llu errors in boundary face renumbering array.\n"
+"\n"
+"Faces are not renumbered, and vectorization of face loops\n"
+"will not be forced.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+" Vectorization for boundary faces to cells gathers on %d/%d ranks\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+" Histogram of %s matrix bandwidth per rank:\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+" Histogram of %s matrix profile/lines per rank:\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+" Matrix bandwidth for %s :          %llu\n"
+" Matrix profile/lines for %s :      %llu\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+" Histogram of thread pools size for %s per rank:\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+" Histogram of threading groups count for %s per rank:\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+" Histogram of thread imbalance for %s per rank:\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+" Number of thread pools for %s :          %d\n"
+" Number of threading groups for %s :      %d\n"
+" Estimated thread imbalance for %s :      %10.5e\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+" Sub-partitioning cells to %d domains per rank\n"
+"   (%s).\n"
+msgstr ""
+
+msgid ""
+"\n"
+" Ordering cells for fill reduction (METIS_NodeND).\n"
+msgstr ""
+
+msgid ""
+"\n"
+" Ordering cells for fill reduction (SCOTCH_graphOrderComputeList).\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+" Cell prenumbering of type: %s\n"
+"   not supported in this build.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+" Cell prenumbering (%s) failed.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+" Cell renumbering (%s) failed.\n"
+msgstr ""
+
+msgid "interior faces"
+msgstr ""
+
+msgid "boundary faces"
+msgstr ""
+
+msgid ""
+"\n"
+"Checking interior faces renumbering...\n"
+msgstr ""
+
+#, c-format
+msgid "%llu conflicts detected using interior faces renumbering."
+msgstr ""
+
+msgid ""
+"\n"
+"Checking boundary faces renumbering...\n"
+msgstr ""
+
+#, c-format
+msgid "%llu conflicts detected using boundary faces renumbering."
+msgstr ""
+
+msgid ""
+"\n"
+" Mesh renumbering off.\n"
+"\n"
+msgstr ""
+
+msgid ""
+"\n"
+"   Cells pre-renumbering deactivated, as it is not useful\n"
+"   for the current numbering algorithm.\n"
+msgstr ""
+
+msgid "no"
+msgstr ""
+
+msgid "yes"
+msgstr ""
+
+msgid "lowest id first"
+msgstr ""
+
+msgid "highest id first"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"   renumbering for cells:\n"
+"     pre-numbering:                       %s\n"
+"     cells adjacent to ghost cells last:  %s\n"
+"     numbering:                           %s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"   renumbering for interior faces:\n"
+"     cell adjacency pre-ordering:         %s\n"
+"     faces adjacent to ghost cells last:  %s\n"
+"     numbering:                           %s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"   renumbering for boundary faces:\n"
+"     numbering:                           %s\n"
+msgstr ""
+
+msgid ""
+"\n"
+" Renumbering mesh:\n"
+msgstr ""
+
+msgid "volume mesh"
+msgstr ""
+
+#, c-format
+msgid ""
+"===========================================================\n"
+"   ** Stop to avoid exceeding time allocation.\n"
+"      ----------------------------------------\n"
+"      maximum time step number set to: %d\n"
+"===========================================================\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"===============================================================\n"
+"   ** Remaining time management\n"
+"      -------------------------\n"
+"      Remaining time allocated to the job       : ', %14.5e\n"
+"      Estimated time for another time step      : ', %14.5e\n"
+"        mean time for a time step               : ', %14.5e\n"
+"        time for the previous time step         : ', %14.5e\n"
+"        security margin                         : ', %14.5e\n"
+"===============================================================\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Location number %d given for restart file\n"
+"\"%s\" is not valid."
+msgstr ""
+
+#, c-format
+msgid ""
+"Restart file \"%s\" declares a location number %d\n"
+"but no location %d has been declared."
+msgstr ""
+
+#, c-format
+msgid ""
+"Value type <%d> given for a restart file section\n"
+"is invalid using the Fortran API."
+msgstr ""
+
+#, c-format
+msgid "  %s: section \"%s\" not present.\n"
+msgstr ""
+
+#, c-format
+msgid "The %s directory cannot be created"
+msgstr ""
+
+#, c-format
+msgid "The %s directory cannot be found"
+msgstr ""
+
+#, c-format
+msgid ""
+"The size of location \"%s\" associated with\n"
+"the restart file \"%s\" is %llu and does not\n"
+"correspond to that of the current mesh (%llu).\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"The restart file \"%s\" references no\n"
+"location named \"%s\"."
+msgstr ""
+
+#, c-format
+msgid ""
+"  Location: %s\n"
+"    (number: %03d, n_glob_ents: %llu)\n"
+msgstr ""
+
+msgid "  General information associated with the restart file:\n"
+msgstr ""
+
+#, c-format
+msgid "  %s: location id %d for \"%s\" does not exist.\n"
+msgstr ""
+
+#, c-format
+msgid "  %s: location id %d for \"%s\" has size %llu, but %llu is expected.\n"
+msgstr ""
+
+#, c-format
+msgid "  %s: section \"%s\" at location id %d but not at %d.\n"
+msgstr ""
+
+#, c-format
+msgid "  %s: section \"%s\" has %d values per location and  not %d.\n"
+msgstr ""
+
+#, c-format
+msgid "  %s: section \"%s\" has %d values and not %d.\n"
+msgstr ""
+
+#, c-format
+msgid "  %s: section \"%s\" is not of character type.\n"
+msgstr ""
+
+#, c-format
+msgid "  %s: section \"%s\" is not of integer type.\n"
+msgstr ""
+
+#, c-format
+msgid "  %s: section \"%s\" is not of global number type.\n"
+msgstr ""
+
+#, c-format
+msgid "  %s: section \"%s\" is not of floating-point type.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Checkpoint / restart files summary:\n"
+"\n"
+"  Number of files read:             %3d\n"
+"  Number of files written:          %3d\n"
+"\n"
+"  Elapsed time for reading:         %12.3f\n"
+"  Elapsed time for writing:         %12.3f\n"
+msgstr ""
+
+#, c-format
+msgid "Error reading variable information in restart file \"%s\"."
+msgstr ""
+
+msgid ""
+"\n"
+"Remark: the thermal scalar was treated as a user scalar\n"
+"          in the restart file, and is moved to a model scalar\n"
+"          in the current computation.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  Warning: the number of variables or scalars has been changed\n"
+"           relative to the restart file.\n"
+"\n"
+"  currently  %d variables, of which %d scalars\n"
+"  previously %d variables, of which %d scalars\n"
+"\n"
+"  The computation continues, with a partial restart.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Field \"%s\" has user-defined key \"old_scalar_num\" value %d,\n"
+"but the number of available scalars in restart is %d."
+msgstr ""
+
+#, c-format
+msgid "Error %d reading \"%s\" in restart file \"%s\"."
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  Warning: the turbulent flux model has been changed\n"
+"           for %d fields relative to the restart file\n"
+"\n"
+"  The computation continues, with a partial restart.\n"
+msgstr ""
+
+#, c-format
+msgid "Error reading turbulence model info from restart file \"%s\"."
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  Warning: the turbulence model has been changed\n"
+"           relative to the restart file.\n"
+"\n"
+"  current model:  %d\n"
+"  previous model: %d\n"
+"\n"
+"  The computation continues, with a partial an/or adapted restart.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error reading turbulence variables from previous model\n"
+"in restart file \"%s\"."
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  Warning: the number of variables or properties has been changed\n"
+"           relative to the restart file.\n"
+"\n"
+"  current:  %d model and %d user variables\n"
+"            %d model and %d user properties\n"
+"  previous: %d model and %d user variables\n"
+"            %d model and %d user properties\n"
+"\n"
+"  The computation continues, with a partial restart.\n"
+msgstr ""
+
+#, c-format
+msgid "  Wrote field names and types to checkpoint: %s\n"
+msgstr ""
+
+#, c-format
+msgid "Error reading velocity/pressure values in restart file \"%s\"."
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  Warning: the following variables could not be found or read\n"
+"           in restart file \"%s\", so default initializations\n"
+"           will be used:\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid "  Read variables from restart: %s\n"
+msgstr ""
+
+#, c-format
+msgid "  Wrote main variables to checkpoint: %s\n"
+msgstr ""
+
+#, c-format
+msgid "  %s: no matching data for field \"%s\"\n"
+msgstr ""
+
+#, c-format
+msgid "      (was named \"%s\")\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Some boundary condition coefficients could not be read from a restart file;\n"
+"they will be initialized with default values.\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid "  Wrote boundary condition coefficients to checkpoint: %s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+" Code_Saturne coupling:\n"
+"   coupling id:              %d\n"
+"   local name:               \"%s\"\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid " Code_Saturne coupling %d: initializing MPI communication ... "
+msgstr ""
+
+#, c-format
+msgid ""
+"  Local ranks = [%d..%d], distant ranks = [%d..%d].\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+" Code_Saturne coupling:\n"
+"   coupling id:              %d\n"
+"   local name:               \"%s\"\n"
+"   distant application name: \"%s\"\n"
+"   MPI application id:       %d\n"
+"   MPI root rank:            %d\n"
+"   number of MPI ranks:      %d\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid "Impossible coupling number %d; there are %d couplings"
+msgstr ""
+
+#, c-format
+msgid "coupled_cells_%d"
+msgstr ""
+
+#, c-format
+msgid "coupled_faces_%d"
+msgstr ""
+
+#, c-format
+msgid ""
+"Coupling %d: inconsistent arguments for LELCPL()\n"
+"NCECPL = %d and NFBCPL = %d are indicated.\n"
+"The values for this coupling should be %d and %d."
+msgstr ""
+
+#, c-format
+msgid ""
+"Coupling %d: inconsistent arguments for LELNCP()\n"
+"NCENCP = %d and NFBNCP = %d are indicated.\n"
+"The values for this coupling should be %d and %d."
+msgstr ""
+
+#, c-format
+msgid ""
+"Coupling %d: inconsistent arguments for COOCPL()\n"
+"ITYDIS = %d and NBRPTS = %d are indicated.\n"
+"The value for NBRPTS should be %d."
+msgstr ""
+
+msgid ""
+"The centered interpolation scheme is not available\n"
+"when coupling cells"
+msgstr ""
+
+#, c-format
+msgid ""
+"Coupling %d: inconsistent arguments for PNDCPL().\n"
+"ITYLOC = %d and NBRPTS = %d are indicated.\n"
+"NBRPTS should be %d."
+msgstr ""
+
+#, c-format
+msgid ""
+"Coupling %d: inconsistent arguments for VARCPL()\n"
+"ITYVAR = %d and NBRDIS = %d are indicated.\n"
+"NBRDIS should be 0 or %d."
+msgstr ""
+
+#, c-format
+msgid ""
+"Coupling %d: inconsistent arguments for VARCPL()\n"
+"ITYVAR = %d and NBRLOC = %d are indicated.\n"
+"NBRLOC should be 0 or %d."
+msgstr ""
+
+msgid ""
+"At least 1 Code_Saturne coupling was defined for which\n"
+"no communication with a Code_Saturne instance is possible."
+msgstr ""
+
+#, c-format
+msgid ""
+"The group \"%s\" in the selection criteria:\n"
+"\"%s\"\n"
+" does not correspond to any boundary face.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"The group \"%s\" in the selection criteria:\n"
+"\"%s\"\n"
+" does not correspond to any interior face.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"The group \"%s\" in the selection criteria:\n"
+"\"%s\"\n"
+" does not correspond to any cell.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"The group \"%s\" in the selection criteria:\n"
+"\"%s\"\n"
+" is not present in the mesh.\n"
+msgstr ""
+
+#, c-format
+msgid " SYRTHES coupling %d: initializing MPI communication ... "
+msgstr ""
+
+msgid "Solid T"
+msgstr ""
+
+msgid "Solid heat flux"
+msgstr ""
+
+msgid ""
+"\n"
+"Extracting coupled mesh             ..."
+msgstr ""
+
+#, c-format
+msgid "SYRTHES %s cells"
+msgstr ""
+
+#, c-format
+msgid "SYRTHES %s faces"
+msgstr ""
+
+#, c-format
+msgid ""
+" Selection criteria:\n"
+" \"%s\"\n"
+" leads to an empty mesh for SYRTHES coupling.\n"
+msgstr ""
+
+msgid "Projecting the extracted mesh to 2D ..."
+msgstr ""
+
+msgid "Error projecting the extracted mesh."
+msgstr ""
+
+msgid " [ok]\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Extracted mesh built of %llu elements.\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Locator structure and mesh creation ..."
+msgstr ""
+
+msgid " [failed]\n"
+msgstr ""
+
+#, c-format
+msgid " %llu fluid mesh elements not located on solid mesh\n"
+msgstr ""
+
+msgid " Some solid mesh elements not located on fluid mesh\n"
+msgstr ""
+
+#, c-format
+msgid "   Extending search with tolerance factor %f..."
+msgstr ""
+
+msgid "distance_to_solid"
+msgstr ""
+
+msgid "distance_to_fluid"
+msgstr ""
+
+msgid "Error: invalid exterior elements selection."
+msgstr ""
+
+#, c-format
+msgid ""
+"Coupling with SYRTHES impossible:\n"
+"%llu element centers from mesh \"%s\"\n"
+"not located on SYRTHES mesh."
+msgstr ""
+
+msgid ""
+"\n"
+"SYRTHES 4 coupling overheads\n"
+msgstr ""
+
+msgid "surface"
+msgstr ""
+
+msgid "volume"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  %s (%s):\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  coupling %d (%s):\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"    location time:                 %12.3f\n"
+"      communication and wait:      %12.3f\n"
+"    variable exchange time:        %12.3f\n"
+"      communication and wait:      %12.3f\n"
+msgstr ""
+
+#, c-format
+msgid " Global heat flux exchanged with SYRTHES in W: %5.3e\n"
+msgstr ""
+
+#, c-format
+msgid ""
+" Correction coefficient used to force conservativity during coupling with "
+"SYRTHES: %5.3e\n"
+msgstr ""
+
+msgid ""
+"Coupling with SYRTHES impossible.\n"
+"No selection criteria for faces or cells to couple."
+msgstr ""
+
+msgid ""
+"\n"
+"Structures associated with SYRTHES 4 coupling freed.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"========================================================\n"
+"   ** Incompatible SYRTHES coupling options:\n"
+"      ------------------------------------------------\n"
+"      Code_Saturne options: \"%s\"\n"
+"      SYRTHES options:      \"%s\"\n"
+"========================================================\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+" ** Processing the mesh for SYRTHES coupling \"%s\"\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+" Message received from SYRTHES: \"%s\"\n"
+" indicates meshes have not been matched correctly.\n"
+"\n"
+" The calculation will not run.\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+" Message received from SYRTHES: \"%s\"\n"
+" indicates an error or is unexpected."
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+" ** Mesh located for SYRTHES coupling \"%s\".\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+" SYRTHES coupling:\n"
+"   coupling id:              %d\n"
+"   local name:               \"%s\"\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+" SYRTHES coupling:\n"
+"   coupling id:              %d\n"
+"   version:                  \"%s\"\n"
+"   local name:               \"%s\"\n"
+"   distant application name: \"%s\"\n"
+"   MPI application id:       %d\n"
+"   MPI root rank:            %d\n"
+"   number of MPI ranks:      %d\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid "SYRTHES coupling number %d impossible; there are %d couplings"
+msgstr ""
+
+msgid ""
+"At least 1 SYRTHES coupling was defined for which\n"
+"no communication with a SYRTHES instance is possible."
+msgstr ""
+
+msgid "Local case configuration:\n"
+msgstr ""
+
+msgid "Date:                "
+msgstr ""
+
+msgid "System:              "
+msgstr ""
+
+msgid "Machine:             "
+msgstr ""
+
+msgid "Processor:           "
+msgstr ""
+
+msgid "Memory:              "
+msgstr ""
+
+msgid "MB"
+msgstr ""
+
+msgid "User:                "
+msgstr ""
+
+msgid "Directory:           "
+msgstr ""
+
+msgid "SMP mode"
+msgstr ""
+
+msgid "Virtual-node mode"
+msgstr ""
+
+msgid "Dual mode"
+msgstr ""
+
+msgid "Unknown mode"
+msgstr ""
+
+msgid "MPI ranks:           "
+msgstr ""
+
+msgid "MPI_COMM_WORLD size: "
+msgstr ""
+
+msgid "pset size:         "
+msgstr ""
+
+msgid "Torus dimensions:    "
+msgstr ""
+
+msgid "Hardware threads:    "
+msgstr ""
+
+msgid "Block shape:         "
+msgstr ""
+
+msgid "Torus links enabled: "
+msgstr ""
+
+msgid "appnum attribute:"
+msgstr ""
+
+msgid "OpenMP threads:      "
+msgstr ""
+
+msgid "Dynamic scheduling allowed"
+msgstr ""
+
+msgid "Processors/node:     "
+msgstr ""
+
+msgid "mean"
+msgstr ""
+
+msgid "variance"
+msgstr ""
+
+msgid "Error reading expected section in restart file."
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Restart data for time moment \"%s\"\n"
+" (previously \"%s\") does not match.\n"
+"  previous values:\n"
+"    weight accumulator location_id: %d\n"
+"    type:                           %d\n"
+"    location_id:                    %d\n"
+"    dimension:                      %d\n"
+"    start time step:                %d\n"
+"    start time:                     %12.5e\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Warning: computation of time moment \"%s\" will be reset,\n"
+"         as restart data for \"%s\" does not match.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Restart data for time moment \"%s\"\n"
+" (previously \"%s\") does not match."
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Warning: computation of time moment \"%s\"will be reset,\n"
+"           as restart data for \"%s\" is not available.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Restart data for time moment \"%s\"\n"
+" (previously \"%s\") not available."
+msgstr ""
+
+#, c-format
+msgid ""
+"Restart data for time moment \"%s\"\n"
+" (previously \"%s\") seems inconsistent:\n"
+"   lower order moment of type %s was \"%s\",\n"
+"   but has non-matching attributes:\n"
+"    weight accumulator id: %d (expected %d)\n"
+"    type:                  %d\n"
+"    location_id:           %d\n"
+"    dimension:             %d\n"
+msgstr ""
+
+msgid "Definition of simple data requires at least one field id."
+msgstr ""
+
+#, c-format
+msgid ""
+"Definition of simple data used for %s:\n"
+"%s\n"
+"mixes fields with location id %d and location id %d."
+msgstr ""
+
+#, c-format
+msgid ""
+"Definition of simple data used for %s:\n"
+"%s\n"
+"includes field of dimension different from 1, 3, 6, or 9.\n"
+"The definition must be split."
+msgstr ""
+
+#, c-format
+msgid ""
+"Definition of simple data used for %s:\n"
+"%s\n"
+"leads to a field of dimension > 9.\n"
+"The definition must be split."
+msgstr ""
+
+#, c-format
+msgid ""
+"Definition of simple data used for %s:\n"
+"%s\n"
+"includes a component id incompatible with field dimension."
+msgstr ""
+
+#, c-format
+msgid ""
+"Weighting of time-value moments for mesh locations of type:\n"
+"%s is not currently supported."
+msgstr ""
+
+#, c-format
+msgid ""
+"Time moment definition for \"%s\" is inconsistent:\n"
+" either starting time step or physical time must be >= 0."
+msgstr ""
+
+msgid ""
+"\n"
+"Temporal moments\n"
+"----------------\n"
+msgstr ""
+
+msgid "Accumulator"
+msgstr ""
+
+msgid "Start"
+msgstr ""
+
+msgid "Weight"
+msgstr ""
+
+msgid "Moment"
+msgstr ""
+
+msgid "Acc."
+msgstr ""
+
+msgid "Lower"
+msgstr ""
+
+msgid ""
+"\n"
+"  ** Temporal moment accumulated weights\n"
+"     -----------------------------------\n"
+msgstr ""
+
+msgid "id"
+msgstr ""
+
+msgid "n it."
+msgstr ""
+
+msgid "location"
+msgstr ""
+
+#, c-format
+msgid "Error opening file: \"%s\""
+msgstr ""
+
+#, c-format
+msgid ""
+"# Time varying values for: %s\n"
+"#\n"
+msgstr ""
+
+#, c-format
+msgid "# Monitoring point coordinates:\n"
+msgstr ""
+
+#, c-format
+msgid "# Columns:\n"
+msgstr ""
+
+#, c-format
+msgid "#   %d:     Time step number\n"
+msgstr ""
+
+#, c-format
+msgid "#   %d:     Physical time\n"
+msgstr ""
+
+#, c-format
+msgid "#   %d - :  Values at monitoring points\n"
+msgstr ""
+
+#, c-format
+msgid "Error closing file: \"%s\""
+msgstr ""
+
+#, c-format
+msgid ""
+"# Number of structures: %d\n"
+"#\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"# Structure: %i\n"
+"#\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"# Mass:       [%14.7e, %14.7e, %14.7e]\n"
+"#             [%14.7e, %14.7e, %14.7e]\n"
+"#             [%14.7e, %14.7e, %14.7e]\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"# Damping:    [%14.7e, %14.7e, %14.7e]\n"
+"#             [%14.7e, %14.7e, %14.7e]\n"
+"#             [%14.7e, %14.7e, %14.7e]\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"# Stiffness:  [%14.7e, %14.7e, %14.7e]\n"
+"#             [%14.7e, %14.7e, %14.7e]\n"
+"#             [%14.7e, %14.7e, %14.7e]\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"# (when structure characteristics are variable, the values\n"
+"# above are those at the computation initialization.\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid "#   %d - :  Values for each structure\n"
+msgstr ""
+
+#, c-format
+msgid "Error re-opening file: \"%s\""
+msgstr ""
+
+#, c-format
+msgid "Error writing file: \"%s\""
+msgstr ""
+
+#, c-format
+msgid "Plot number for \"%s\" must be > 0 and not %d."
+msgstr ""
+
+#, c-format
+msgid "Plot number %d is already defined."
+msgstr ""
+
+#, c-format
+msgid "Plot number must be in the interval [1, %d] and not %d."
+msgstr ""
+
+msgid "clock_gettime() function"
+msgstr ""
+
+msgid "gettimeofday() function"
+msgstr ""
+
+msgid "Iso C time() function"
+msgstr ""
+
+msgid "Disabled"
+msgstr ""
+
+msgid "getrusage() function"
+msgstr ""
+
+msgid "Posix times() function"
+msgstr ""
+
+msgid "Iso C clock() function"
+msgstr ""
+
+#, c-format
+msgid ""
+"Abort while opening the 1D-wall thermal module restart file in read mode.\n"
+"Verify the existence and the name of the restart file: %s\n"
+msgstr ""
+
+msgid ""
+"Abort while reading the 1D-wall thermal module restart file.\n"
+"The number of boundary faces has been modified\n"
+"Verify that the restart file corresponds to the present study.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"WARNING: ABORT WHILE READING THE RESTART FILE\n"
+"********               1D-WALL THERMAL MODULE\n"
+"       INCORRECT FILE TYPE\n"
+"\n"
+"The file %s does not seem to be a restart file\n"
+"for the 1D-wall thermal module.\n"
+"The calculation will not be run.\n"
+"\n"
+"Verify that the restart file corresponds to a\n"
+"restart file for the 1D-wall thermal module.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Problem while reading section in the restart file\n"
+"for the 1D-wall thermal module:\n"
+"<%s>\n"
+"The calculation will not be run.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"WARNING: ABORT WHILE READING THE RESTART FILE\n"
+"********               1D-WALL THERMAL MODULE\n"
+"       CURRENT AND PREVIOUS DATA ARE DIFFERENT\n"
+"\n"
+"The number of faces with 1D thermal module has\n"
+"been modified.\n"
+"PREVIOUS: %d boundary faces (total)\n"
+"CURRENT:  %d boundary faces (total)\n"
+"\n"
+"The calculation will not be run.\n"
+"\n"
+"Verify that the restart file corresponds to a\n"
+"restart file for the 1D-wall thermal module.\n"
+"Verify uspt1d.\n"
+msgstr ""
+
+msgid ""
+"WARNING: ABORT WHILE READING THE RESTART FILE\n"
+"********               1D-WALL THERMAL MODULE\n"
+"       CURRENT AND PREVIOUS DATA ARE DIFFERENT\n"
+"\n"
+"IFPT1D or NPPT1D has been modified with respect\n"
+"to the restart file on at least on face with\n"
+"1D thermal module\n"
+"\n"
+"The calculation will not be run.\n"
+"\n"
+"Verify that the restart file correspond to\n"
+"the present study.\n"
+"Verify uspt1d\n"
+"(refer to the user manual for the specificities\n"
+"of the test on IFPT1D)"
+msgstr ""
+
+msgid ""
+"WARNING: ABORT WHILE READING THE RESTART FILE\n"
+"********               1D-WALL THERMAL MODULE\n"
+"       CURRENT AND PREVIOUS DATA ARE DIFFERENT\n"
+"\n"
+"The parameter EPPT1D has been modified with respect\n"
+"to the restart file on at least on face with\n"
+"1D thermal module\n"
+"\n"
+"The calculation will not be run.\n"
+"\n"
+"Verify that the restart file corresponds to\n"
+"the present study.\n"
+"Verify uspt1d\n"
+msgstr ""
+
+msgid ""
+"WARNING: ABORT WHILE READING THE RESTART FILE\n"
+"********               1D-WALL THERMAL MODULE\n"
+"       CURRENT AND OLD DATA ARE DIFFERENT\n"
+"\n"
+"The parameter RGPT1D has been modified with respect\n"
+"to the restart file on at least on face with\n"
+"1D thermal module\n"
+"\n"
+"The calculation will not be run.\n"
+"\n"
+"Verify that the restart file correspond to\n"
+"the present study\n"
+"Verify uspt1d\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Problem while reading the section in the restart file\n"
+"for the 1D-wall thermal module:\n"
+"<%s>\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Abort while opening the 1D-wall thermal module restart file in write mode.\n"
+"Verify the existence and the name of the restart file: %s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"%s: some faces of the initial mesh belong to different\n"
+"rotor/stator sections.\n"
+"These sections must be initially disjoint to rotate freely."
+msgstr ""
+
+msgid "Added boundary faces"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error in turbomachinery mesh update:\n"
+"Number of boundary faces has changed from %llu to %llu.\n"
+"There are probably unjoined faces, due to an insufficiently regular mesh;\n"
+"adjusting mesh joining parameters might help."
+msgstr ""
+
+#, c-format
+msgid ""
+"WARNING: non-convergence in the computation\n"
+"******** of the friction velocity\n"
+"\n"
+"face number: %d \n"
+"friction vel: %f \n"
+msgstr ""
+
+msgid "bft_mem_init() has already been called"
+msgstr ""
+
+msgid "bft_mem_end() called before bft_mem_init()"
+msgstr ""
+
+#, c-format
+msgid ""
+"Alignment %lu for \"%s\" not a power of 2\n"
+"or a multiple of sizeof(void *) = %lu"
+msgstr ""
+
+msgid "No aligned allocation function available on this system"
+msgstr ""
+
+#, c-format
+msgid ""
+"Abort while opening the cooling tower module restart file in write mode.\n"
+"Verify the existence and the name of the restart file: %s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Abort while opening the cooling tower AERO module restart file in read "
+"mode.\n"
+"Verify the existence and the name of the restart file: %s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Problem while reading section in the restart file\n"
+"for the cooling tower module:\n"
+"<%s>\n"
+"The calculation will not be run.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"WARNING: ABORT WHILE READING THE RESTART FILE\n"
+"********               cooling tower MODULE\n"
+"       CURRENT AND PREVIOUS DATA ARE DIFFERENT\n"
+"\n"
+"The model is different \n"
+"PREVIOUS: %d \n"
+"CURRENT:  %d \n"
+msgstr ""
+
+#, c-format
+msgid ""
+"WARNING: ABORT WHILE READING THE RESTART FILE\n"
+"********               cooling tower MODULE\n"
+"       CURRENT AND PREVIOUS DATA ARE DIFFERENT\n"
+"\n"
+"The type is different \n"
+"PREVIOUS: %d \n"
+"CURRENT:  %d \n"
+msgstr ""
+
+#, c-format
+msgid ""
+"WARNING: ABORT WHILE READING THE RESTART FILE\n"
+"********               cooling tower MODULE\n"
+"       CURRENT AND PREVIOUS DATA ARE DIFFERENT\n"
+"\n"
+"The number of nodes on each vertical mesh for \n"
+"the water mesh has been modified.\n"
+"PREVIOUS: %d nodes\n"
+"CURRENT:  %d nodes\n"
+"\n"
+"The calculation will not be run.\n"
+"\n"
+"Verify that the restart file corresponds to a\n"
+"restart file for the cooling tower  module.\n"
+"Verify usctdz.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"WARNING: ABORT WHILE READING THE RESTART FILE\n"
+"********               cooling tower MODULE\n"
+"       CURRENT AND PREVIOUS DATA ARE DIFFERENT\n"
+"\n"
+"The Water entry temperature  is different \n"
+"PREVIOUS: %f \n"
+"CURRENT:  %f \n"
+msgstr ""
+
+#, c-format
+msgid ""
+"WARNING: ABORT WHILE READING THE RESTART FILE\n"
+"********               cooling tower MODULE\n"
+"       CURRENT AND PREVIOUS DATA ARE DIFFERENT\n"
+"\n"
+"The Water entry flow is different \n"
+"PREVIOUS: %f \n"
+"CURRENT:  %f \n"
+msgstr ""
+
+#, c-format
+msgid ""
+"WARNING: ABORT WHILE READING THE RESTART FILE\n"
+"********               cooling tower MODULE\n"
+"       CURRENT AND PREVIOUS DATA ARE DIFFERENT\n"
+"\n"
+"The value of Exchange law lambda coefficient is different \n"
+"PREVIOUS: %f \n"
+"CURRENT:  %f \n"
+msgstr ""
+
+msgid "T water"
+msgstr ""
+
+msgid "Flux water"
+msgstr ""
+
+msgid "    Local halo definition\n"
+msgstr ""
+
+msgid "    Updating the vertex -> faces connectivity\n"
+msgstr ""
+
+msgid "    Distant halo definition\n"
+msgstr ""
+
+msgid " Creating halos\n"
+msgstr ""
+
+msgid " Defining halos\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Inconsistent box found (min > max):\n"
+"  global number:  %llu\n"
+"  min       :  %10.4g\n"
+"  max       :  %10.4g\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error adding a new node in box tree (%p).\n"
+"Max level reached. Current level: %u and Max level: %d\n"
+msgstr ""
+
+#, c-format
+msgid "  Forbidden max_level value (%d) in the tree structure\n"
+msgstr ""
+
+#, c-format
+msgid "  Forbidden threshold value (%d) in the tree structure\n"
+msgstr ""
+
+#, c-format
+msgid "  Forbidden max_box_ratio value (%f) in the tree structure\n"
+msgstr ""
+
+msgid ""
+"fvm_writer_convert_array() may not be used to convert float to int32, int64, "
+"uint32, or uint64"
+msgstr ""
+
+msgid ""
+"fvm_writer_convert_array() may not be used to convert double to int32, "
+"int64, uint32, or uint64"
+msgstr ""
+
+#, c-format
+msgid ""
+"fvm_writer_convert_array() requires src_dim = 1 and dest_dim = 1 \n"
+"with integer source data (and not %d and %d)"
+msgstr ""
+
+msgid "edges"
+msgstr ""
+
+msgid "triangles"
+msgstr ""
+
+msgid "quadrangles"
+msgstr ""
+
+msgid "simple polygons"
+msgstr ""
+
+msgid "tetrahedra"
+msgstr ""
+
+msgid "pyramids"
+msgstr ""
+
+msgid "prisms"
+msgstr ""
+
+msgid "hexahedra"
+msgstr ""
+
+msgid "simple polyhedra"
+msgstr ""
+
+msgid "edge"
+msgstr ""
+
+msgid "triangle"
+msgstr ""
+
+msgid "quadrangle"
+msgstr ""
+
+msgid "simple polygon"
+msgstr ""
+
+msgid "tetrahedron"
+msgstr ""
+
+msgid "pyramid"
+msgstr ""
+
+msgid "prism"
+msgstr ""
+
+msgid "hexahedron"
+msgstr ""
+
+msgid "simple polyhedron"
+msgstr ""
+
+msgid "Morton (in bounding box)"
+msgstr ""
+
+msgid "Morton (in bounding cube)"
+msgstr ""
+
+msgid "Hilbert (in bounding box)"
+msgstr ""
+
+msgid "Hilbert (in bounding cube)"
+msgstr ""
+
+#, c-format
+msgid ""
+"Elements of type : \"%s\" are not strided elements.\n"
+"Incorrect use with fvm_nodal_get_strided_connect()\n"
+"Associated nodal mesh : \"%s\"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Dimension of mesh \"%s\" section %d equals %d\n"
+"with mesh spatial dimension %d prior to extrusion\n"
+"when it should be smaller."
+msgstr ""
+
+msgid "Extrusion of non strided sections not implemented yet."
+msgstr ""
+
+msgid "Extrusion of vertices only to edges not implemented yet."
+msgstr ""
+
+#, c-format
+msgid "Incoherent connectivity for cell %d\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Projecting coordinates is not allowed for a mesh\n"
+"containing entities of dimension %d, as its\n"
+"spatial dimension would be reduced to %d"
+msgstr ""
+
+#, c-format
+msgid ""
+"Projecting coordinates is only allowed for a mesh\n"
+"of initial spatial dimension %d"
+msgstr ""
+
+msgid "null"
+msgstr ""
+
+msgid "translation"
+msgstr ""
+
+msgid "rotation"
+msgstr ""
+
+msgid "mixed"
+msgstr ""
+
+#, c-format
+msgid ""
+"Periodicity transforms %d and %d\n"
+"(based on directions %d and %d)\n"
+"are not commutative and may not be combined\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Periodicity transforms %d and %d\n"
+"(based on directions %d, %d %d)\n"
+"are not commutative and may not be combined\n"
+msgstr ""
+
+#, c-format
+msgid "_compute_shapef: unhandled element type %s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Selection criteria:\n"
+"\"%s\"\n"
+"depends on coordinates, but the current selector\n"
+"has no associated coordinates."
+msgstr ""
+
+#, c-format
+msgid ""
+"Selection criteria:\n"
+"\"%s\"\n"
+"depends on normals, but the current selector\n"
+"has no associated normals."
+msgstr ""
+
+#, c-format
+msgid ""
+"Selection criteria:\n"
+"\"%s\"\n"
+"is associated with %d spatial dimensions, but\n"
+"geometric conditions are only currently implemented\n"
+"for 3 spatial dimension."
+msgstr ""
+
+#, c-format
+msgid ""
+"Selection of group classes by criteria:\n"
+"\"%s\"\n"
+"must not depend on coordinates or normals."
+msgstr ""
+
+#, c-format
+msgid ""
+"Error tokenizing expression:\n"
+"%s\n"
+"Missing character after \\\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error tokenizing expression:\n"
+"%s\n"
+"Missing closing quote for subexpression:\n"
+"%s\n"
+msgstr ""
+
+msgid "Trying to pop an entry from empty stack."
+msgstr ""
+
+msgid "Querying a top value from empty stack."
+msgstr ""
+
+#, c-format
+msgid ""
+"Error parsing expression:\n"
+"%s\n"
+"%s\n"
+"%s\n"
+"\n"
+"Valid (expected) syntax:\n"
+"\n"
+"%s"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error parsing expression:\n"
+"%s\n"
+"%s\n"
+"%s"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error parsing expression:\n"
+"%s\n"
+"%s\n"
+"Valid (expected) syntax:\n"
+"\n"
+"%s"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error parsing expression:\n"
+"%s\n"
+"%s"
+msgstr ""
+
+msgid "Operator needs a right operand."
+msgstr ""
+
+msgid "Operator needs a left operand."
+msgstr ""
+
+msgid "Operator should not have a left operand."
+msgstr ""
+
+msgid ""
+"  normal[<x>, <y>, <z>, <epsilon>]\n"
+"  normal[<x>, <y>, <z>, epsilon = <epsilon>]"
+msgstr ""
+
+msgid ""
+"  For ax + by + cz + d = 0 form:\n"
+"\n"
+"    plane[<a>, <b>, <c>, <d>, <epsilon>]\n"
+"    plane[<a>, <b>, <c>, <d>, epsilon = <epsilon>]\n"
+"    plane[<a>, <b>, <c>, <d>, inside]\n"
+"    plane[<a>, <b>, <c>, <d>, outside]\n"
+"\n"
+"  For {normal, point in plane} form:\n"
+"\n"
+"    plane[<nx>, <ny>, <nz>, <x>, <y>, <z>, <epsilon>]\n"
+"    plane[<nx>, <ny>, <nz>, <x>, <y>, <z>, epsilon = <epsilon>]\n"
+"    plane[<nx>, <ny>, <nz>, <x>, <y>, <z>, inside]\n"
+"    plane[<nx>, <ny>, <nz>, <x>, <y>, <z>, outside]"
+msgstr ""
+
+msgid ""
+"  For x_min, y_min, z_min, x_max, y_max, z_max form:\n"
+"\n"
+"    box[<xmin>, <ymin>, <zmin>, <xmax>, <ymax>, <zmax>]\n"
+"\n"
+"  For xyz_0, dxyz_1, dxyz_2, dxyz_3 form:\n"
+"\n"
+"    box[<x0>, <y0>, <z0>, <dx1>, <dy1>, <dz1>\n"
+"        <dx2>, <dy2>, <dz2>, <dx3>, <dy3>, <dz3>]"
+msgstr ""
+
+msgid "  cylinder[<x0>, <y0>, <z0>, <x1>, <y1>, <z1>, <radius>]"
+msgstr ""
+
+msgid "  sphere[<xc>, <yc>, <zc>, <radius>]"
+msgstr ""
+
+msgid "Missing or wrong argument separator."
+msgstr ""
+
+msgid "Missing argument after separator."
+msgstr ""
+
+msgid "This geometric function is not implemented."
+msgstr ""
+
+msgid "Wrong number of floating-point arguments."
+msgstr ""
+
+msgid ""
+"Expected syntax:\n"
+"  epsilon = <value>\n"
+msgstr ""
+
+msgid "Unexpected argument(s)."
+msgstr ""
+
+msgid "Missing closing ]."
+msgstr ""
+
+msgid "Function arguments used with an unknown operator."
+msgstr ""
+
+msgid "Operator does not accept function arguments."
+msgstr ""
+
+msgid "Function requires 0 arguments."
+msgstr ""
+
+msgid "range[] argument error"
+msgstr ""
+
+msgid ""
+"  range[<first>, <last>]\n"
+"  range[<first>, <last>, group]\n"
+"  range[<first>, <last>, attribute]"
+msgstr ""
+
+msgid ""
+"Operator needs a floating point operand\n"
+"on one side, x, y, or z on the other"
+msgstr ""
+
+msgid "Inconsistant interval specification."
+msgstr ""
+
+msgid "Operator needs a floating point operand"
+msgstr ""
+
+msgid "Expected operator instead of operand."
+msgstr ""
+
+msgid "Parenthesis mismatch"
+msgstr ""
+
+msgid "Syntax error, probably due to misplaced operands."
+msgstr ""
+
+msgid "Postfix evaluation error."
+msgstr ""
+
+msgid "Postfix error: range arguments of different or incorrect type."
+msgstr ""
+
+#, c-format
+msgid "Operator %s not currently implemented."
+msgstr ""
+
+#, c-format
+msgid ""
+"Encoding of tesselation impossible:\n"
+"maximum number of vertices per polygon: %u\n"
+"maximum integer encoded on %d/3 = %d bits: %ld\n"
+msgstr ""
+
+msgid ""
+"Incoherent connectivity for tesselation:\n"
+"Connectivity face_index or face_num non NULL,\n"
+"but element type != FVM_CELL_POLY"
+msgstr ""
+
+msgid ""
+"Incoherent connectivity for tesselation:\n"
+"Connectivy vertex_index non NULL,\n"
+"but element type != FVM_FACE_POLY"
+msgstr ""
+
+#, c-format
+msgid "Tesselation of element type %s not implemented."
+msgstr ""
+
+#, c-format
+msgid ""
+"Error initializing pipeline from \"%s\":\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Missing Catalyst pipeline file \"%s\":\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid "CCMIO error %d writing state."
+msgstr ""
+
+#, c-format
+msgid "CCMIO error %d writing processor node."
+msgstr ""
+
+#, c-format
+msgid "CCMIO error %d finalizing processor node."
+msgstr ""
+
+#, c-format
+msgid "CCMIO error %d creating new phase."
+msgstr ""
+
+#, c-format
+msgid "CCMIO error %d writing problem description."
+msgstr ""
+
+#, c-format
+msgid "CCMIO error %d writing solution."
+msgstr ""
+
+#, c-format
+msgid "CCMIO error %d writing restart info."
+msgstr ""
+
+#, c-format
+msgid "CCMIO error %d writing map."
+msgstr ""
+
+#, c-format
+msgid "CCMIO error %d writing new vertices entity."
+msgstr ""
+
+#, c-format
+msgid "CCMIO error %d writing vertices."
+msgstr ""
+
+#, c-format
+msgid "CCMIO error %d writing cells."
+msgstr ""
+
+#, c-format
+msgid "CCMIO error %d writing face -> vertices connectivity."
+msgstr ""
+
+#, c-format
+msgid "CCMIO error %d writing face -> cells connectivity."
+msgstr ""
+
+#, c-format
+msgid "CCMIO error %d writing faces entity."
+msgstr ""
+
+#, c-format
+msgid "CCMIO error %d writing field data."
+msgstr ""
+
+msgid "Incorrect multidimensional field data format"
+msgstr ""
+
+#, c-format
+msgid "CCMIO error %d creating field: %s."
+msgstr ""
+
+#, c-format
+msgid "CCMIO error %d creating new entity."
+msgstr ""
+
+#, c-format
+msgid "CCMIO error %d creating multidimensional field data."
+msgstr ""
+
+msgid "Unhandled field data format"
+msgstr ""
+
+msgid "Incorrect entity type to store field data"
+msgstr ""
+
+msgid "Type of post data not handled at the moment"
+msgstr ""
+
+msgid "CCMIO output can currently handle only non-time-dependent meshes."
+msgstr ""
+
+msgid "Empty CCMIO filename."
+msgstr ""
+
+#, c-format
+msgid ""
+"CCMIOOpenFile() failed to open file \"%s\"\n"
+"CCMIO error %d."
+msgstr ""
+
+#, c-format
+msgid "CCMIO error %d closing file."
+msgstr ""
+
+#, c-format
+msgid ""
+"cg_base_write() failed to create a new base:\n"
+"Associated writer: \"%s\"\n"
+"Associated mesh: \"%s\"\n"
+"%s"
+msgstr ""
+
+#, c-format
+msgid ""
+"No CGNS base with index %d defined:\n"
+"Associated writer: \"%s\"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"cg_sol_write() failed to create a new solution node:\n"
+"Associated writer: \"%s\"\n"
+"Associated mesh: \"%s\"\n"
+"Solution name: \"%s\"\n"
+"Associated time value: %f \n"
+"%s"
+msgstr ""
+
+#, c-format
+msgid ""
+"The time value associated with time step <%d> equals <%g>,\n"
+"but time value <%g> has already been associated with this time step.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"cg_zone_write() failed to create a new zone:\n"
+"Associated writer: \"%s\"\n"
+"Associated base: \"%s\"\n"
+"%s"
+msgstr ""
+
+#, c-format
+msgid ""
+"cg_coord_partial_write() failed to write coords:\n"
+"Associated writer: \"%s\"\n"
+"Associated base: \"%s\"\n"
+"CGNS error:%s"
+msgstr ""
+
+#, c-format
+msgid ""
+"cg_coord_partial_write() failed to write extra vertices coords:\n"
+"Associated writer: \"%s\"\n"
+"Associated base: \"%s\"\n"
+"CGNS error:%s"
+msgstr ""
+
+#, c-format
+msgid ""
+"cg_coord_partial write() failed to write coords:\n"
+"Associated writer: \"%s\"\n"
+"Associated base: \"%s\"\n"
+"Associated zone index: \"%i\"\n"
+"%s"
+msgstr ""
+
+#, c-format
+msgid ""
+"cg_coord_partial_write() failed to write extra vertices coords:\n"
+"Associated writer: \"%s\"\n"
+"Associated base: \"%s\"\n"
+"Associated zone index: \"%i\"\n"
+"%s"
+msgstr ""
+
+#, c-format
+msgid ""
+"cg_section_partial_write() failed to write elements:\n"
+"Associated writer: \"%s\"\n"
+"Associated base: \"%s\"\n"
+"Associated section name: \"%s\"\n"
+"%s"
+msgstr ""
+
+#, c-format
+msgid ""
+"cg_elements_partial_write() failed to write elements:\n"
+"Associated writer: \"%s\"\n"
+"Associated base: \"%s\"\n"
+"Associated section name: \"%s\"\n"
+"Associated range: [%llu, %llu]\n"
+"%s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"cg_section_write() failed to write elements:\n"
+"Associated writer: \"%s\"\n"
+"Associated base: \"%s\"\n"
+"Associated section name: \"%s\"\n"
+"%s"
+msgstr ""
+
+#, c-format
+msgid ""
+"cg_section_partial_write() failed to write tesselated elements:\n"
+"Associated writer: \"%s\"\n"
+"Associated base: \"%s\"\n"
+"Associated section name: \"%s\"\n"
+"%s"
+msgstr ""
+
+#, c-format
+msgid ""
+"cg_section_partial_write() failed to write polygonal elements:\n"
+"Associated writer: \"%s\"\n"
+"Associated base: \"%s\"\n"
+"Associated section name: \"%s\"\n"
+"%s"
+msgstr ""
+
+#, c-format
+msgid ""
+"cg_section_write() failed to write polygonal elements:\n"
+"Associated writer: \"%s\"\n"
+"Associated base: \"%s\"\n"
+"Associated section name: \"%s\"\n"
+"%s"
+msgstr ""
+
+#, c-format
+msgid ""
+"cg_field_partial_write() failed to write field values:\n"
+"\"%s\"\n"
+"Associated writer: \"%s\"\n"
+"Associated base: \"%s\"\n"
+"%s"
+msgstr ""
+
+#, c-format
+msgid ""
+"cg_biter_write() failed to create a BaseIterativeData\n"
+"Associated writer:\"%s\" :\n"
+"Associated base:\"%s\"\n"
+"%s"
+msgstr ""
+
+#, c-format
+msgid ""
+"cg_array_write() failed to write TimeValues\n"
+"Associated writer:\"%s\" :\n"
+"Associated base:\"%s\"\n"
+"%s"
+msgstr ""
+
+#, c-format
+msgid ""
+"cg_array_write failed to write IterationValues\n"
+"Associated writer:\"%s\" :\n"
+"Associated base:\"%s\"\n"
+"%s"
+msgstr ""
+
+#, c-format
+msgid ""
+"cg_ziter_write() failed to create a ZoneIterativeData\n"
+"Associated writer:\"%s\" :\n"
+"Associated base:\"%s\"\n"
+"%s"
+msgstr ""
+
+#, c-format
+msgid ""
+"cg_array_write() failed to write FlowSolutionPointers\n"
+"Associated writer:\"%s\" :\n"
+"Associated base:\"%s\"\n"
+"%s"
+msgstr ""
+
+#, c-format
+msgid ""
+"cg_simulation_type_write() failed\n"
+"Associated writer:\"%s\" :\n"
+"Associated base:\"%s\"\n"
+"%s"
+msgstr ""
+
+msgid "Empty CGNS filename."
+msgstr ""
+
+#, c-format
+msgid ""
+"cg_open() failed to open file \"%s\" : \n"
+"%s"
+msgstr ""
+
+#, c-format
+msgid ""
+"cg_close() failed to close file \"%s\" :\n"
+"%s"
+msgstr ""
+
+#, c-format
+msgid "The given time step value should be >= 0, and not %d\n"
+msgstr ""
+
+#, c-format
+msgid "The given time step value should be >= %d, and not %d\n"
+msgstr ""
+
+#, c-format
+msgid "Data of dimension %d not handled"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error closing EnSight output file (text mode):\n"
+"\n"
+"  %s"
+msgstr ""
+
+#, c-format
+msgid "The given time step value should be >= 0, and not %d.\n"
+msgstr ""
+
+#, c-format
+msgid "The given time step value should be >= %d, and not %d.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Line of the EnSight case file \"%s\"\n"
+"for variable \"%s\",\n"
+"exceeds 1024 characters, so this file must be edited and variable\n"
+"descriptions or referenced files renamed so as to be readable.\n"
+msgstr ""
+
+msgid "The number of EnSight parts must not exceed 65000."
+msgstr ""
+
+#, c-format
+msgid ""
+"A variable with the name \"%s\" has already been\n"
+"defined, with dimension %d and location type %d,\n"
+"which conflicts with the current definition with\n"
+"dimension %d and location type %d.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"A transient variable with the name \"%s\" has already\n"
+"been defined, which conflicts with the current constant definition.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"A constant variable with the name \"%s\" has already\n"
+"been defined, which conflicts with the current transient definition.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"MEDmeshCr() failed to create a new med_mesh.\n"
+"Associated med_mesh name: \"%s\"\n"
+"Associated writer name: \"%s\"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"MEDfamilyCr() failed to create family %dfor a new med_mesh.\n"
+"Associated med_mesh name: \"%s\"\n"
+"Associated writer name: \"%s\"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Writer: \"%s\"\n"
+"Unable to build field name of size < %d\n"
+"for field: \"%s\" on mesh: \"%s\"."
+msgstr ""
+
+#, c-format
+msgid ""
+"Writer: \"%s\"\n"
+"Mesh: \"%s\" not defined,\n"
+"but referenced by field: \"%s\"."
+msgstr ""
+
+#, c-format
+msgid ""
+"MED field \"%s\" already defined\n"
+"for writer \"%s\" with %d components,\n"
+"but re-defined with %d components."
+msgstr ""
+
+#, c-format
+msgid ""
+"MED field \"%s\" already defined\n"
+"for writer \"%s\" with datatype %d,\n"
+"but re-defined with datatype %d."
+msgstr ""
+
+#, c-format
+msgid ""
+"MEDmeshNodeCoordinateWr() failed to write coords.\n"
+"Associated writer: \"%s\"\n"
+"Associated med_mesh: \"%s\"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"MEDmeshEntityFamilyNumberWr() failed to write family numbers:\n"
+"Associated writer: \"%s\"\n"
+"Associated med_mesh_name: \"%s\"\n"
+"Associated MED geometrical element: \"%i\"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"MEDmeshElementConnectivityWr() failed to write connectivity:\n"
+"Associated writer: \"%s\"\n"
+"Associated med_mesh_name: \"%s\"\n"
+"Associated MED geometrical element: \"%i\"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"MEDmeshPolygonWr() failed to write connectivity:\n"
+"Associated writer: \"%s\"\n"
+"Associated med_mesh_name: \"%s\"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"MEDmeshPolyhedronWr() failed to write connectivity:\n"
+"Associated writer: \"%s\"\n"
+"Associated med_mesh_name: \"%s\"\n"
+msgstr ""
+
+msgid "Empty MED filename."
+msgstr ""
+
+#, c-format
+msgid ""
+"MEDfileOpen() failed to open file: %s\n"
+"Associated writer: \"%s\"\n"
+msgstr ""
+
+#, c-format
+msgid "MEDfileClose() failed to close file \"%s\"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"MEDfileOpen() failed to re-open file: %s\n"
+"Associated writer: \"%s\"\n"
+msgstr ""
+
+msgid "Mesh name required to continue.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"MED must have entities.\n"
+"Mesh: \"%s\"\n"
+"Writer: \"%s\"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"MEDCoupling field \"%s\" already defined for\n"
+"coupling \"%s\" and mesh \"%s\" with %d components,\n"
+"but re-defined with %d components."
+msgstr ""
+
+#, c-format
+msgid ""
+"MEDCoupling field \"%s\" already defined for\n"
+"coupling \"%s\" and mesh \"%s\" with type %d,\n"
+"but re-defined with type %d."
+msgstr ""
+
+#, c-format
+msgid ""
+"MEDCoupling field \"%s\" already defined for writer\n"
+"\"%s\" and mesh \"%s\" with time discretization %d,\n"
+"but re-defined with time discretization %d."
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Memory use summary: %s\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Memory use summary (call %d):\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid "  %s : %10.3f %cb min (rank %d),  %10.3f %cb max (rank %d)\n"
+msgstr ""
+
+#, c-format
+msgid "  %s : %12.3f %cb\n"
+msgstr ""
+
+msgid "fixed mesh"
+msgstr ""
+
+msgid "transient coordinates"
+msgstr ""
+
+msgid "transient connectivity"
+msgstr ""
+
+#, c-format
+msgid "Format type \"%s\" required for case \"%s\" is unknown"
+msgstr ""
+
+#, c-format
+msgid "Format type \"%s\" required for case \"%s\" is not available"
+msgstr ""
+
+#, c-format
+msgid ""
+"Output buffer too small:\n"
+"Current size = %lu, minimum size required = %lu."
+msgstr ""
+
+#, c-format
+msgid "Error: can not interpret expression: %s\n"
+msgstr ""
+
+#, c-format
+msgid "Error: can not find the required symbol: %s\n"
+msgstr ""
+
+#, c-format
+msgid "Invalid number of coal-> dp_FCP: %i xml: %i\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"@                                                            \n"
+"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\n"
+"@                                                            \n"
+"@ @@ WARNING: BOUNDARY CONDITIONS ERROR                      \n"
+"@    *******                                                 \n"
+"@                                                            \n"
+"@    In the zone %s has a face already marked                \n"
+"@    with a zone number.                                     \n"
+"@                                                            \n"
+"@    new zone number:             %i                         \n"
+"@    previous zone number:        %i                         \n"
+"@                                                            \n"
+"@    It seems that zones definitions are overlapping.        \n"
+"@                                                            \n"
+"@    The calculation will stop.                              \n"
+"@                                                            \n"
+"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\n"
+"@                                                            \n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error: can not interpret expression: %s\n"
+" %i"
+msgstr ""
+
+#, c-format
+msgid "Invalid turbulence model: %s.\n"
+msgstr ""
+
+#, c-format
+msgid "boundary nature %s is unknown \n"
+msgstr ""
+
+#, c-format
+msgid ""
+"@                                                            \n"
+"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\n"
+"@                                                            \n"
+"@ @@ WARNING: BOUNDARY CONDITIONS ERROR                      \n"
+"@    *******                                                 \n"
+"@                                                            \n"
+"@    The zone %s does not have the same id number            \n"
+"@    in the GUI and in the user subroutine.                  \n"
+"@                                                            \n"
+"@    GUI zone number:             %i                         \n"
+"@    USER SUBROUTINE zone number: %i                         \n"
+"@                                                            \n"
+"@    The id number given in the GUI cannot be modified       \n"
+"@    in the user subroutine (fortran array IZFPPP).          \n"
+"@                                                            \n"
+"@    The calculation will stop.                              \n"
+"@                                                            \n"
+"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\n"
+"@                                                            \n"
+msgstr ""
+
+#, c-format
+msgid ""
+"@                                                            \n"
+"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\n"
+"@                                                            \n"
+"@ @@ WARNING: BOUNDARY CONDITIONS ERROR                      \n"
+"@    *******                                                 \n"
+"@                                                            \n"
+"@    The zone %s does not have the same nature               \n"
+"@    in the GUI and in the user subroutine.                  \n"
+"@                                                            \n"
+"@    GUI zone nature:             %s                         \n"
+"@    USER SUBROUTINE ITYPFB:      %i                         \n"
+"@                                                            \n"
+"@    The nature given in the GUI cannot be modified          \n"
+"@    in the user subroutine (fortran array ITYPFB).          \n"
+"@                                                            \n"
+"@    The calculation will stop.                              \n"
+"@                                                            \n"
+"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\n"
+"@                                                            \n"
+msgstr ""
+
+#, c-format
+msgid "zone's label number %i is greater than %i, the maximum allowed \n"
+msgstr ""
+
+#, c-format
+msgid ""
+"The group or attribute \"%s\" in the selection\n"
+"criteria:\n"
+"\"%s\"\n"
+" does not correspond to any boundary face.\n"
+msgstr ""
+
+#, c-format
+msgid "Invalid xpath: %s\n"
+msgstr ""
+
+#, c-format
+msgid "Error: can not use evaluate property: %s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Invalid xpath: %s\n"
+" component not found"
+msgstr ""
+
+#, c-format
+msgid ""
+"The group or attribute \"%s\" in the selection\n"
+"criteria:\n"
+"\"%s\"\n"
+" does not correspond to any cell.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Invalid xpath: %s\n"
+" name not found"
+msgstr ""
+
+#, c-format
+msgid ""
+"Invalid markup name: %s\n"
+" label not found"
+msgstr ""
+
+#, c-format
+msgid ""
+"Invalid attribute value: %s \n"
+"Xpath: %s\n"
+msgstr ""
+
+msgid "mass molar value is zero or not found in the xml file.\n"
+msgstr ""
+
+msgid "Density value is zero or not found in the xml file.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error: can not find the required symbol: %s\n"
+" %s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error: can not find the required symbol: %s\n"
+"%s\n"
+"%s\n"
+"%s\n"
+msgstr ""
+
+#, c-format
+msgid "Unable to open the file: %s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error: can not find the required symbol: %s\n"
+" %s\n"
+" %s\n"
+msgstr ""
+
+#, c-format
+msgid "Error: can not find the required symbol: %s %s\n"
+msgstr ""
+
+#, c-format
+msgid "Invalid thermal model: %s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Time elapsed defining values using MEI: %12.5f\n"
+msgstr ""
+
+#, c-format
+msgid "Number of periodicities (%d) and modes (%d) do not match."
+msgstr ""
+
+#, c-format
+msgid "Periodicity mode \"%s\" unknown."
+msgstr ""
+
+#, c-format
+msgid "Boundary nature formula is null for %s.\n"
+msgstr ""
+
+#, c-format
+msgid "cannot get value for %s %s %s"
+msgstr ""
+
+#, c-format
+msgid "Formula is null for %s %s"
+msgstr ""
+
+#, c-format
+msgid ""
+"Coordinate %s of the monitoring probe number %i not found.\n"
+"Xpath: %s\n"
+msgstr ""
+
+#, c-format
+msgid "Variable index %i out of bounds (1 to %i)"
+msgstr ""
+
+#, c-format
+msgid "Name of variable %i was never set.\n"
+msgstr ""
+
+#, c-format
+msgid "unknow type %s\n"
+msgstr ""
+
+#, c-format
+msgid "Xpath request failed %s \n"
+msgstr ""
+
+#, c-format
+msgid "--output boundary faces: %s log %d, postprocess %d\n"
+msgstr ""
+
+msgid ""
+"One tries to define radiative boundary conditions on boundary which is not a "
+"wall.\n"
+"The definition of the boundaries natures given in GUI (wall, inlet, "
+"outlet,...) \n"
+"is modified in a users subroutine (like cs_user_boundary_conditions, "
+"USCPCL,...). \n"
+"The radiative boundary conditions given in GUI must be coherent \n"
+"with these new natures.\n"
+msgstr ""
+
+#, c-format
+msgid "Invalid coal model: %s.\n"
+msgstr ""
+
+#, c-format
+msgid "Invalid gas combustion flow model: %s.\n"
+msgstr ""
+
+#, c-format
+msgid "Invalid atmospheric flow model: %s.\n"
+msgstr ""
+
+#, c-format
+msgid "Invalid joule model: %s.\n"
+msgstr ""
+
+#, c-format
+msgid "Invalid electrical model: %s.\n"
+msgstr ""
+
+#, c-format
+msgid "Invalid compressible model: %s.\n"
+msgstr ""
+
+#, c-format
+msgid "Invalid model : %s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Coal number is limited to %i\n"
+"In the parametric file it is %i.\n"
+"Calculation is interupted. Check the parametric file.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"class number by coal is limited.\n"
+"For coal %i it is %i \n"
+" in the parametric file \n"
+msgstr ""
+
+msgid ""
+"type diameter value must be equal to 1 or 2.\n"
+"Calculation is interupted \n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Oxidant number must be between 1 and 3.\n"
+"It is  %i in the parametric file \n"
+"Calculation is interupted \n"
+msgstr ""
+
+#, c-format
+msgid "Unable to parse the file: %s\n"
+msgstr ""
+
+msgid "Code_Saturne has been compiled without XML support."
+msgstr ""
+
+#, c-format
+msgid ""
+"========================================================\n"
+"   ** Invalid version of the XML file\n"
+"      -------------------------------------- \n"
+"      XML file version: %.1f  \n"
+"      XML reader version: %.1f \n"
+"========================================================\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"========================================================\n"
+"   ** Unexpected version XML file version\n"
+"      -----------------------------------\n"
+"      XML file version: %.1f  \n"
+"      XML reader version: %.1f \n"
+"\n"
+"      It is recommended to rebuild a new XML file.\n"
+"========================================================\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"The node type is not XML_ATTRIBUTE_NODE.\n"
+"Xpath: %s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Several attributes found: %i \n"
+"The first one is %s \n"
+"Xpath: %s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"The node type is not XML_ELEMENT_NODE.\n"
+"Xpath: %s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Several nodes name found: %i \n"
+"The first one is %s \n"
+"Xpath: %s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"The node type is not XML_TEXT_NODE.\n"
+"Xpath: %s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Several text node found: %i \n"
+"The first one is %s \n"
+"Xpath: %s\n"
+msgstr ""
+
+#, c-format
+msgid "No markup found: %s \n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Attribute %s is of datatype %s and stride %d\n"
+"but %s and %d were requested."
+msgstr ""
+
+#, c-format
+msgid ""
+"Attribute %s has a number of components equal to %d\n"
+"but component %d is requested."
+msgstr ""
+
+msgid "Error reading main particle restart data."
+msgstr ""
+
+msgid ""
+" Error during boundary treatment.\n"
+" Part of trajectography inside the boundary faces."
+msgstr ""
+
+msgid "Max number of loops reached in particle displacement."
+msgstr ""
+
+msgid "Error during the particle displacement (Interior face)."
+msgstr ""
+
+msgid "Error during the particle displacement (Boundary face)."
+msgstr ""
+
+#, c-format
+msgid ""
+" Lagrangian module warning.\n"
+"  Failure during the particle tracking.\n"
+"  Wrong face orientation  => particle is lost.\n"
+"  Local face num.:  %d\n"
+"  Local cell num.:  %d\n"
+msgstr ""
+
+#, c-format
+msgid ""
+" Lagrangian module warning.\n"
+"  Failure during the particle tracking.\n"
+"  [P, Q, Face CoG, V(1)] orientation failed  => Particle is lost.\n"
+"  Local face num.:  %d\n"
+"  Local cell num.:  %d\n"
+msgstr ""
+
+#, c-format
+msgid ""
+" Lagrangian module warning.\n"
+"  Failure during the particle tracking.\n"
+"  [P, Q, Face CoG, V(%d)] orientation failed  => Particle is lost.\n"
+"  Local face num.:  %d\n"
+"  Local cell num.:  %d\n"
+msgstr ""
+
+#, c-format
+msgid ""
+" Lagrangian module warning.\n"
+"  Failure during the particle tracking.\n"
+"  [P, Q, V(%d), V(%d)] orientation failed  => Particle is lost.\n"
+"  Local face num.:  %d\n"
+"  Local cell num.:  %d\n"
+msgstr ""
+
+#, c-format
+msgid ""
+" Lagrangian module warning.\n"
+"  Failure during the particle tracking.\n"
+"  Local orientation counter must be -2, 0 or 2. Here is %d  => Particle is "
+"lost.\n"
+"  Local face num.:  %d\n"
+"  Local cell num.:  %d\n"
+msgstr ""
+
+#, c-format
+msgid ""
+" Lagrangian module warning.\n"
+"  Failure during the particle tracking.\n"
+"  => Particle is lost.\n"
+"  Local face num.:  %d\n"
+"  Local cell num.:  %d\n"
+msgstr ""
+
+#, c-format
+msgid ""
+" Lagrangian module warning.\n"
+"  Failure during the particle tracking.\n"
+"  Do not find the relative position between:\n"
+"   - P [%9.4f, %9.4f, %9.4f]\n"
+"   - Q [%9.4f, %9.4f, %9.4f]\n"
+"   - and the current face: CoG [%9.4f, %9.4f, %9.4f]\n"
+"  => Particle is lost.\n"
+"  Local face num.:  %d\n"
+"  Local cell num.:  %d\n"
+msgstr ""
+
+#, c-format
+msgid "Coal viscosity calculation impossible, tmp = %e is < 0.\n"
+msgstr ""
+
+#, c-format
+msgid " Boundary condition %d not recognized.\n"
+msgstr ""
+
+msgid " Cannot find the relative distant rank.\n"
+msgstr ""
+
+msgid " Cannot find the relative distant face num.\n"
+msgstr ""
+
+msgid "Error: _check_symbol\n"
+msgstr ""
+
+msgid "not implemented yet \n"
+msgstr ""
+
+msgid "not implemented\n"
+msgstr ""
+
+msgid "Error: floating point exception\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error in mei_tree_lookup function: %s does not exist in the symbol table\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"The user data file: %s needed by interp1d is not found.\n"
+"Add this data file to the list of users file to copy \n"
+"in the computational directory.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"interp1d: the file extention expected is dat or csv.  Extension found: %s\n"
+msgstr ""
+
+#, c-format
+msgid "At least two lines are expected in %s.\n"
+msgstr ""
+
+#, c-format
+msgid "At least two columns are expected in %s.\n"
+msgstr ""
+
+#, c-format
+msgid "In the file %s, line %i, there is a wrong value :%s\n"
+msgstr ""
+
+#, c-format
+msgid "The file %s does not have a correct structure at line %i.\n"
+msgstr ""
+
+msgid "Abscissa colomn is not in the rigth order.\n"
+msgstr ""
+
+msgid ""
+"\n"
+"  Element selection successfully done.\n"
+msgstr ""
+
+msgid ""
+"\n"
+"  Sorted possible intersections between faces.\n"
+msgstr ""
+
+#, c-format
+msgid "    Sorting possible intersections between faces:   %10.3g\n"
+msgstr ""
+
+#, c-format
+msgid "    Definition of local joining mesh:               %10.3g\n"
+msgstr ""
+
+#, c-format
+msgid "    Edge intersections:                             %10.3g\n"
+msgstr ""
+
+msgid ""
+"\n"
+"  Joining operation is null.\n"
+msgstr ""
+
+msgid ""
+"\n"
+"  Joining operation is conforming.\n"
+msgstr ""
+
+msgid ""
+"\n"
+"  Joining operation is non-conforming.\n"
+msgstr ""
+
+#, c-format
+msgid "    Creation of new vertices:                       %10.3g\n"
+msgstr ""
+
+msgid ""
+"\n"
+"  Edge intersections and vertex creation done.\n"
+msgstr ""
+
+#, c-format
+msgid "    Merging vertices:                               %10.3g\n"
+msgstr ""
+
+#, c-format
+msgid "    Updating structures with vertex merging:        %10.3g\n"
+msgstr ""
+
+msgid ""
+"\n"
+"  Merge vertices and mesh update done.\n"
+msgstr ""
+
+#, c-format
+msgid "    Split old faces and reconstruct new faces:      %10.3g\n"
+msgstr ""
+
+#, c-format
+msgid ""
+" %s\n"
+"     Number of cells:          %llu\n"
+"     Number of interior faces: %llu\n"
+"     Number of boundary faces: %llu\n"
+"     Number of vertices:       %llu\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+" -------------------------------------------------------\n"
+"  Joining number %d:\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Joining number %d:\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid "  Periodicity type: %s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  Transformation matrix:  %12.5g %12.5g %12.5g %12.5g\n"
+"                          %12.5g %12.5g %12.5g %12.5g\n"
+"                          %12.5g %12.5g %12.5g %12.5g\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid "  Selection criteria: \"%s\"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  Parameters for the joining operation:\n"
+"    Shortest incident edge fraction:          %8.5f\n"
+"    Maximum angle between joined face planes: %8.5f\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  Advanced joining parameters:\n"
+"    Verbosity level:                          %8d\n"
+"    Visualization level:                      %8d\n"
+"    Deepest level reachable in tree building: %8d\n"
+"    Max boxes by leaf:                        %8d\n"
+"    Max ratio of linked boxes / init. boxes:  %8.5f\n"
+"    Max ratio of boxes for distribution:      %8.5f\n"
+"    Merge step tolerance multiplier:          %8.5f\n"
+"    Pre-merge factor:                         %8.5f\n"
+"    Tolerance computation mode:               %8d\n"
+"    Intersection computation mode:            %8d\n"
+"    Max. number of equiv. breaks:             %8d\n"
+"    Max. number of subfaces by face:          %8d\n"
+"\n"
+msgstr ""
+
+msgid " Before joining"
+msgstr ""
+
+#, c-format
+msgid ""
+"Mesh joining:  Forbidden value for the tcm parameter.\n"
+"  It must be 1, 2, 11, or 12 and not: %d\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Mesh joining:  Forbidden value for icm parameter.\n"
+"  It must be 1 or 2 and not: %d\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Mesh joining:  Forbidden value for the maxsf parameter.\n"
+"  It must be > 0 and not: %d\n"
+msgstr ""
+
+#, c-format
+msgid "  Joining number %d is not defined.\n"
+msgstr ""
+
+#, c-format
+msgid "Unable to open file: \"%s\" for logging."
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  Number of faces to treat locally: %10d\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Stop joining algorithm: no face selected...\n"
+msgstr ""
+
+msgid " After joining"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  Joining %2d completed (%.3g s).\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  Complete treatment for joining %2d:\n"
+"    wall clock time:                                %10.3g\n"
+msgstr ""
+
+#, c-format
+msgid "Error closing log file for joining: %d."
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  All joining operations successfully finished:\n"
+"\n"
+"    Wall clock time:            %10.3g\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Joining operations time summary:\n"
+"  wall clock time:            %10.3g\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  Determination of possible face intersections:\n"
+"\n"
+"    bounding-box tree layout: %dD\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"                                   rank mean      minimum      maximum\n"
+"    depth:                        %10llu | %10llu | %10llu\n"
+"    number of leaves:             %10llu | %10llu | %10llu\n"
+"    number of boxes:              %10llu | %10llu | %10llu\n"
+"    leaves over threshold:        %10llu | %10llu | %10llu\n"
+"    boxes per leaf:               %10llu | %10llu | %10llu\n"
+"    Memory footprint (kb):\n"
+"      final search structure:     %10llu | %10llu | %10llu\n"
+"      temporary search structure: %10llu | %10llu | %10llu\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"    depth:                        %10llu\n"
+"    number of leaves:             %10llu\n"
+"    number of boxes:              %10llu\n"
+"    leaves over threshold:        %10llu\n"
+"    boxes per leaf:               %10llu mean [%llu min, %llu max]\n"
+"    Memory footprint (kb):\n"
+"      final search structure:     %10llu\n"
+"      temporary search structure: %10llu\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  Associated times:\n"
+"    Face bounding boxes tree construction:          %10.3g\n"
+"    Face bounding boxes neighborhood query:         %10.3g\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  Incoherency found in inter_edges structure for edge %d (%u):\n"
+"  Bad ordering of curvilinear abscissa.\n"
+"   Vertex %d (%u) of abscissa: %f is before vertex %d (%u) of abscissa: %f\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  Incoherency found in inter_edges structure.\n"
+"  Redundancy for edge %d (%u) :\n"
+"   v1_num :  %d\n"
+"   v2_num :  %d\n"
+"  Vertex %d appears twice.\n"
+msgstr ""
+
+msgid "  Vertex number out of bounds.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  Equivalences broken for %llu edges.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  Max. number of equiv. breaks: %llu\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  The received edge global number (%llu) is unknown on the current rank.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  Global number of intersections detected: %12llu\n"
+"    Vertex-Vertex intersections:    %12llu\n"
+"    Other intersections:            %12llu\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  The number of new vertices to create is not consistent.\n"
+"     Previous number: %10d\n"
+"     Current number:  %10d\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  The authorized maximum number of iterations  for the merge of vertices has "
+"been reached.\n"
+"  Local counter on iteration : %d (MAX =%d)\n"
+"  Check the fraction parameter.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  The authorized maximum number of iterations  for the merge of vertices has "
+"been reached.\n"
+"  Global counter on iteration : %d (MAX =%d)\n"
+"  Check the fraction parameter.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  Pre-merge for %llu global element couples.\n"
+msgstr ""
+
+msgid ""
+"\n"
+"  No need to merge vertices.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  Max size of a merge set of vertices: %llu\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  Excessive transitivity for %llu set(s) of vertices.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  Max. number of iterations to solve transitivity excess: %llu\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  Global number of new vertices to create: %10llu\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  Inconsistent value found in cs_join_vertex_t struct.:\n"
+"    Vertex %d is defined by:\n"
+"      %llu - [%7.4le, %7.4le, %7.4le] - %lg\n"
+msgstr ""
+
+msgid ""
+"\n"
+"  Merging of equivalent vertices done.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  Global number of selected vertices: %11llu\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  Number of selected vertices: %11llu\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  The simplified face has less than 3 vertices.\n"
+"  Check your joining parameters.\n"
+"  Face %d (%llu)\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  Number of simplified faces: %llu\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+" Problem in mesh connectivity.\n"
+" Detected when updating connectivity.\n"
+" Edge number: %d (%llu) - (%d, %d) in old numbering.\n"
+msgstr ""
+
+msgid ""
+"  Global min/max. tolerance:\n"
+"\n"
+" Glob. Num. |  Tolerance  |              Coordinates\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+" The given vertex number: %d is not defined in the edge structure (edges-"
+">vtx_idx).\n"
+msgstr ""
+
+#, c-format
+msgid ""
+" The given couple of vertex numbers :\n"
+"   vertex 1 : %d\n"
+"   vertex 2 : %d\n"
+" is not defined in the edge structure.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+" Problem in mesh connectivity. Face: %llu\n"
+" Problem detected during connectivity update:\n"
+" The face is defined by less than 3 points (excessive merging has occured).\n"
+"\n"
+" Modify joining parameters to reduce merging (fraction & merge).\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  Vertex state (%d) is not consistent.\n"
+"  Can not apply changes from periodic faces to original face.\n"
+"  Check your periodicity parameters.\n"
+msgstr ""
+
+msgid ""
+" Size of \"int\" is not 4 or 8 bytes.\n"
+" Check the datatype of the field to export.\n"
+msgstr ""
+
+msgid "Rank"
+msgstr ""
+
+msgid "VtxTolerance"
+msgstr ""
+
+#, c-format
+msgid ""
+"  Fail to build an inverted cs_join_gset_t structure.\n"
+"  Cannot find %llu in element list.\n"
+msgstr ""
+
+msgid ""
+"  face splitting with face -> face connectivity is not yet implemented\n"
+msgstr ""
+
+#, c-format
+msgid ""
+" Joining operation : split face %d\n"
+" Problem in the connectivity. Could not find a connection with the vertex "
+"%d\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  Global number of faces after splitting: %10llu\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  *** WARNING ***\n"
+"  Globally, %llu problem(s) found during the face splitting\n"
+"     %12llu  open cycles,\n"
+"     %12llu  edges traversed twice,\n"
+"     %12llu  faces split into more than max_subfaces (= %d)\n"
+"\n"
+"    => Eventually modify joining parameters\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"At least one original face has been cut into more than%d subfaces\n"
+". You can increase this parameter incs_user_join() or cs_user_periodicity()\n"
+"by setting the advanced parameter max_sub_face.\n"
+"Be cautious, as this may produce a mesh witha poor quality.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  Cannot find the first corresponding vertex between the face connectivity "
+"before/after the merge step.\n"
+"  Current global face number: %llu\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  Face %d (%llu): Edge with two different descriptions: (%d, %d) [%llu, "
+"%llu]\n"
+"  n_subs: %d - previous n_subs: %d\n"
+"  Impossible to continue the mesh update after the merge operation.\n"
+msgstr ""
+
+msgid "  Cannot achieve to reorient the current joined face.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  Cannot achieve to reorient the current joined face with face %d (selected "
+"face).\n"
+msgstr ""
+
+#, c-format
+msgid ""
+" Incoherency found before interior face orientation checking.\n"
+" Join face %d (%llu) and related faces [%d, %d]\n"
+msgstr ""
+
+#, c-format
+msgid ""
+" There are %llu undefined faces with no ancestor.\n"
+" Cannot continue the joining algorithm.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  Global configuration after the joining operation:\n"
+"     Global number of border faces to add: %10llu\n"
+msgstr ""
+
+#, c-format
+msgid "     Global number of multiple border faces: %10llu\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  Mesh cleaning done for degenerate faces.\n"
+"    Global number of cleaned interior faces: %8llu\n"
+"    Global number of cleaned border faces:   %8llu\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  Global number of single vertices found: %6llu\n"
+msgstr ""
+
+#, c-format
+msgid "  Global number of single edges found:    %6llu\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Mesh joining:  Forbidden value for the fraction parameter.\n"
+"  It must be between [0.0, 1.0[ and is here: %f\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Mesh joining:  Forbidden value for the plane parameter.\n"
+"  It must be between [0, 90] and is here: %f\n"
+msgstr ""
+
+msgid "The log directory cannot be created"
+msgstr ""
+
+#, c-format
+msgid "  Global number of boundary faces selected for joining: %10llu\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  Inconsistent mesh definition. Cannot build edges.\n"
+"  Face %d has the same vertex %d twice.\n"
+msgstr ""
+
+msgid "Bad Cell Ortho Norm"
+msgstr ""
+
+msgid "Bad Cell Offset"
+msgstr ""
+
+msgid "Bad Cell LSQ Gradient"
+msgstr ""
+
+msgid "Bad Cell Volume Ratio"
+msgstr ""
+
+msgid "Bad Cell Association"
+msgstr ""
+
+msgid "Bad Cell by User"
+msgstr ""
+
+msgid ""
+"\n"
+"  Criterion 1: Orthogonality:\n"
+msgstr ""
+
+#, c-format
+msgid "    Number of bad cells detected: %llu --> %3.0f %%\n"
+msgstr ""
+
+msgid ""
+"\n"
+"  Criterion 2: Offset:\n"
+msgstr ""
+
+msgid ""
+"\n"
+"  Criterion 3: Least-Squares Gradient Quality:\n"
+msgstr ""
+
+msgid ""
+"\n"
+"  Criterion 4: Cells Volume Ratio:\n"
+msgstr ""
+
+msgid ""
+"\n"
+"  Criterion 5: Guilt by Association:\n"
+msgstr ""
+
+msgid ""
+"\n"
+" Warning:\n"
+" --------\n"
+"    Mesh quality issue has been detected\n"
+"\n"
+"    The mesh should be re-considered using the listed criteria.\n"
+"\n"
+"    The calculation will run but the solution quality may be degraded...\n"
+msgstr ""
+
+msgid "Synchronizing cell families\n"
+msgstr ""
+
+#, c-format
+msgid "    minimum value =         %10d\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"    maximum value =         %10d\n"
+"\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Halo creation times summary\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid "  Interface creation:                        %.3g s\n"
+msgstr ""
+
+#, c-format
+msgid "  Extended connectivity creation:            %.3g s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  Halo creation:                             %.3g s\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  Total time for halo creation:              %.3g s\n"
+"\n"
+msgstr ""
+
+msgid ""
+"\n"
+" Histogram of the number of interior faces per cell:\n"
+"\n"
+msgstr ""
+
+msgid ""
+"\n"
+" Periodic faces (which are also interior faces):\n"
+msgstr ""
+
+#, c-format
+msgid "     Periodicity %2d:          %llu face couples\n"
+msgstr ""
+
+msgid ""
+"\n"
+" Groups:\n"
+msgstr ""
+
+#, c-format
+msgid "       cells:          %12llu\n"
+msgstr ""
+
+#, c-format
+msgid "       interior faces: %12llu\n"
+msgstr ""
+
+#, c-format
+msgid "       boundary faces: %12llu\n"
+msgstr ""
+
+#, c-format
+msgid "       isolated faces: %12llu\n"
+msgstr ""
+
+msgid ""
+"\n"
+" Histogram of the number of cells per rank:\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid " Number of cells:                                      %d\n"
+msgstr ""
+
+msgid ""
+"\n"
+" Histogram of the number of standard + halo cells per rank:\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+" Number of cells + halo cells:                         %d\n"
+"\n"
+msgstr ""
+
+msgid ""
+"\n"
+" Histogram of the number of ghost cells per rank:\n"
+"\n"
+msgstr ""
+
+msgid ""
+"\n"
+" Histogram of the number of ghost cells\n"
+" in the standard neighborhood per rank:\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+" Number of ghost cells:                          %10d\n"
+msgstr ""
+
+#, c-format
+msgid "   in the standard neighborhood:              %10d\n"
+msgstr ""
+
+msgid ""
+"\n"
+" Histogram of the number of interior faces per rank:\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid " Number of interior faces:                             %d\n"
+msgstr ""
+
+msgid ""
+"\n"
+" Histogram of the number of boundary faces per rank:\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid " Number of boundary faces:                             %d\n"
+msgstr ""
+
+msgid ""
+"\n"
+" Histogram of the number of neighboring domains per rank:\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+" Removed %llu isolated faces\n"
+"     Number of initial vertices:  %llu\n"
+"     Number of vertices:          %llu\n"
+"\n"
+msgstr ""
+
+msgid ""
+"\n"
+" Global definition of the number of elements (cells, vertices, faces...)\n"
+msgstr ""
+
+msgid " Composing periodicities\n"
+msgstr ""
+
+msgid ""
+"\n"
+" Halo construction with extended neighborhood\n"
+" ============================================\n"
+"\n"
+msgstr ""
+
+msgid ""
+"\n"
+" Halo construction with standard neighborhood\n"
+" ============================================\n"
+"\n"
+msgstr ""
+
+msgid " Face interfaces creation\n"
+msgstr ""
+
+msgid " Definition of periodic vertices\n"
+msgstr ""
+
+msgid " Vertex interfaces creation\n"
+msgstr ""
+
+msgid " Halo creation\n"
+msgstr ""
+
+msgid " Halo definition\n"
+msgstr ""
+
+msgid " Extended neighborhood structures definition\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Extended connectivity creation (%.3g s)\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+" Mesh coordinates:               minimum    and maximum\n"
+"                       X : %14.7e %14.7e\n"
+"                       Y : %14.7e %14.7e\n"
+"                       Z : %14.7e %14.7e\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"     Number of isolated faces: %llu\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Mesh entity selections by criteria statistics:\n"
+"\n"
+"  entity type     evaluations          time\n"
+"  -----------------------------------------\n"
+"  cells            %10d  %12.5f\n"
+"  interior faces   %10d  %12.5f\n"
+"  boundary faces   %10d  %12.5f\n"
+msgstr ""
+
+msgid "    Checking the face -> cells connectivity coherency\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Internal face -> cells connectivity value not initialized\n"
+"for face: %d (cell_num1 = %d and cell_num2 = %d)\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Coherency error in %s halo\n"
+"between cell %ld with:\n"
+"  bounding box min:  [%12.6g %12.6g %12.6g]\n"
+"               max:  [%12.6g %12.6g %12.6g]\n"
+"and     cell %ld with:\n"
+"  bounding box min:  [%12.6g %12.6g %12.6g]\n"
+"               max:  [%12.6g %12.6g %12.6g]"
+msgstr ""
+
+msgid ""
+"\n"
+" Checking the mesh structure coherency:\n"
+msgstr ""
+
+msgid "    Coherency criteria definition\n"
+msgstr ""
+
+msgid "    Coherency verification on coordinates\n"
+msgstr ""
+
+msgid "standard"
+msgstr ""
+
+msgid "extended"
+msgstr ""
+
+msgid " End of coherency check of the mesh structure.\n"
+msgstr ""
+
+msgid ""
+"The main mesh does not contain any face -> vertices\n"
+"connectivity, necessary for the nodal connectivity\n"
+"reconstruction (cs_mesh_connect_cells_to_nodal)."
+msgstr ""
+
+msgid ""
+"The main mesh does not contain any face -> vertices\n"
+"connectivity, necessary for the nodal connectivity\n"
+"reconstruction (cs_mesh_connect_faces_to_nodal)."
+msgstr ""
+
+#, c-format
+msgid ""
+"Number of cells on rank %d is zero.\n"
+"(number of cells / number of processes ratio too low)."
+msgstr ""
+
+#, c-format
+msgid ""
+"Repeated inconsistency in the halo construction.\n"
+"Several local points have the same distant correspondant;\n"
+"this is probably a side effect of a poor quality joining\n"
+"or periodicity.\n"
+"Coordinates of the first impacted point: [%12.5e, %12.5e %12.5e]."
+msgstr ""
+
+msgid "    Halo cleaning\n"
+msgstr ""
+
+msgid "    Distant halo creation\n"
+msgstr ""
+
+msgid "    Updating the faces -> cells connectivity\n"
+msgstr ""
+
+msgid "cells"
+msgstr ""
+
+msgid "vertices"
+msgstr ""
+
+msgid "particles"
+msgstr ""
+
+msgid "other"
+msgstr ""
+
+#, c-format
+msgid ""
+"The requested mesh location\n"
+"%d is not defined.\n"
+msgstr ""
+
+msgid "global"
+msgstr ""
+
+msgid "interior_faces"
+msgstr ""
+
+msgid "boundary_faces"
+msgstr ""
+
+#, c-format
+msgid ""
+"A selection criteria is given but no associated selector\n"
+"is available for mesh location %d of type %d."
+msgstr ""
+
+msgid ""
+"\n"
+"  Histogram of the interior faces warping:\n"
+"\n"
+msgstr ""
+
+msgid ""
+"\n"
+"  Histogram of the boundary faces warping:\n"
+"\n"
+msgstr ""
+
+msgid ""
+"\n"
+"  Histogram of the interior faces weighting coefficient:\n"
+"\n"
+msgstr ""
+
+msgid ""
+"\n"
+"  Histogram of the interior faces off-centering coefficient:\n"
+"\n"
+msgstr ""
+
+msgid ""
+"\n"
+"  Histogram of the interior faces non-orthogonality coefficient (in "
+"degrees):\n"
+"\n"
+msgstr ""
+
+msgid ""
+"\n"
+"  Histogram of the boundary faces non-orthogonality coefficient (in "
+"degrees):\n"
+"\n"
+msgstr ""
+
+msgid ""
+"\n"
+"  Histogram of cell volumes:\n"
+"\n"
+msgstr ""
+
+msgid ""
+"Face geometric quantities computation is only\n"
+"implemented in 3D."
+msgstr ""
+
+msgid ""
+"Face surface computation is only\n"
+"implemented in 3D."
+msgstr ""
+
+msgid "Cell center computation is only implemented in 3D."
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"%llu faces have a null distance between centers.\n"
+"For these faces, the weight is set to 0.5.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"The algorithm selection indicator for the cell center of gravity "
+"computation\n"
+"can take the following values:\n"
+"  0: computation based on the face centers and surfaces\n"
+"  1: computation based on the vertices\n"
+"and not %d."
+msgstr ""
+
+#, c-format
+msgid ""
+" --- Information on the volumes\n"
+"       Minimum control volume      = %14.7e\n"
+"       Maximum control volume      = %14.7e\n"
+"       Total volume for the domain = %14.7e\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Abort due to the detection of a negative control volume.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  %llu cells have a Negative volume.\n"
+" Run mesh quality check for post-processing output.\n"
+" In case of mesh joining, this may be due to overly  agressive joining "
+"parameters."
+msgstr ""
+
+msgid ""
+"\n"
+" Start unwarping algorithm\n"
+"\n"
+msgstr ""
+
+msgid ""
+"\n"
+"  Histogram of the boundary faces warping before unwarping algorithm:\n"
+"\n"
+msgstr ""
+
+msgid ""
+"\n"
+"  Histogram of the interior faces warping before unwarping algorithm:\n"
+"\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Unwarping algorithm failed."
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Unwarping algorithm stopped at iteration %d because it starting to diverge.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Unwarping algorithm converged at iteration %d \n"
+msgstr ""
+
+msgid ""
+"\n"
+"  Histogram of the boundary faces warping after unwarping algorithm:\n"
+"\n"
+msgstr ""
+
+msgid ""
+"\n"
+"  Histogram of the interior faces warping after unwarping algorithm:\n"
+"\n"
+msgstr ""
+
+msgid ""
+"\n"
+" End unwarping algorithm\n"
+"\n"
+msgstr ""
+
+msgid ""
+"The faces have been renumbered before cutting.\n"
+"This case should not arise, because the mesh entities\n"
+"should be cut before renumbering."
+msgstr ""
+
+msgid "Warped faces to cut"
+msgstr ""
+
+msgid "Face warping"
+msgstr ""
+
+msgid "Warped faces after cutting"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"\n"
+" Cutting of warped faces requested\n"
+" ---------------------------------\n"
+"\n"
+" Maximum allowed angle (deg): %7.4f\n"
+"\n"
+msgstr ""
+
+msgid ""
+"\n"
+" No face to cut. Verify the criterion if necessary.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+" Interior faces:\n"
+"\n"
+"   %12llu faces before cutting\n"
+"   %12llu faces after cutting\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+" Boundary faces:\n"
+"\n"
+"   %12llu faces before cutting\n"
+"   %12llu faces after cutting\n"
+"\n"
+msgstr ""
+
+msgid "  Number of cells per domain (histogramm):\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+" Partitioning by space-filling curve: %s.\n"
+msgstr ""
+
+#, c-format
+msgid "  Morton (Z) curve:           %.3g s \n"
+msgstr ""
+
+#, c-format
+msgid "  Peano-Hilbert curve:        %.3g s \n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+" Partitioning %llu cells to %d domains   (METIS_PartGraphRecursive).\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+" Partitioning %llu cells to %d domains\n"
+"  (METIS_PartGraphKway).\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  Total number of faces on parallel boundaries: %llu\n"
+"  wall-clock time: %f s\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+" Partitioning %llu cells to %d domains on %d ranks\n"
+"   (ParMETIS_V3_PartKway).\n"
+msgstr ""
+
+msgid "Error in ParMETIS partitioning.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"  wall-clock time: %f s\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Fatal error encountered by libScotch.\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Warning (libScotch):\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+" Partitioning %llu cells to %d domains\n"
+"   (SCOTCH_graphPart).\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+" Partitioning %llu cells to %d domains on %d ranks\n"
+"   (SCOTCH_dgraphPart).\n"
+msgstr ""
+
+msgid ""
+"\n"
+" Ignoring periodicity for graph-based partitioning.\n"
+msgstr ""
+
+msgid "The partitioning directory cannot be created"
+msgstr ""
+
+#, c-format
+msgid " No \"%s\" file available;\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"The number of cells reported by file\n"
+"\"%s\" (%llu)\n"
+"does not correspond to those of the mesh (%llu)."
+msgstr ""
+
+#, c-format
+msgid ""
+"The number of ranks reported by file\n"
+"\"%s\" (%d) does not\n"
+"correspond to the current number of ranks (%d)."
+msgstr ""
+
+#, c-format
+msgid "Section of type <%s> on <%s> is unexpected."
+msgstr ""
+
+msgid ""
+"\n"
+"  External libraries for partitioning:\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Partitioning with %s requested, but %s is not available,\n"
+"so serial %s will be used."
+msgstr ""
+
+#, c-format
+msgid ""
+"Partitioning with %s required but neither\n"
+"%s nor %s is available."
+msgstr ""
+
+msgid ""
+"\n"
+"Partitioning:\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid "  preparing graph:            %.3g s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+" Partitioning finished (%.3g s)\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  wall clock time:            %.3g s\n"
+"\n"
+msgstr ""
+
+msgid "Max. size of synthetic eddies:\n"
+msgstr ""
+
+#, c-format
+msgid "   max(sigma_%c) = %f, at coordinates (%f,%f,%f)\n"
+msgstr ""
+
+msgid "\n"
+msgstr ""
+
+msgid "Number of min. clippings (eddy size equals grid size):\n"
+msgstr ""
+
+#, c-format
+msgid "   sigma_%c clipped %d times\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Dimensions of the virtual box: \n"
+"   Lx = %f, coo_min : %f, coo_max : %f\n"
+"   Ly = %f, coo_min : %f, coo_max : %f\n"
+"   Lz = %f, coo_min : %f, coo_max : %f\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Number of eddies leaving the box (regenerated): %i\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Invalid choice of synthetic turbulence generation method (%d).\n"
+"Valid choices are:\n"
+"\t0 -> laminar\n"
+"\t1 -> random\n"
+"\t2 -> batten\n"
+"\t3 -> SEM\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"The number of modes for the Batten method must be strictly positive. %d is "
+"given here.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"The number of eddies for the SEM must be strictly positive. %d is given "
+"here.\n"
+msgstr ""
+
+#, c-format
+msgid " Definition of the LES inflow boundary \"%d\" \n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Abort while defing the LES inlets.\n"
+"The LES inlet \"%d\" does not contain any boundary face.\n"
+"Verify the definition of the LES inlets (cs_user_les_inflow.f90 file).\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"   Method: %d (%s)\n"
+"   Number of boundary faces (global): %d\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"   Number of modes: %d\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"   Number of structures: %d\n"
+"\n"
+msgstr ""
+
+msgid "   \n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"-------------------------------------------------------------\n"
+"\n"
+"SEM INFO, inlet \"%d\" \n"
+"\n"
+msgstr ""
+
+msgid " Reading the LES inflow module restart file...\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Abort while opening the LES inflow module restart file in read mode.\n"
+"Verify the existence and the name of the restart file: %s\n"
+msgstr ""
+
+msgid ""
+"Abort while reading the LES inflow module restart file.\n"
+"The number of boundary faces has been modified\n"
+"Verify that the restart file corresponds to the present study.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Abort while reading the LES inflow module restart file.\n"
+"\n"
+"The file %s does not seem to be a restart file\n"
+"for the LES inflow module.\n"
+"The calculation will not be run.\n"
+"\n"
+"Verify that the restart file corresponds to a\n"
+"restart file for the LES inflow module.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Problem while reading section in the restart file\n"
+"for the LES inflow module:\n"
+"<%s>\n"
+"The calculation will not be run.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Stop reading the LES inflow module restart file.\n"
+"The calculation is defined with %d LES inlets while the restart file "
+"contains %d.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Stop reading the LES inflow module restart file.\n"
+"The inlet %d uses the method %d (%s) instead of %d (%s) in the restart "
+"file.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Stop reading the LES inflow module restart file.\n"
+"%d modes are given for the Batten method while the restart file contains "
+"%d.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Stop reading the LES inflow module restart file.\n"
+"%d eddies are given for the SEM while the restart file contains %d.\n"
+msgstr ""
+
+msgid " ...completed\n"
+msgstr ""
+
+msgid ""
+"\n"
+" Writing the LES inflow module restart file...\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Abort while opening the LES inflow module restart file in write mode.\n"
+"Verify the existence and the name of the restart file: %s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Summary of synthetic turbulence generation for inlet \"%d\" (%s) :\n"
+"\n"
+"  Accumulated wall-clock time:      %12.3f\n"
+msgstr ""
+
+#, c-format
+msgid "  Accumulated CPU time:             %12.3f\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  Accumulated CPU time:\n"
+"    local min:                      %12.3f\n"
+"    local max:                      %12.3f\n"
+"    mean:                           %12.3f\n"
+msgstr ""

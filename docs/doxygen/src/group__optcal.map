@@ -1,0 +1,13 @@
+<map id="Module for calculation options" name="Module for calculation options">
+<area shape="rect" id="node1" href="$group__homegeneous__mixture.html" title="Homogeneous mixture\l modelling" alt="" coords="207,5,359,51"/>
+<area shape="rect" id="node2" href="$group__equation__types.html" title="Equation types" alt="" coords="228,75,337,104"/>
+<area shape="rect" id="node3" href="$group__additional__source__terms.html" title="Additional source terms" alt="" coords="204,128,361,157"/>
+<area shape="rect" id="node4" href="$group__stokes.html" title="Stokes options" alt="" coords="228,181,337,211"/>
+<area shape="rect" id="node5" href="$group__time__stepping.html" title="Time stepping" alt="" coords="231,235,335,264"/>
+<area shape="rect" id="node6" href="$group__thermal.html" title="model" alt="" coords="255,288,311,317"/>
+<area shape="rect" id="node7" href="$group__scalar__params.html" title="Transported scalars\l parameters" alt="" coords="215,341,351,387"/>
+<area shape="rect" id="node8" href="$group__space__discretisation.html" title="Space discretisation" alt="" coords="213,411,352,440"/>
+<area shape="rect" id="node9" href="$group__turbulence.html" title="turbulence options" alt="" coords="219,464,347,493"/>
+<area shape="rect" id="node10" href="$group__time__step__options.html" title="Time step options and\l variables" alt="" coords="208,517,357,563"/>
+<area shape="rect" id="node11" href="$group__num__wall__distance.html" title="Numerical parameters\l for the wall distance\l calculation" alt="" coords="208,587,357,651"/>
+</map>

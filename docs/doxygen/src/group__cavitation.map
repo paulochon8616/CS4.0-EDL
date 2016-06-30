@@ -1,0 +1,6 @@
+<map id="Module for cavitating flow modelling" name="Module for cavitating flow modelling">
+<area shape="rect" id="node1" href="$group__cav__source__term.html" title="Vaporization/condensation\l model" alt="" coords="199,5,372,51"/>
+<area shape="rect" id="node2" href="$group__cav__mixture__properties.html" title="Mixture properties" alt="" coords="223,75,348,104"/>
+<area shape="rect" id="node3" href="$group__cav__numerics.html" title="Numerical parameters" alt="" coords="211,128,360,157"/>
+<area shape="rect" id="node5" href="$group__cav__turbulence.html" title="Interaction with turbulence" alt="" coords="199,181,372,211"/>
+</map>

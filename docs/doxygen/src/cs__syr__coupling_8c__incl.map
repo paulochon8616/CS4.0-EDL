@@ -1,0 +1,16 @@
+<map id="src/base/cs_syr_coupling.c" name="src/base/cs_syr_coupling.c">
+<area shape="rect" id="node3" href="$cs__defs_8h.html" title="cs_defs.h" alt="" coords="309,392,387,421"/>
+<area shape="rect" id="node34" href="$bft__mem_8h.html" title="bft_mem.h" alt="" coords="352,83,435,112"/>
+<area shape="rect" id="node37" href="$bft__error_8h.html" title="bft_error.h" alt="" coords="360,160,440,189"/>
+<area shape="rect" id="node42" href="$bft__printf_8h.html" title="bft_printf.h" alt="" coords="85,160,168,189"/>
+<area shape="rect" id="node46" href="$cs__coupling_8h.html" title="cs_coupling.h" alt="" coords="940,83,1041,112"/>
+<area shape="rect" id="node51" href="$cs__parall_8h.html" title="cs_parall.h" alt="" coords="5,315,91,344"/>
+<area shape="rect" id="node54" href="$cs__prototypes_8h.html" title="cs_prototypes.h" alt="" coords="720,83,835,112"/>
+<area shape="rect" id="node70" href="$cs__syr4__coupling_8h.html" title="cs_syr4_coupling.h" alt="" coords="936,237,1069,267"/>
+<area shape="rect" id="node73" href="$cs__syr__coupling_8h.html" title="cs_syr_coupling.h" alt="" coords="411,237,536,267"/>
+<area shape="rect" id="node49" href="$cs__base_8h.html" title="cs_base.h" alt="" coords="807,392,889,421"/>
+<area shape="rect" id="node57" href="$cs__mesh_8h.html" title="cs_mesh.h" alt="" coords="581,315,667,344"/>
+<area shape="rect" id="node61" href="$cs__mesh__quantities_8h.html" title="cs_mesh_quantities.h" alt="" coords="661,237,811,267"/>
+<area shape="rect" id="node65" href="$cs__mesh__bad__cells_8h.html" title="cs_mesh_bad_cells.h" alt="" coords="704,160,851,189"/>
+<area shape="rect" id="node75" href="$fvm__defs_8h.html" title="fvm_defs.h" alt="" coords="413,315,499,344"/>
+</map>

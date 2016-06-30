@@ -1,0 +1,4 @@
+<map id="cs_boundary_t" name="cs_boundary_t">
+<area shape="rect" id="node2" href="$structcs__meteo__t.html" title="{cs_meteo_t\n|+ read_data\l+ automatic\l|}" alt="" coords="5,14,96,117"/>
+<area shape="rect" id="node4" href="$structcs__val__t.html" title="{cs_val_t\n|+ val1\l+ val2\l+ val3\l|}" alt="" coords="120,5,189,125"/>
+</map>

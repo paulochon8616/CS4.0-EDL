@@ -1,0 +1,8 @@
+<map id="src/apps/cs_check_syntax.c" name="src/apps/cs_check_syntax.c">
+<area shape="rect" id="node3" href="$cs__defs_8h.html" title="cs_defs.h" alt="" coords="276,237,353,267"/>
+<area shape="rect" id="node25" href="$bft__mem_8h.html" title="bft_mem.h" alt="" coords="325,83,408,112"/>
+<area shape="rect" id="node28" href="$bft__error_8h.html" title="bft_error.h" alt="" coords="352,160,432,189"/>
+<area shape="rect" id="node32" href="$mei__evaluate_8h.html" title="Build an interpreter for a mathematical expression. " alt="" coords="483,83,592,112"/>
+<area shape="rect" id="node34" href="$mei__hash__table_8h.html" title="Hash table, intended to provide a symbol table. " alt="" coords="475,237,597,267"/>
+<area shape="rect" id="node36" href="$mei__node_8h.html" title="Nodal structure of the interpreter. " alt="" coords="533,160,621,189"/>
+</map>

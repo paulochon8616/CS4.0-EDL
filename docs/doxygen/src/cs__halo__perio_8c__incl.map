@@ -1,0 +1,21 @@
+<map id="src/base/cs_halo_perio.c" name="src/base/cs_halo_perio.c">
+<area shape="rect" id="node3" href="$cs__defs_8h.html" title="cs_defs.h" alt="" coords="363,701,440,731"/>
+<area shape="rect" id="node31" href="$bft__mem_8h.html" title="bft_mem.h" alt="" coords="91,83,173,112"/>
+<area shape="rect" id="node38" href="$bft__printf_8h.html" title="bft_printf.h" alt="" coords="248,160,331,189"/>
+<area shape="rect" id="node42" href="$fvm__periodicity_8h.html" title="fvm_periodicity.h" alt="" coords="615,547,735,576"/>
+<area shape="rect" id="node48" href="$cs__base_8h.html" title="cs_base.h" alt="" coords="891,469,973,499"/>
+<area shape="rect" id="node50" href="$cs__halo_8h.html" title="cs_halo.h" alt="" coords="1071,392,1148,421"/>
+<area shape="rect" id="node53" href="$cs__interface_8h.html" title="cs_interface.h" alt="" coords="452,469,556,499"/>
+<area shape="rect" id="node59" href="$cs__mesh_8h.html" title="cs_mesh.h" alt="" coords="599,315,684,344"/>
+<area shape="rect" id="node84" href="$cs__prototypes_8h.html" title="cs_prototypes.h" alt="" coords="821,83,936,112"/>
+<area shape="rect" id="node97" href="$cs__timer_8h.html" title="cs_timer.h" alt="" coords="1284,624,1367,653"/>
+<area shape="rect" id="node100" href="$cs__halo__perio_8h.html" title="cs_halo_perio.h" alt="" coords="1129,315,1241,344"/>
+<area shape="rect" id="node34" href="$bft__error_8h.html" title="bft_error.h" alt="" coords="93,160,173,189"/>
+<area shape="rect" id="node45" href="$fvm__defs_8h.html" title="fvm_defs.h" alt="" coords="439,624,524,653"/>
+<area shape="rect" id="node62" href="$fvm__group_8h.html" title="fvm_group.h" alt="" coords="271,547,364,576"/>
+<area shape="rect" id="node66" href="$fvm__selector_8h.html" title="fvm_selector.h" alt="" coords="321,469,428,499"/>
+<area shape="rect" id="node75" href="$cs__numbering_8h.html" title="cs_numbering.h" alt="" coords="679,392,793,421"/>
+<area shape="rect" id="node79" href="$cs__mesh__builder_8h.html" title="cs_mesh_builder.h" alt="" coords="473,392,604,421"/>
+<area shape="rect" id="node88" href="$cs__mesh__quantities_8h.html" title="cs_mesh_quantities.h" alt="" coords="796,237,945,267"/>
+<area shape="rect" id="node92" href="$cs__mesh__bad__cells_8h.html" title="cs_mesh_bad_cells.h" alt="" coords="695,160,841,189"/>
+</map>

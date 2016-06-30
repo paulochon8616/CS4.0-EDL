@@ -1,0 +1,4 @@
+<map id="cs_mesh_t" name="cs_mesh_t">
+<area shape="rect" id="node2" href="$structcs__numbering__t.html" title="{cs_numbering_t\n|+ type\l+ vector_size\l+ n_threads\l+ n_groups\l+ n_no_adj_halo_groups\l+ n_no_adj_halo_elts\l+ group_index\l|}" alt="" coords="5,57,168,247"/>
+<area shape="rect" id="node4" href="$structcs__halo__t.html" title="{cs_halo_t\n|+ n_c_domains\l+ n_transforms\l+ c_domain_rank\l+ periodicity\l+ n_rotations\l+ n_local_elts\l+ n_send_elts\l+ send_list\l+ send_index\l+ send_perio_lst\l+ n_elts\l+ index\l+ perio_lst\l|}" alt="" coords="192,5,315,299"/>
+</map>

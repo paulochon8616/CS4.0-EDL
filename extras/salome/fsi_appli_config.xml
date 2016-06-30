@@ -1,0 +1,9 @@
+<application>
+  <prerequisites path="/home/D43345/salome/Salome-V7_7_1-c7/salome_prerequisites.sh"/>
+  <modules>
+    <module name="KERNEL" gui="no" path="/home/D43345/salome/Salome-V7_7_1-c7/modules/KERNEL_V7_7_1"/>
+    <module name="GUI"    gui="no" path="/home/D43345/salome/Salome-V7_7_1-c7/modules/GUI_V7_7_1"/>
+    <module name="YACS"   gui="no" path="/home/D43345/salome/Salome-V7_7_1-c7/modules/YACS_V7_7_1"/>
+    <module name="FSI"    gui="no" path="/home/D43345/Code_Saturne/arch/svn_40"/>
+  </modules>
+</application>

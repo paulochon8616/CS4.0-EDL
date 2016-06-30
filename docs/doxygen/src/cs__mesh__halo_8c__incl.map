@@ -1,0 +1,18 @@
+<map id="src/mesh/cs_mesh_halo.c" name="src/mesh/cs_mesh_halo.c">
+<area shape="rect" id="node3" href="$cs__defs_8h.html" title="cs_defs.h" alt="" coords="577,547,655,576"/>
+<area shape="rect" id="node25" href="$bft__mem_8h.html" title="bft_mem.h" alt="" coords="92,83,175,112"/>
+<area shape="rect" id="node28" href="$bft__error_8h.html" title="bft_error.h" alt="" coords="93,160,173,189"/>
+<area shape="rect" id="node34" href="$bft__printf_8h.html" title="bft_printf.h" alt="" coords="197,160,280,189"/>
+<area shape="rect" id="node38" href="$fvm__periodicity_8h.html" title="fvm_periodicity.h" alt="" coords="397,392,517,421"/>
+<area shape="rect" id="node44" href="$cs__base_8h.html" title="cs_base.h" alt="" coords="953,315,1036,344"/>
+<area shape="rect" id="node46" href="$cs__interface_8h.html" title="cs_interface.h" alt="" coords="403,315,507,344"/>
+<area shape="rect" id="node50" href="$cs__mesh_8h.html" title="cs_mesh.h" alt="" coords="629,160,715,189"/>
+<area shape="rect" id="node64" href="$cs__halo_8h.html" title="cs_halo.h" alt="" coords="557,237,635,267"/>
+<area shape="rect" id="node79" href="$cs__order_8h.html" title="cs_order.h" alt="" coords="1185,469,1268,499"/>
+<area shape="rect" id="node83" href="$cs__mesh__halo_8h.html" title="cs_mesh_halo.h" alt="" coords="587,83,704,112"/>
+<area shape="rect" id="node41" href="$fvm__defs_8h.html" title="fvm_defs.h" alt="" coords="533,469,619,499"/>
+<area shape="rect" id="node53" href="$fvm__group_8h.html" title="fvm_group.h" alt="" coords="693,392,787,421"/>
+<area shape="rect" id="node57" href="$fvm__selector_8h.html" title="fvm_selector.h" alt="" coords="632,315,739,344"/>
+<area shape="rect" id="node70" href="$cs__numbering_8h.html" title="cs_numbering.h" alt="" coords="1067,237,1181,267"/>
+<area shape="rect" id="node74" href="$cs__mesh__builder_8h.html" title="cs_mesh_builder.h" alt="" coords="811,237,941,267"/>
+</map>

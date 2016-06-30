@@ -1,0 +1,8 @@
+<map id="Module for pointer variables" name="Module for pointer variables">
+<area shape="rect" id="node1" href="$group__auxiliary.html" title="Auxiliary variables" alt="" coords="220,5,348,35"/>
+<area shape="rect" id="node2" href="$group__lagran.html" title="Module for Lagrangian\l model" alt="" coords="209,58,359,105"/>
+<area shape="rect" id="node3" href="$group__dummy__arrays.html" title="Dummy target arrays\l for null pointers" alt="" coords="212,127,356,174"/>
+<area shape="rect" id="node4" href="$group__fortran__pointer__containers.html" title="An array of one of these these derived types can be used to manage a set of pointers (Fortran not all..." alt="" coords="212,197,356,243"/>
+<area shape="rect" id="node5" href="$group__coupled__case.html" title="Specific arrays for\l the coupled case" alt="" coords="220,266,348,313"/>
+<area shape="rect" id="node6" href="$group__thermal__1_d.html" title="Thermal 1D module parameters" alt="" coords="181,336,387,365"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="src/mei/mei_node.c" name="src/mei/mei_node.c">
+<area shape="rect" id="node11" href="$bft__mem_8h.html" title="bft_mem.h" alt="" coords="368,83,451,112"/>
+<area shape="rect" id="node15" href="$bft__error_8h.html" title="bft_error.h" alt="" coords="291,160,371,189"/>
+<area shape="rect" id="node20" href="$mei__node_8h.html" title="Nodal structure of the interpreter. " alt="" coords="467,160,555,189"/>
+<area shape="rect" id="node24" href="$mei__parser__glob_8h.html" title="Define global variables useful for the mathematical expression parsing. " alt="" coords="525,83,653,112"/>
+<area shape="rect" id="node13" href="$cs__defs_8h.html" title="cs_defs.h" alt="" coords="324,237,401,267"/>
+<area shape="rect" id="node22" href="$mei__hash__table_8h.html" title="Hash table, intended to provide a symbol table. " alt="" coords="449,237,572,267"/>
+</map>
