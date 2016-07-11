@@ -601,7 +601,7 @@ endif
 
 if (ixmlpu.eq.0) then
 
-  iturb = 0
+  iturb = 21
 
 endif
 
@@ -748,8 +748,8 @@ integer       f_id, idim1, itycat, ityloc, iscdri, iscal, ifcvsl
 
 ! Writing of auxiliary restart files may also be deactivated using: iecaux = 0
 
-if (.true.) then
-  ileaux = 1
+if (.false.) then
+  ileaux = 0
 endif
 
 ! --- Time stepping  (0 : uniform and constant
@@ -757,7 +757,7 @@ endif
 !                     2 : variable in time and space
 !                    -1 : steady algorithm)
 
-if (.true.) then
+if (.false.) then
   idtvar = 0
 endif
 
@@ -766,15 +766,15 @@ endif
 !         if we have already run 10 time steps and want to
 !         run 10 more, ntmabs must be set to 10 + 10 = 20
 
-if (.true.) then
-  ntmabs = 20000
+if (.false.) then
+  ntmabs = 10
 endif
 
 ! --- Reference time step
 !     The example given below is probably not adapted to your case.
 
-if (.true.) then
-  dtref  = 1.0d0
+if (.false.) then
+  dtref  = 0.01d0
 endif
 
 ! --- Maximum time step: dtmax
@@ -797,7 +797,7 @@ endif
 !              2 : with hydrostatic pressure computation to handle the imbalance
 !                  between the pressure gradient and gravity source term
 
-if (.true.) then
+if (.false.) then
   iphydr = 1
 endif
 
@@ -1129,13 +1129,13 @@ endif
 !         xyzp0 is not useful because the pressure variable directly
 !             represents the total pressure.
 
-if (.true.) then
-  ro0    = 836.9d0
-  viscl0 = 14.56d-3
+if (.false.) then
+  ro0    = 1.17862d0
+  viscl0 = 1.83337d-5
   cp0    = 1017.24d0
 endif
 
-if (.true.) then
+if (.false.) then
   t0 = 20.d0 + 273.15d0
   p0 = 1.01325d5
 endif
@@ -1561,7 +1561,7 @@ integer ii, ipp, f_id
 
 ! Frequency of log output
 
-if (.true.) then
+if (.false.) then
 
   ntlist = 1
 
@@ -1569,7 +1569,7 @@ endif
 
 ! Log (listing) verbosity
 
-if (.true.) then
+if (.false.) then
 
   do ii = 1, nvar
     iwarni(ii) = 1

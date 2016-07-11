@@ -116,23 +116,6 @@ if (ippmod(ielarc).ge.2) then
   enddo
 endif
 
-!> [EDL] Paul's modification ===================================================
-if (ippmod(ielion).ge.1) then
-
-	!> Adsorption model
-	if (modcond.eq.0) then
-
-		!> [AL+] Con
-    	ivar = isca(ipotva(idimve))
-    	iconv (ivar) = 0
-    	istat (ivar) = 0
-    	idiff (ivar) = 1
-    	idifft(ivar) = 0
-    	idircl(ivar) = 1
-	endif
-endif
-!> [endEDL]  ===================================================================
-
 ! --> "Viscosite" associee au potentiel vecteur
 !     (c'est la seule qui est constante)
 if (ippmod(ielarc).ge.2) then
